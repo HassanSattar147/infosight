@@ -1,0 +1,50 @@
+.landingpage-hero-section {
+  min-height: calc(100vh - 80px);
+  display: flex;
+  align-items: center;
+  padding: 0 10%;
+  background-position: right center;
+  /* background-position-y: center; */
+  /* background-position-x: 150px; */
+  background-repeat: no-repeat;
+  background-color: #3b719f;
+  background-size: contain;
+  background-size: 750px;
+}
+.landingpage-hero-section .col-left {
+  width: 50%;
+}
+.landingpage-hero-section .col-left h1 {
+  font-size: 60px;
+  color: #fff;
+  font-weight: 700;
+  line-height: 60px;
+  margin-bottom: 20px;
+}
+.landingpage-hero-section .col-left h2 {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .landingpage-hero-section {
+    padding: 0 5%;
+    align-items: flex-start;
+    padding-top: 50px;
+    background-position: center bottom;
+    background-size: contain;
+  }
+  .landingpage-hero-section .col-left {
+    width: 95%;
+  }
+  .landingpage-hero-section .col-left h1 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+  .landingpage-hero-section .col-left h2 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}

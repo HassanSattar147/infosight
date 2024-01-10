@@ -1,0 +1,67 @@
+.container ul li a {
+  transition: all 0.15s;
+  color: #667085;
+}
+
+.container ul li {
+  position: relative;
+  cursor: pointer;
+}
+
+.container ul li a:hover {
+  color: #e16b38;
+  /* font-weight: 600; */
+}
+
+.dropdown__menu {
+  display: none;
+}
+.dropdown__submenu {
+  display: none;
+}
+
+.DD__submenu {
+  display: none;
+}
+
+/* .dropdown__menu,
+.dropdown__submenu,
+.DD__submenu {
+  box-shadow: 0 0 5px #000;
+} */
+
+/* .dropdown__menu a,
+.dropdown__submenu a,
+.DD__submenu a {
+  box-shadow: 0 0 5px #000;
+}
+
+.dropdown__menu > *,
+.dropdown__submenu > *,
+.DD__submenu > * {
+  box-shadow: 0 0 5px #000;
+} */
+
+.container ul li:focus .dropdown__menu,
+.container ul li:hover .dropdown__menu,
+.container ul li:focus-within .dropdown__menu {
+  display: block;
+}
+
+.container ul li:focus,
+.container ul li:hover,
+.container ul li:focus-within {
+  color: #e16b38;
+}
+
+.dropdown__menu ul li:hover .dropdown__submenu,
+.dropdown__menu ul li:focus .dropdown__submenu,
+.dropdown__menu ul li:focus-within .dropdown__submenu {
+  display: block;
+}
+
+.dropdown__submenu ul li:hover .DD__submenu,
+.dropdown__submenu ul li:focus .DD__submenu,
+.dropdown__submenu ul li:focus-within .DD__submenu {
+  display: block;
+}
