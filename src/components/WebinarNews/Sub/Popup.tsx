@@ -30,7 +30,7 @@ const PopupModal = ({
     return () => {
       window.removeEventListener("keydown", onCloseOnEscPress);
     };
-  }, []);
+  }, [onClose]);
 
   return (
     <>

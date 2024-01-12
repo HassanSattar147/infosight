@@ -244,7 +244,7 @@ const NavBar = () => {
                               {RISK_MANAGEMENT_DATA.map(
                                 ({ title, link }, i) => {
                                   return (
-                                    <li>
+                                    <li key={"RISK_MANAGEMENT_DATA__" + i}>
                                       <Link href={link}>{title}</Link>
                                     </li>
                                   );
@@ -264,7 +264,7 @@ const NavBar = () => {
                             <ul className="flex flex-col gap-3 px-5 py-3">
                               {COMPLIANCe_DATA.map(({ title, link }, i) => {
                                 return (
-                                  <li key={i}>
+                                  <li key={"COMPLIANCe_DATA__" + i}>
                                     <Link href={link}>{title}</Link>
                                   </li>
                                 );
@@ -317,7 +317,7 @@ const NavBar = () => {
                       <ul className="flex flex-col gap-3 px-5 py-3">
                         {MANAGED_SERVICES_DATA.map(({ title, link }, i) => {
                           return (
-                            <li key={i}>
+                            <li key={"MANAGED_SERVICES_DATA__" + i}>
                               <Link href={link}>{title}</Link>
                             </li>
                           );
@@ -336,7 +336,7 @@ const NavBar = () => {
                       <ul className="flex flex-col gap-3 px-5 py-3">
                         {TRAININg_EDUCATION_DATA.map(({ title, link }, i) => {
                           return (
-                            <li key={i}>
+                            <li key={"TRAININg_EDUCATION_DATA__" + i}>
                               <Link href={link}>{title}</Link>
                             </li>
                           );

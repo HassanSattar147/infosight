@@ -63,7 +63,10 @@ const IndustryServices = () => {
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-10 mt-5 lg:mt-10">
         {INDUSTRY_SERVICE_DATA.map(({ img, title, description, link }, i) => {
           return (
-            <div className="bg-white rounded-xl">
+            <div
+              className="bg-white rounded-xl"
+              key={"INDUSTRY_SERVICE_DATA__" + i}
+            >
               <Image src={img} alt="" className="w-full" />
               <div className="p-6">
                 <h1 className="text-xl text-[#2F5A7E] font-medium">{title}</h1>

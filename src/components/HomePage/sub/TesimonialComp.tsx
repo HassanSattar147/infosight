@@ -17,10 +17,7 @@ const trimTestimonial = (str: string, limit = 250) => {
 };
 
 const TesimonialsComp = () => {
-  const data = React.useMemo(
-    () => TESINOMIALS_DATA.slice(0, 3),
-    [TESINOMIALS_DATA]
-  );
+  const data = React.useMemo(() => TESINOMIALS_DATA.slice(0, 3), []);
   return (
     <div className="p-5 lg:p-20">
       <h1 className=" text-2xl lg:text-4xl font-semibold">
