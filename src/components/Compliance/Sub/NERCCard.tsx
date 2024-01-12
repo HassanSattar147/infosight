@@ -4,6 +4,7 @@ import NERCImg from "../../../../public/compliance/nerc-img.png";
 import infoImg1 from "../../../../public/compliance/nerc-info-img.png";
 import documentIcon from "../../../../public/homepage/document-icon.svg";
 import NERCFeatures from "./NERCFeatures";
+import Link from "next/link";
 
 const NERCCard = () => {
   return (
@@ -28,19 +29,21 @@ const NERCCard = () => {
             Our Gap Analysis can also be expanded to provide recommendations to
             adequately address risks with a &#x201C;Remediation Roadmap&#x201D;.
           </p>
-          <div className="flex items-start gap-3 lg:py-5">
-            <Image src={documentIcon} alt="" className=" cursor-pointer" />
-            <div>
-              <h1 className="text-[#8C340D] font-semibold pb-1 cursor-pointer">
-                Download Now
-              </h1>
-              <p className="lg:text-sm text-xs lg:w-7/12">
-                Download InfoSight&apos;s Control Objective Outline to view the
-                Control Objective our experts assess along with the most up to
-                date NERC &#x2010; CIP Requirements.
-              </p>
+          <Link href={"#"}>
+            <div className="flex items-start gap-3 lg:py-5">
+              <Image src={documentIcon} alt="" className=" cursor-pointer" />
+              <div>
+                <h1 className="text-[#8C340D] font-semibold pb-1 cursor-pointer">
+                  Download Now
+                </h1>
+                <p className="lg:text-sm text-xs lg:w-7/12">
+                  Download InfoSight&apos;s Control Objective Outline to view
+                  the Control Objective our experts assess along with the most
+                  up to date NERC &#x2010; CIP Requirements.
+                </p>
+              </div>
             </div>
-          </div>
+          </Link>
         </div>
         <div className="py-5 lg:py-10 flex flex-col lg:flex-row justify-between gap-5">
           <div className="flex flex-col justify-between w-full">

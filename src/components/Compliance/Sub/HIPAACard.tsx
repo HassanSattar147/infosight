@@ -4,6 +4,7 @@ import HIPAAImg from "../../../../public/compliance/hipaa-img.png";
 import infoImg1 from "../../../../public/compliance/hipaa-info-img.png";
 import documentIcon from "../../../../public/homepage/document-icon.svg";
 import HIPAAFeatures from "./HIPAAFeatures";
+import Link from "next/link";
 
 const HIPAACard = () => {
   return (
@@ -23,16 +24,24 @@ const HIPAACard = () => {
           </p>
           <div className="flex items-start gap-3 lg:py-5">
             <Image src={documentIcon} alt="" className=" cursor-pointer" />
-            <div>
-              <h1 className="text-[#8C340D] font-semibold pb-1 cursor-pointer">
-                Download Now
-              </h1>
-              <p className="lg:text-sm text-xs lg:w-7/12">
-                Download InfoSight&apos;s Five Security Components for Risk
-                Management Solution Brief to learn more aboutsecurity mitigation
-                strategies and review examples of potential vulnerabilities.
-              </p>
-            </div>
+            <Link
+              href={
+                "https://www.infosightinc.com/assets/images/hipaa-risk-assessment.PNG"
+              }
+              target="_blank"
+            >
+              <div>
+                <h1 className="text-[#8C340D] font-semibold pb-1 cursor-pointer">
+                  Download Now
+                </h1>
+                <p className="lg:text-sm text-xs lg:w-7/12">
+                  Download InfoSight&apos;s Five Security Components for Risk
+                  Management Solution Brief to learn more aboutsecurity
+                  mitigation strategies and review examples of potential
+                  vulnerabilities.
+                </p>
+              </div>
+            </Link>
           </div>
         </div>
         <div className="py-5 lg:py-10 flex flex-col lg:flex-row justify-between gap-5">
