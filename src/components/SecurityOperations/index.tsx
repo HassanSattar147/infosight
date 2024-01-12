@@ -1,10 +1,5 @@
 "use client";
 import React from "react";
-import NavBar from "../Elements/NavBar";
-import Footer from "../Elements/Footer";
-import InfoSight from "../CaseStudy/Sub/InfoSight";
-import FutureBlackButtons from "../Elements/FutureBlackButtons";
-import TextPictorialCard from "../Elements/TextPictorialCard";
 import Image from "next/image";
 import documentIcon from "../../../public/homepage/document-icon.svg";
 import videoIcon from "../../../public/homepage/video-icon.svg";

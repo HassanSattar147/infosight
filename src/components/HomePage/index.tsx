@@ -10,7 +10,7 @@ import Footer from "../Elements/Footer";
 import FutureOrangeButtons from "../Elements/FutureOrangButtons";
 import TesimonialsComp from "./sub/TesimonialComp";
 import WeAre from "./sub/WeAre";
-import PageLayout from "../PageLayout";
+import PageLayout from "../PageLayout/index";
 
 const HomePage = () => {
   const [open, setOpen] = React.useState(false);

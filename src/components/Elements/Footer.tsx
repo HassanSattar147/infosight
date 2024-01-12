@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import logoImg from "../../../public/logo.svg";
+import logoImg from "../../../public/infosight-new-logo-1.svg";
 
 const FOOTER_DATA = [
   {
@@ -49,10 +49,9 @@ const Footer = () => {
       <div className="px-5 pt-5 lg:px-20 lg:pt-20 flex flex-col-reverse lg:flex-row items-start justify-between w-full">
         <div className="flex flex-col gap-5 pt-6 md:py-0">
           <a href="home-page">
-            <Image src={logoImg} alt="" className="w-32" />
+            <Image src={logoImg} alt="" className="w-56" />
           </a>
           <div>
-            <h1 className="text-[#EC6A30] text-lg">InfoSight</h1>
             <p className="text-gray-900">Bringing the future into focus.</p>
           </div>
         </div>
@@ -79,9 +78,8 @@ const Footer = () => {
             <h1 className="text-xl text-gray-900 font-semibold">Contact us</h1>
             <p>info@infosightinc.com</p>
             <p>305-828-1003</p>
-            <p>
-              14100 Palmetto Frontage <br /> Rd Suite 310 Miami Lakes, <br /> FL
-              33016{" "}
+            <p className="w-full">
+              14100 Palmetto Frontage Rd Suite 310 Miami Lakes, FL 33016
             </p>
           </div>
         </div>

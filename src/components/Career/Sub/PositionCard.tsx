@@ -13,18 +13,7 @@ const PositionCard = () => {
           committed to hiring a diverse work team.
         </p>
       </div>
-      <div className="flex gap-5 py-5">
-        <button className="text-[#274A68] font-semibold text-sm lg:text-base bg-[#E9F0F7] px-4 py-1 rounded-md hover:bg-gray-200">
-          All
-        </button>
-        <button className="text-gray-600 font-semibold text-sm lg:text-base lg:hover:text-gray-500 ">
-          Full-time Jobs
-        </button>
-        <button className="text-gray-600 font-semibold text-sm lg:text-base lg:hover:text-gray-500 ">
-          Part-time Jobs
-        </button>
-      </div>
-      <div >
+      <div>
         <div className="flex flex-col gap-1 py-5">
           <label htmlFor="" className="text-gray-700 text-sm">
             Search Job or Keyword

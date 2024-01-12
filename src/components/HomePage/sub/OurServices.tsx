@@ -20,7 +20,7 @@ const OURSERVICES_DATA = [
     img: serviceIcon2,
     title: "Penetration Testing Services",
     description:
-      "Our penetration testing service can be used to test your security policy compliance, the effectiveness of your employee security awareness training and your organization's ability to identifysecurity incidents.",
+      "Our Penetration testing goes beyond basic Network testing to include, Applications, APIs, Mobile, Web Applications, SCADA systems and more.",
     link: "penetration-testing",
   },
   {

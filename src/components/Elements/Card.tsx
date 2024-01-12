@@ -47,7 +47,7 @@ const Card: React.FC<CardProps> = ({
   link,
 }) => {
   return (
-    <div className="p-5 border border-gray-300 rounded-lg w-full">
+    <div className="p-5 border border-gray-300 rounded-lg lg:min-w-[300px] min-w-[250px]">
       <Image src={imgsTable[imgType]} alt="" />
       <h1 className="text-xl text-gray-900 font-medium lg:mt-10 mt-5">
         {title}
@@ -58,12 +58,7 @@ const Card: React.FC<CardProps> = ({
       </span>
       <div className="lg:mt-10 mt-5 flex lg:gap-5 gap-3">
         <Link href={link} target="_blank">
-          <button className="text-gray-700 border hover:bg-gray-100 border-gray-300 px-5 py-2 rounded-md">
-            View PDF
-          </button>
-        </Link>
-        <Link href={link} target="_blank">
-          <button className="text-gray-700 border hover:bg-gray-100 border-gray-300 px-5 py-2 rounded-md ">
+          <button className="text-gray-700 border hover:bg-gray-100  border-gray-300 px-5 py-2 rounded-md ">
             Download PDF
           </button>
         </Link>

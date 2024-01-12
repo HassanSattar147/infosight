@@ -7,7 +7,7 @@ export const TESINOMIALS_DATA = [
   {
     description:
       "We have been using InfoSight as an Advisory and Managed Services provider for 7+ years now and they have been great! Their employees have performed multiple risk assessments on our network and always provide us with informative feedback keeping our environment safe. They've also upgraded and maintained our infrastructure to insure we have 99.9% uptime. This has ensured our institution is always available to serve our customers. We highly recommend using InfoSight for any security testing needs.",
-    user: "Banco do Brasil Americas Employee, FL ",
+    user: "A Financial Client, FL ",
   },
   {
     description:
@@ -121,7 +121,7 @@ const TestimonialCard = () => {
                 className="bg-white shadow-md shadow-gray-300 border border-gray-200 p-5 rounded-xl"
               >
                 <p className="pb-6">{description}</p>
-                <Image src={ratingImg} alt=""  />
+                <Image src={ratingImg} alt="" />
                 <p className="mt-2 font-semibold text-[#e16b38]">- {user}</p>
                 {/* <p >{designation}</p> */}
               </div>

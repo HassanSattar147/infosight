@@ -22,7 +22,7 @@ const VideoPopup = ({
       containerStyles={containerStyles}
     >
       <video
-        autoPlay={false}
+        autoPlay={true}
         muted={false}
         controls={true}
         className="md:w-[60vw] w-[90vw]"

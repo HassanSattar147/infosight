@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import logoImg from "../../../public/logo.svg";
+import logoImg from "../../../public/infosight-new-logo-1.svg";
 import DDIcon from "../../../public/DDIcon.svg";
 import chevronRightIcon from "../../../public/Chevron-right-Icon.svg";
 import "@/styles/NavDropdown.css";
@@ -40,6 +40,53 @@ const INDUSTRIES_DATA = [
     title: "Healthcare",
     link: "/industries?s=7",
   },
+];
+
+const RISK_MANAGEMENT_DATA = [
+  {
+    title: "Enterprise Risk Management",
+    link: "/enterprise-risk-management",
+  },
+  {
+    title: "SCADA/ICS Risk Assessments",
+    link: "/scada-ics-risk-assessments",
+  },
+];
+
+const COMPLIANCe_DATA = [
+  { title: "PCI - DSS", link: "/compliance?s=0" },
+  { title: "HIPAA", link: "/compliance?s=1" },
+  { title: "NERC - CIP", link: "/compliance?s=2" },
+  { title: "GLBA", link: "/compliance?s=3" },
+];
+
+const MANAGED_SERVICES_DATA = [
+  { title: "Managed XDR", link: "/managed-xdr" },
+  {
+    title: "Managed Network & Cloud Services",
+    link: "/managed-network-support-services",
+  },
+  {
+    title: "Managed Communications, Collaboration & Connect Services",
+    link: "/managed-communications",
+  },
+  { title: "Managed EDR", link: "/managed-EDR" },
+  {
+    title: "Patch & Vulnerability Management",
+    link: "/patch-vulnerability-management",
+  },
+];
+
+const TRAININg_EDUCATION_DATA = [
+  {
+    title: "Security Awareness Training for Online Banking",
+    link: "/bank-security-awareness-training",
+  },
+  {
+    title: " Employee Security Awareness Training",
+    link: "/employee-security-awareness-training",
+  },
+  { title: "Learn Cloud LMS", link: "/learn-about-the-cloud" },
 ];
 
 const ABOUT_US_DATA = [
@@ -127,17 +174,13 @@ const NavBar = () => {
         <div className="container flex items-center justify-center w-full">
           <ul className=" flex items-center gap-8 ">
             <Link href="home-page">
-              <Image src={logoImg} alt="" height={33} />
+              <Image src={logoImg} alt="" className="lg:w-32 md:w-52" />
             </Link>
             <li>
-              <Link href="home-page">
-                Home
-              </Link>
+              <Link href="home-page">Home</Link>
             </li>
             <li className="flex items-center gap-2">
-              <Link href="#">
-                Services & Solutions
-              </Link>
+              <Link href="#">Services & Solutions</Link>
               <Image src={DDIcon} alt="" className="cursor-pointer" />
               <div className="dropdown__menu absolute top-full left-[-50%] bg-white z-50 w-[330px]">
                 <div className="p-5">
@@ -175,7 +218,6 @@ const NavBar = () => {
                                   return (
                                     <li
                                       key={"ADV_SERVICE_SECURITY_DATA_1__" + i}
-                                     
                                     >
                                       <Link href={link}>{title}</Link>
                                     </li>
@@ -199,16 +241,15 @@ const NavBar = () => {
                           />
                           <div className="DD__submenu absolute top-0  left-full bg-white z-50 w-max">
                             <ul className="flex flex-col gap-3 px-5 py-3">
-                              <li>
-                                <Link href="enterprise-risk-management">
-                                  Enterprise Risk Management
-                                </Link>
-                              </li>
-                              <li>
-                                <Link href="scada-ics-risk-assessments">
-                                  SCADA/ICS Risk Assessments
-                                </Link>
-                              </li>
+                              {RISK_MANAGEMENT_DATA.map(
+                                ({ title, link }, i) => {
+                                  return (
+                                    <li>
+                                      <Link href={link}>{title}</Link>
+                                    </li>
+                                  );
+                                }
+                              )}
                             </ul>
                           </div>
                         </li>
@@ -221,18 +262,13 @@ const NavBar = () => {
                           />
                           <div className="DD__submenu absolute top-0  left-full bg-white z-50 w-max">
                             <ul className="flex flex-col gap-3 px-5 py-3">
-                              <li>
-                                <Link href="compliance">PCI - DSS</Link>
-                              </li>
-                              <li>
-                                <Link href="compliance">HIPAA</Link>
-                              </li>
-                              <li>
-                                <Link href="compliance">NERC - CIP</Link>
-                              </li>
-                              <li>
-                                <Link href="compliance">GLBA</Link>
-                              </li>
+                              {COMPLIANCe_DATA.map(({ title, link }, i) => {
+                                return (
+                                  <li key={i}>
+                                    <Link href={link}>{title}</Link>
+                                  </li>
+                                );
+                              })}
                             </ul>
                           </div>
                         </li>
@@ -279,28 +315,13 @@ const NavBar = () => {
                     />
                     <div className="dropdown__submenu absolute top-0  left-full bg-white z-50 w-max">
                       <ul className="flex flex-col gap-3 px-5 py-3">
-                        <li>
-                          <Link href="managed-xdr">Managed XDR</Link>
-                        </li>
-                        <li>
-                          <Link href="managed-network-support-services">
-                            Managed Network & Cloud Services
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href="managed-communications">
-                            Managed Communications, Collaboration & Connect
-                            Services
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href="managed-EDR">Managed EDR</Link>
-                        </li>
-                        <li>
-                          <Link href="patch-vulnerability-management">
-                            Patch & Vulnerability Management
-                          </Link>
-                        </li>
+                        {MANAGED_SERVICES_DATA.map(({ title, link }, i) => {
+                          return (
+                            <li key={i}>
+                              <Link href={link}>{title}</Link>
+                            </li>
+                          );
+                        })}
                       </ul>
                     </div>
                   </li>
@@ -313,21 +334,13 @@ const NavBar = () => {
                     />
                     <div className="dropdown__submenu absolute top-0  left-full bg-white z-50 w-max">
                       <ul className="flex flex-col gap-3 px-5 py-3">
-                        <li>
-                          <Link href="bank-security-awareness-training">
-                            Security Awareness Training for Online Banking
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href="employee-security-awareness-training">
-                            Employee Security Awareness Training
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href="learn-about-the-cloud">
-                            Learn Cloud LMS
-                          </Link>
-                        </li>
+                        {TRAININg_EDUCATION_DATA.map(({ title, link }, i) => {
+                          return (
+                            <li key={i}>
+                              <Link href={link}>{title}</Link>
+                            </li>
+                          );
+                        })}
                       </ul>
                     </div>
                   </li>
@@ -335,9 +348,7 @@ const NavBar = () => {
               </div>
             </li>
             <li className="flex items-center gap-2 ">
-              <Link href="industries">
-                Industries
-              </Link>
+              <Link href="">Industries</Link>
               <Image src={DDIcon} alt="" className="cursor-pointer" />
               <div className="dropdown__menu absolute top-full  left-[-50%] bg-white z-50 w-[360px]">
                 <div className="p-5">
@@ -351,9 +362,7 @@ const NavBar = () => {
                   {INDUSTRIES_DATA.map(({ title, link }, i) => {
                     return (
                       <li key={"INDUSTRIES_DATA__" + i}>
-                        <Link href={link}>
-                          {title}
-                        </Link>
+                        <Link href={link}>{title}</Link>
                       </li>
                     );
                   })}
@@ -361,9 +370,7 @@ const NavBar = () => {
               </div>
             </li>
             <li className="flex items-center gap-2">
-              <Link href="#">
-                Insights
-              </Link>
+              <Link href="">Insights</Link>
               <Image src={DDIcon} alt="" className="cursor-pointer" />
               <div className="dropdown__menu absolute top-full left-[-50%] bg-white z-50 w-max">
                 <div className="p-5">
@@ -376,9 +383,7 @@ const NavBar = () => {
                   {WEBINARS_DATA.map(({ title, link }, i) => {
                     return (
                       <li key={"WEBINARS_DATA__" + i}>
-                        <Link href={link}>
-                          {title}
-                        </Link>
+                        <Link href={link}>{title}</Link>
                       </li>
                     );
                   })}
@@ -386,9 +391,7 @@ const NavBar = () => {
               </div>
             </li>
             <li className="flex items-center gap-2">
-              <Link href="about-us">
-                About Us
-              </Link>
+              <Link href="">About Us</Link>
               <Image src={DDIcon} alt="" className="cursor-pointer" />
               <div className="dropdown__menu absolute top-full  left-[-50%] bg-white z-50 w-max">
                 <div className="p-5">
@@ -401,9 +404,7 @@ const NavBar = () => {
                   {ABOUT_US_DATA.map(({ title, link }, i) => {
                     return (
                       <li key={"ABOUT_US_DATA__" + i} className=" px-5">
-                        <Link href={link}>
-                          {title}
-                        </Link>
+                        <Link href={link}>{title}</Link>
                       </li>
                     );
                   })}
@@ -411,14 +412,10 @@ const NavBar = () => {
               </div>
             </li>
             <li>
-              <Link href="case-studies">
-                Case Studies
-              </Link>
+              <Link href="case-studies">Case Studies</Link>
             </li>
             <li>
-              <Link href="contact">
-                Contact Us
-              </Link>
+              <Link href="contact">Contact Us</Link>
             </li>
           </ul>
         </div>

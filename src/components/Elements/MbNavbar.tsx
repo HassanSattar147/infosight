@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import logoImg from "../../../public/logo.svg";
+import logoImg from "../../../public/infosight-new-logo-1.svg";
 import Link from "next/link";
 import "@/styles/mbnav.css";
 
