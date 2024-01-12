@@ -1,32 +1,20 @@
 import Image from "next/image";
 import React from "react";
 import ratingImg from "../../../../public/homepage/full-starts-img.svg";
-import chevronRightIcon from "../../../../public/homepage/right-chevron-black-icon.svg";
-import chevronLeftIcon from "../../../../public/homepage/left-chevron-black-icon.svg";
-import Button from "@/components/Elements/Button";
 import { TESINOMIALS_DATA } from "@/components/Testimonials.tsx/Sub/TestimonialCard";
 import Link from "next/link";
 
-// const TESINOMIALS_DATA = [
-//   {
-//     description:
-//       "The Infosight platform is accessible from anywhere and this has greatly simplified things for us.",
-//     user: "Marie Ann",
-//     designation: "IT Manager at T-Devs",
-//   },
-//   {
-//     description:
-//       "The Infosight platform is accessible from anywhere and this has greatly simplified things for us.",
-//     user: "Marie Ann",
-//     designation: "IT Manager at T-Devs",
-//   },
-//   {
-//     description:
-//       "The Infosight platform is accessible from anywhere and this has greatly simplified things for us.",
-//     user: "Marie Ann",
-//     designation: "IT Manager at T-Devs",
-//   },
-// ];
+const trimTestimonial = (str: string, limit = 250) => {
+  if (str.length < limit) return str;
+  return (
+    <>
+      {str.slice(0, limit) + " ... "}{" "}
+      <Link href={"/testimonials"} className="text-sm text-gray-500 underline">
+        Read More
+      </Link>
+    </>
+  );
+};
 
 const TesimonialsComp = () => {
   const data = React.useMemo(
@@ -45,30 +33,12 @@ const TesimonialsComp = () => {
               key={i}
               className="bg-white shadow-md shadow-gray-300 p-5 rounded-xl"
             >
-              <p className="pb-6">{description}</p>
-              <Image src={ratingImg} alt=""  />
+              <p className="pb-6">{trimTestimonial(description)}</p>
+              <Image src={ratingImg} alt="" />
               <p className="mt-2">- {user}</p>
-              {/* <p >{designation}</p> */}
             </div>
           );
         })}
-      </div>
-      {/* <div className="lg:flex items-center justify-center mt-16 gap-10 hidden">
-        <Image
-          src={chevronLeftIcon}
-          alt=""
-          className="cursor-pointer hover:scale-110 transition-all"
-        />
-        <Image
-          src={chevronRightIcon}
-          alt=""
-          className="cursor-pointer hover:scale-110 transition-all"
-        />
-      </div> */}
-      <div className=" mt-10 text-center">
-        <Link href={"/testimonials"}>
-          <Button text="Load More" style={{ backgroundColor: "black" }} />
-        </Link>
       </div>
     </div>
   );
