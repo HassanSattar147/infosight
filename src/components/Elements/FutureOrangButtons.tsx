@@ -9,11 +9,11 @@ const FutureOrangeButtons = () => {
       <div className="bg-[#3B719F] py-10 px-5 md:px-0 lg:py-20">
         <div className="flex flex-col items-center w-full md:justify-between md:flex-row">
           <div className="text-white">
-            <h1 className="text-2xl text-center md:text-4xl font-semibold ">
+            <h2 className="text-2xl text-center md:text-4xl font-semibold ">
               The Future is Secure with Us!
-            </h1>
+            </h2>
           </div>
-          <div className="mt-8 lg:mt-0">
+          <div className="mt-8 md:mt-0">
             <Link href="contact">
               <Button
                 text="Contact Us"

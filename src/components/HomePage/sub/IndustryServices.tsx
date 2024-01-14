@@ -59,9 +59,9 @@ const IndustryServices = () => {
   return (
     <ContentContainer isBgPrimary>
       <div className="bg-[#3B719F] py-5 px-5 md:px-0 lg:py-20">
-        <h1 className="text-white text-2xl lg:text-4xl font-semibold">
+        <h2 className="text-white text-2xl lg:text-4xl font-semibold">
           Services by Industry
-        </h1>
+        </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-10 mt-5 lg:mt-10">
           {INDUSTRY_SERVICE_DATA.map(({ img, title, description, link }, i) => {
             return (
@@ -71,9 +71,9 @@ const IndustryServices = () => {
               >
                 <Image src={img} alt="" className="w-full" />
                 <div className="p-6">
-                  <h1 className="text-xl text-[#2F5A7E] font-medium">
-                    {title}
-                  </h1>
+                  <h3 className="text-xl text-[#2F5A7E] font-medium">
+                    <Link href={link}>{title}</Link>
+                  </h3>
                   <p className="text-gray-500 mt-2">{description}</p>
                   <Link href={link}>
                     <button className="text-[#EC6A30] py-4 font-medium flex items-center gap-1">

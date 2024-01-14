@@ -13,16 +13,16 @@ const Latest = () => {
   return (
     <>
       <ContentContainer>
-        <div className="py-10 lg:py-20">
-          <h1 className="text-gray-900 px-5 md:px-0 text-2xl lg:text-4xl font-semibold">
+        <div className="py-10 lg:py-20 md:px-0 px-5">
+          <h2 className="text-gray-900 px-5 md:px-0 text-2xl lg:text-4xl font-semibold">
             Infosight&apos;s Latest
-          </h1>
+          </h2>
           <div className="bg-[#F9FAFB] p-8 lg:p-10 mt-8">
             <div className="flex flex-col lg:flex-row lg:items-center lg:gap-28 border-b border-gray-400">
               <div className="w-full mb-5">
-                <h1 className="text-lg lg:text-2xl font-semibold">
+                <h3 className="text-lg lg:text-2xl font-semibold">
                   Penetration Testing
-                </h1>
+                </h3>
                 <p className="text-gray-600 lg:text-lg font-normal mt-4">
                   InfoSight&apos;s Penetration Testing services reduce the risk
                   of a successful attacks before they occur.As cyberattacks
@@ -55,7 +55,7 @@ const Latest = () => {
             </div>
             <div className="flex flex-col lg:flex-row lg:items-center lg:gap-28">
               <div className="w-full mt-5">
-                <h1 className="text-lg lg:text-2xl font-semibold">SOCaaS</h1>
+                <h3 className="text-lg lg:text-2xl font-semibold">SOCaaS</h3>
                 <p className="text-gray-600 lg:text-lg font-normal mt-4">
                   InfoSight&apos;s Security Operations Center as a Service
                   (SOCaaS) detects cyber threats quickly and provides

@@ -57,7 +57,7 @@ const Footer = () => {
               <p className="text-gray-900">Bringing the future into focus.</p>
             </div>
           </div>
-          <div className="flex flex-col gap-5 md:flex-row justify-between w-9/12">
+          <div className="flex flex-col gap-5 md:flex-row justify-between w-full lg:w-9/12">
             {FOOTER_DATA.map(({ title, items }, i) => {
               return (
                 <div className="flex flex-col gap-2" key={"FOOTER__" + i}>
