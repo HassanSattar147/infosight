@@ -2,10 +2,7 @@
   min-height: calc(100vh - 80px);
   display: flex;
   align-items: center;
-  padding: 0 10%;
   background-position: right center;
-  /* background-position-y: center; */
-  /* background-position-x: 150px; */
   background-repeat: no-repeat;
   background-color: #3b719f;
   background-size: contain;

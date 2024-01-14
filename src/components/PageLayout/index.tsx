@@ -32,7 +32,7 @@ const PageLayout: React.FC<Props> = ({
   return (
     <div>
       {!hideNavbar && <NavBar />}
-      {children}
+      <div className={"page-content-container-"}>{children}</div>
       {!hideWeProvide && <WeProvide />}
       {!hideOurServices && <OurServices />}
       {!hideWhyInfoSight && <WhyInfoSight />}
