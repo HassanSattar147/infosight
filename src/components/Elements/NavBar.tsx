@@ -6,6 +6,7 @@ import chevronRightIcon from "../../../public/Chevron-right-Icon.svg";
 import "@/styles/NavDropdown.css";
 import MbNavbar from "./MbNavbar";
 import Link from "next/link";
+import ContentContainer from "./ContentContainer";
 
 const INDUSTRIES_DATA = [
   {
@@ -169,10 +170,10 @@ const ADV_SERVICE_SECURITY_DATA_2 = [
 
 const NavBar = () => {
   return (
-    <div>
-      <nav className=" px-4 hidden bg-white md:flex items-center justify-center h-[80px]">
-        <div className="container flex items-center justify-center w-full">
-          <ul className=" flex items-center gap-8 ">
+    <ContentContainer>
+      <nav className="hidden bg-white md:flex items-center h-[80px]">
+        <div className="container">
+          <ul className="flex items-center justify-between gap-5 px-20">
             <Link href="home-page">
               <Image src={logoImg} alt="" className="lg:w-32 md:w-52" />
             </Link>
@@ -421,7 +422,7 @@ const NavBar = () => {
         </div>
       </nav>
       <MbNavbar />
-    </div>
+    </ContentContainer>
   );
 };
 

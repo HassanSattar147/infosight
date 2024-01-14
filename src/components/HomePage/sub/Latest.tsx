@@ -14,7 +14,7 @@ const Latest = () => {
     <>
       <ContentContainer>
         <div className="py-10 lg:py-20">
-          <h1 className="text-gray-900 text-2xl lg:text-4xl font-semibold">
+          <h1 className="text-gray-900 px-5 md:px-0 text-2xl lg:text-4xl font-semibold">
             Infosight&apos;s Latest
           </h1>
           <div className="bg-[#F9FAFB] p-8 lg:p-10 mt-8">

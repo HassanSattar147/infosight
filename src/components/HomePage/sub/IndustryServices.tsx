@@ -8,6 +8,7 @@ import servicesImg5 from "../../../../public/homepage/service-img5.png";
 import servicesImg6 from "../../../../public/homepage/service-img6.png";
 import chevronRightIcon from "../../../../public/homepage/right-chevron-icon.svg";
 import Link from "next/link";
+import ContentContainer from "@/components/Elements/ContentContainer";
 
 const INDUSTRY_SERVICE_DATA = [
   {
@@ -56,35 +57,39 @@ const INDUSTRY_SERVICE_DATA = [
 
 const IndustryServices = () => {
   return (
-    <div className="bg-[#3B719F] p-5 lg:p-20">
-      <h1 className="text-white text-2xl lg:text-4xl font-semibold">
-        Services by Industry
-      </h1>
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-10 mt-5 lg:mt-10">
-        {INDUSTRY_SERVICE_DATA.map(({ img, title, description, link }, i) => {
-          return (
-            <div
-              className="bg-white rounded-xl"
-              key={"INDUSTRY_SERVICE_DATA__" + i}
-            >
-              <Image src={img} alt="" className="w-full" />
-              <div className="p-6">
-                <h1 className="text-xl text-[#2F5A7E] font-medium">{title}</h1>
-                <p className="text-gray-500 mt-2">{description}</p>
-                <Link href={link}>
-                  <button className="text-[#EC6A30] py-4 font-medium flex items-center gap-1">
-                    Learn More
-                    <span>
-                      <Image src={chevronRightIcon} alt="" className="w-5" />
-                    </span>
-                  </button>
-                </Link>
+    <ContentContainer isBgPrimary>
+      <div className="bg-[#3B719F] py-5 px-5 md:px-0 lg:py-20">
+        <h1 className="text-white text-2xl lg:text-4xl font-semibold">
+          Services by Industry
+        </h1>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-10 mt-5 lg:mt-10">
+          {INDUSTRY_SERVICE_DATA.map(({ img, title, description, link }, i) => {
+            return (
+              <div
+                className="bg-white rounded-xl"
+                key={"INDUSTRY_SERVICE_DATA__" + i}
+              >
+                <Image src={img} alt="" className="w-full" />
+                <div className="p-6">
+                  <h1 className="text-xl text-[#2F5A7E] font-medium">
+                    {title}
+                  </h1>
+                  <p className="text-gray-500 mt-2">{description}</p>
+                  <Link href={link}>
+                    <button className="text-[#EC6A30] py-4 font-medium flex items-center gap-1">
+                      Learn More
+                      <span>
+                        <Image src={chevronRightIcon} alt="" className="w-5" />
+                      </span>
+                    </button>
+                  </Link>
+                </div>
               </div>
-            </div>
-          );
-        })}
+            );
+          })}
+        </div>
       </div>
-    </div>
+    </ContentContainer>
   );
 };
 
