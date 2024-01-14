@@ -50,12 +50,32 @@ body {
   }
 }
 
-/* 
-Breakpoint 	          Class infix 	Dimensions
-X-Small    	          None         	<576px
-Small 	              sm           	≥576px
-Medium 	              md           	≥768px
-Large 	              lg           	≥992px
-Extra large           xl 	          ≥1200px
-Extra extra large 	  xxl 	        ≥1400px 
-*/
+.ImageText {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.ImageText + hr {
+  margin-bottom: 40px;
+  border: none;
+  border-top: 1px solid #d0d0d0;
+}
+
+.ImageText__img {
+  width: 100%;
+  border-radius: 8px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 250px;
+}
+
+.ImageText__content {
+  padding: 5px 0;
+}
+
+.ImageText__content h3 {
+  margin-bottom: 20px;
+}
