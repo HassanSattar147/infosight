@@ -43,7 +43,7 @@ const page = () => {
       heroImg={heroImg}
       heroTitle={"Patch & Vulnerability Management Services"}
       overviewDescription={
-        <p className=" text-justify text-[#444444]">
+        <p className=" text-[#444444]">
           InfoSight&apos;s Patch Management services are designed to address
           Windows, Linux and 3rd party applications. Our services reduce the
           risk around the exploitation of vulnerabilities by applying critical

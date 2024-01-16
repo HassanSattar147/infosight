@@ -54,7 +54,7 @@ const ImageTextSection = ({
   dataLabel: string;
 }) => {
   return (
-    <div className="p-5 lg:px-20">
+    <div className="px-5 md:px-0 py-5">
       {data.map((imgTextProps, i) => {
         const isLeft = i % 2 !== 0;
         const hideHr = data.length - 1 === i;

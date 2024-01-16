@@ -6,7 +6,7 @@ const Breadcrumbs = ({ path }: { path: string }) => {
     return path.split("/");
   }, [path]);
   return (
-    <p className="p-5 lg:px-20">
+    <p className="p-5 md:px-0">
       {splitPath.map((p, i) => {
         const isLast = splitPath.length - 1 === i;
         const isFirst = i === 0;

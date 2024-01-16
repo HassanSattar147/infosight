@@ -370,7 +370,7 @@ const NavBar = () => {
                 </ul>
               </div>
             </li>
-            <li className="flex items-center gap-2">
+            {/* <li className="flex items-center gap-2">
               <Link href="">Insights</Link>
               <Image src={DDIcon} alt="" className="cursor-pointer" />
               <div className="dropdown__menu absolute top-full left-[-50%] bg-white z-50 w-max">
@@ -390,7 +390,7 @@ const NavBar = () => {
                   })}
                 </ul>
               </div>
-            </li>
+            </li> */}
             <li className="flex items-center gap-2">
               <Link href="">About Us</Link>
               <Image src={DDIcon} alt="" className="cursor-pointer" />

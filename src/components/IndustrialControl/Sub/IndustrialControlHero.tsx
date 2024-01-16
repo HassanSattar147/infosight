@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import heroImg from "../../../../public/services-solutions/Vulnerability & CybersSecurity Assessments.png";
+import heroImg from "../../../../public/services-solutions/Vulnerability-CybersSecurity-Assessments.png";
 
 const IndustrialControlHero = () => {
   return (

@@ -197,19 +197,19 @@ const ALL_MENUS: RootObject[] = [
       },
     ],
   },
-  {
-    title: "Insights",
-    children: [
-      {
-        title: "Webinars",
-        link: "/webinars",
-      },
-      {
-        title: "News",
-        link: "/webinar-news",
-      },
-    ],
-  },
+  // {
+  //   title: "Insights",
+  //   children: [
+  //     {
+  //       title: "Webinars",
+  //       link: "/webinars",
+  //     },
+  //     {
+  //       title: "News",
+  //       link: "/webinar-news",
+  //     },
+  //   ],
+  // },
   {
     title: "About Us",
     children: [
