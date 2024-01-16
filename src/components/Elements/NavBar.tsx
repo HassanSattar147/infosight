@@ -71,7 +71,7 @@ const MANAGED_SERVICES_DATA = [
     title: "Managed Communications, Collaboration & Connect Services",
     link: "/managed-communications",
   },
-  { title: "Managed EDR", link: "/managed-EDR" },
+  { title: "Managed EDR", link: "/managed-edr" },
   {
     title: "Patch & Vulnerability Management",
     link: "/patch-vulnerability-management",
