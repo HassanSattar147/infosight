@@ -9,7 +9,7 @@ const FOOTER_DATA = [
     items: [
       {
         text: "Home",
-        link: "home-page",
+        link: "/",
       },
       {
         text: "Services & Solutions",
@@ -61,9 +61,9 @@ const Footer = () => {
             {FOOTER_DATA.map(({ title, items }, i) => {
               return (
                 <div className="flex flex-col gap-2" key={"FOOTER__" + i}>
-                  <h1 className="text-xl text-gray-900 font-semibold">
+                  <h3 className="text-xl text-gray-900 font-semibold">
                     {title}
-                  </h1>
+                  </h3>
                   {items.map(({ text, link }, j) => {
                     return (
                       <a

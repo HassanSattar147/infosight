@@ -174,11 +174,11 @@ const NavBar = () => {
       <nav className="hidden bg-white md:flex items-center h-[80px]">
         <div className="container">
           <ul className="flex items-center justify-between gap-5 px-20">
-            <Link href="home-page">
+            <Link href="/">
               <Image src={logoImg} alt="" className="lg:w-32 md:w-52" />
             </Link>
             <li>
-              <Link href="home-page">Home</Link>
+              <Link href="/">Home</Link>
             </li>
             <li className="flex items-center gap-2">
               <Link href="#">Services & Solutions</Link>
