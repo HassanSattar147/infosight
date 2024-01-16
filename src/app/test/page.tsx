@@ -1,9 +1,10 @@
+"use client";
 import React from "react";
-import { ServicePageLayout } from "@/components/PatchVulnerability";
 import heroImg from "/public/services-solutions/pavms.png";
 import infoImg1 from "/public/services-solutions/Business-Planning-Disaster-Recovery-info-img1.png";
 import infoImg2 from "/public/services-solutions/Business-Planning-Disaster-Recovery-info-img2.png";
 import infoImg3 from "/public/services-solutions/Business-Planning-Disaster-Recovery-info-img3.png";
+import ServicePageLayout from "@/components/Elements/ServicePageLayout";
 
 const PATCH_VULNERABILITY_DATA = [
   {
@@ -40,6 +41,7 @@ const PATCH_VULNERABILITY_FEATURES_DATA = [
 const page = () => {
   return (
     <ServicePageLayout
+      pageTitle="Patch Vulnerability Management"
       heroImg={heroImg}
       heroTitle={"Patch & Vulnerability Management Services"}
       overviewDescription={
