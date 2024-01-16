@@ -1,7 +1,7 @@
 import { GenericElements } from "@/types";
 import { StaticImageData } from "next/image";
 
-interface ITextImageData {
+export interface ITextImageData {
   img: StaticImageData;
   title: string | GenericElements;
   description: string | GenericElements;
