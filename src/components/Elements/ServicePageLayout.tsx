@@ -116,7 +116,7 @@ function Overview({
       <h3 className="px-5 md:px-0 mb-5 text-2xl lg:text-4xl font-semibold">
         Overview
       </h3>
-      <div className="px-5 md:px-0 ">
+      <div className="px-5 md:px-0">
         <div className="border-b border-gray-300 pb-10">
           <div className="lg:p-10 p-5 bg-gray-100 flex flex-col lg:flex-row gap-5 lg:gap-20 justify-between">
             {overviewDescription}
@@ -168,26 +168,24 @@ function Features({
   if (!data) return null;
   return (
     <ContentContainer isBgPrimary>
-      <div>
-        <div className={"px-5 md:px-0 py-10" + (!!isOther ? "pt-0" : "")}>
-          <h3 className="text-white text-2xl lg:text-4xl font-semibold">
-            {title}
-          </h3>
-          <div className="grid lg:grid-cols-4 gap-5 py-5 lg:py-10">
-            {data.map((el, i) => {
-              const key = el.substring(0, 10) + i;
+      <div className={"px-5 md:px-0 py-10" + (!!isOther ? "pt-0" : "")}>
+        <h3 className="text-white text-2xl lg:text-4xl font-semibold">
+          {title}
+        </h3>
+        <div className="grid lg:grid-cols-4 gap-5 py-5 lg:py-10">
+          {data.map((el, i) => {
+            const key = el.substring(0, 10) + i;
 
-              return (
-                <div
-                  key={key}
-                  className="flex items-center bg-[#EC6A30] gap-5 h-[130px] p-6 rounded-md"
-                >
-                  <Image src={tickImg} alt="" />
-                  <p className="text-white font-semibold">{el}</p>
-                </div>
-              );
-            })}
-          </div>
+            return (
+              <div
+                key={key}
+                className="flex items-center bg-[#EC6A30] gap-5 h-[130px] p-6 rounded-md"
+              >
+                <Image src={tickImg} alt="" />
+                <p className="text-white font-semibold">{el}</p>
+              </div>
+            );
+          })}
         </div>
       </div>
     </ContentContainer>
