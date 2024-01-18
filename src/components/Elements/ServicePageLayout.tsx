@@ -15,6 +15,7 @@ interface IServicesPageProps {
   pageTitle: string;
   heroImg: StaticImageData;
   heroTitle: string;
+  heroDescription?: string;
   overviewDescription: string | GenericElements;
   downloadLink?: string;
   videoLink?: string;
@@ -22,6 +23,7 @@ interface IServicesPageProps {
   dataLabel: string;
   path: string;
   featuresData: string[];
+  featuresDescription?: string | GenericElements;
   otherFeaturesData?: string[];
   featureTitle?: string;
   otherFeatureTitle?: string;
@@ -31,11 +33,13 @@ const ServicePageLayout = ({
   pageTitle,
   heroImg,
   heroTitle,
+  heroDescription,
   overviewDescription,
   downloadLink,
   videoLink,
   path,
   featuresData,
+  featuresDescription,
   otherFeaturesData,
   featureTitle,
   otherFeatureTitle,
@@ -45,8 +49,8 @@ const ServicePageLayout = ({
   const [isModalOpen, setIsModalOpen] = React.useState(false);
 
   const heroProps = React.useMemo(
-    () => ({ heroImg, heroTitle }),
-    [heroImg, heroTitle]
+    () => ({ heroImg, heroTitle, heroDescription }),
+    [heroImg, heroTitle, heroDescription]
   );
 
   const overviewProps = React.useMemo(
@@ -65,7 +69,11 @@ const ServicePageLayout = ({
         <Breadcrumbs path={path} />
         <Overview {...overviewProps} />
         <ImageTextSection data={data} dataLabel={dataLabel} />
-        <Features data={featuresData} title={featureTitle} />
+        <Features
+          data={featuresData}
+          title={featureTitle}
+          description={featuresDescription}
+        />
         <Features data={otherFeaturesData} title={otherFeatureTitle} isOther />
       </PageLayout>
 
@@ -85,16 +93,23 @@ export default ServicePageLayout;
 function Hero({
   heroImg,
   heroTitle,
+  heroDescription,
 }: {
   heroImg: StaticImageData;
   heroTitle: string;
+  heroDescription?: string;
 }) {
   return (
     <ContentContainer bgImage={heroImg}>
       <div className="md:min-h-[40vh] min-h-[0vh] flex justify-center items-center md:justify-start px-5 md:px-2 lg:px-0 py-5">
-        <h1 className="text-white text-center md:text-[55px] text-4xl font-extrabold leading-tight">
-          {heroTitle}
-        </h1>
+        <div className="flex flex-col items-start">
+          <h1 className="text-white text-center md:text-[55px] text-4xl font-extrabold leading-tight">
+            {heroTitle}
+          </h1>
+          <p className="text-white text-center md:text-xl text-lg ">
+            {heroDescription}
+          </p>
+        </div>
       </div>
     </ContentContainer>
   );
@@ -160,10 +175,12 @@ function Features({
   data,
   title = "Key Features",
   isOther = false,
+  description,
 }: {
   data?: string[];
   title?: string;
   isOther?: boolean;
+  description?: string | GenericElements;
 }) {
   if (!data) return null;
   return (
@@ -187,6 +204,7 @@ function Features({
             );
           })}
         </div>
+        {description}
       </div>
     </ContentContainer>
   );
