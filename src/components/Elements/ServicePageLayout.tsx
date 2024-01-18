@@ -91,8 +91,8 @@ function Hero({
 }) {
   return (
     <ContentContainer bgImage={heroImg}>
-      <div className="md:min-h-[40vh] min-h-[30vh] flex justify-center items-center px-5 md:px-0 py-5">
-        <h1 className="text-white text-center md:text-[60px] text-4xl font-extrabold leading-tight">
+      <div className="md:min-h-[40vh] min-h-[0vh] flex justify-center items-center md:justify-start px-5 md:px-2 lg:px-0 py-5">
+        <h1 className="text-white text-center md:text-[55px] text-4xl font-extrabold leading-tight">
           {heroTitle}
         </h1>
       </div>
@@ -116,7 +116,7 @@ function Overview({
       <h3 className="px-5 md:px-0 mb-5 text-2xl lg:text-4xl font-semibold">
         Overview
       </h3>
-      <div className="px-5 md:px-0">
+      <div className="px-5 md:px-0 ">
         <div className="border-b border-gray-300 pb-10">
           <div className="lg:p-10 p-5 bg-gray-100 flex flex-col lg:flex-row gap-5 lg:gap-20 justify-between">
             {overviewDescription}
@@ -172,7 +172,7 @@ function Features({
         <h3 className="text-white text-2xl lg:text-4xl font-semibold">
           {title}
         </h3>
-        <div className="grid lg:grid-cols-4 gap-5 py-5 lg:py-10">
+        <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-5 py-5 lg:py-10">
           {data.map((el, i) => {
             const key = el.substring(0, 10) + i;
 

@@ -6,6 +6,7 @@ import featuredIcon3 from "../../../../public/casestudy/Featured-icon-3.svg";
 import featuredIcon4 from "../../../../public/casestudy/Featured-icon-4.svg";
 import featuredIcon5 from "../../../../public/casestudy/Featured-icon-5.svg";
 import featuredIcon6 from "../../../../public/casestudy/Featured-icon-6.svg";
+import ContentContainer from "@/components/Elements/ContentContainer";
 
 const WHYINFOSIGHT_DATA = [
   {
@@ -48,33 +49,35 @@ const WHYINFOSIGHT_DATA = [
 
 const InfoSight = () => {
   return (
-    <div className="px-5 py-5 lg:py-10 lg:px-20">
-      <h1 className="text-2xl lg:text-4xl mb-5 font-semibold">
-        Why InfoSight?
-      </h1>
-      <p>
-        Powerful product which helps you grow engage, and retain make more
-        clients. Trusted by over 4,000+ Clients.
-      </p>
-      <div className="grid lg:grid-cols-3 gap-5 lg:gap-10 mt-8">
-        {WHYINFOSIGHT_DATA.map(({ img, title, description }, i) => {
-          return (
-            <div
-              className="flex items-start flex-col gap-2 px-8 py-5 bg-[#E9F0F7] rounded-md shadow-md shadow-gray-300"
-              key={"WHYINFOSIGHT_DATA__" + i}
-            >
-              <Image src={img} alt=""  />
-              <h1 className=" lg:text-xl mt-5 font-semibold text-[#274A68]">
-                {title}
-              </h1>
-              <p className="text-[#3B719F] text-sm lg:text-base">
-                {description}
-              </p>
-            </div>
-          );
-        })}
+    <ContentContainer>
+      <div className="px-5 md:px-0 py-5 md:py-10 lg:py-20">
+        <h1 className="text-2xl lg:text-4xl mb-5 font-semibold">
+          Why InfoSight?
+        </h1>
+        <p>
+          Powerful product which helps you grow engage, and retain make more
+          clients. Trusted by over 4,000+ Clients.
+        </p>
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-5 lg:gap-10 mt-8">
+          {WHYINFOSIGHT_DATA.map(({ img, title, description }, i) => {
+            return (
+              <div
+                className="flex items-start flex-col gap-2 px-8 py-5 bg-[#E9F0F7] rounded-md shadow-md shadow-gray-300"
+                key={"WHYINFOSIGHT_DATA__" + i}
+              >
+                <Image src={img} alt="" />
+                <h1 className=" lg:text-xl mt-5 font-semibold text-[#274A68]">
+                  {title}
+                </h1>
+                <p className="text-[#3B719F] text-sm lg:text-base">
+                  {description}
+                </p>
+              </div>
+            );
+          })}
+        </div>
       </div>
-    </div>
+    </ContentContainer>
   );
 };
 
