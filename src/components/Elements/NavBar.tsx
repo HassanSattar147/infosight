@@ -184,15 +184,15 @@ const NavBar = () => {
               <Link href="#">Services & Solutions</Link>
               <Image src={DDIcon} alt="" className="cursor-pointer" />
               <div className="dropdown__menu absolute top-full left-[-50%] bg-white z-50 w-[330px]">
-                <div className="p-5">
+                {/* <div className="p-5">
                   <p className="text-gray-800 font-semibold">
                     Services & Solutions
                   </p>
                   <p className="text-gray-500">
                     Get started and learn more about our services & solutions.
                   </p>
-                </div>
-                <ul className="flex flex-col gap-3 w-full pb-5">
+                </div> */}
+                <ul className="flex flex-col gap-3 w-full pb-5 pt-10">
                   <li className="flex items-center justify-between relative px-5">
                     <Link href="">Advisory Services</Link>
                     <Image
@@ -352,14 +352,14 @@ const NavBar = () => {
               <Link href="">Industries</Link>
               <Image src={DDIcon} alt="" className="cursor-pointer" />
               <div className="dropdown__menu absolute top-full  left-[-50%] bg-white z-50 w-[360px]">
-                <div className="p-5">
+                {/* <div className="p-5">
                   <p className="text-gray-800 font-semibold">Industries</p>
                   <p className="text-gray-500">
                     Learn more about our services & solutions for below
                     industries.
                   </p>
-                </div>
-                <ul className="flex flex-col gap-3 px-5 pb-3">
+                </div> */}
+                <ul className="flex flex-col gap-3 px-5 pb-3  pt-10">
                   {INDUSTRIES_DATA.map(({ title, link }, i) => {
                     return (
                       <li key={"INDUSTRIES_DATA__" + i}>
@@ -395,13 +395,13 @@ const NavBar = () => {
               <Link href="">About Us</Link>
               <Image src={DDIcon} alt="" className="cursor-pointer" />
               <div className="dropdown__menu absolute top-full  left-[-50%] bg-white z-50 w-max">
-                <div className="p-5">
+                {/* <div className="p-5">
                   <p className="text-gray-800 font-semibold">About Us</p>
                   <p className="text-gray-500">
                     Learn more about our Company & Partners.
                   </p>
-                </div>
-                <ul className="flex flex-col gap-3 py-3">
+                </div> */}
+                <ul className="flex flex-col gap-3 py-3 pt-10">
                   {ABOUT_US_DATA.map(({ title, link }, i) => {
                     return (
                       <li key={"ABOUT_US_DATA__" + i} className=" px-5">
