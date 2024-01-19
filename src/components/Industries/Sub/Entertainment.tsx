@@ -112,13 +112,9 @@ const Entertainment = () => {
             for real life examples on how InfoSight provides solutions for
             maximum financial security.
           </p>
-          <div className="flex flex-col lg:flex-row gap-5 py-5 lg:py-10">
-            <Cards cardsData={ENTERTAINMENT_CARDS_DATA} />
-          </div>
+          <Cards cardsData={ENTERTAINMENT_CARDS_DATA} conatinerClass="mt-5" />
         </div>
       </div>
-      {/* <IndEnterProvide /> */}
-
       <Features
         data={ENTERTAINMENT_FEATURES_DATA}
         title=" For Entertainment Industry We Provide"
