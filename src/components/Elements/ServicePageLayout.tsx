@@ -28,6 +28,8 @@ interface IServicesPageProps {
   otherFeaturesData?: string[];
   featureTitle?: string;
   otherFeatureTitle?: string;
+  downloadLinkLabel?: string;
+  useVideoIconInDownloadbtn?: boolean;
 }
 
 const ServicePageLayout = ({
@@ -47,6 +49,8 @@ const ServicePageLayout = ({
   data,
   dataLabel,
   overviewComp,
+  downloadLinkLabel = "Download Overview",
+  useVideoIconInDownloadbtn = false,
 }: IServicesPageProps) => {
   const [isModalOpen, setIsModalOpen] = React.useState(false);
 
@@ -56,8 +60,22 @@ const ServicePageLayout = ({
   );
 
   const overviewProps = React.useMemo(
-    () => ({ setIsModalOpen, overviewDescription, downloadLink, videoLink }),
-    [setIsModalOpen, overviewDescription, downloadLink, videoLink]
+    () => ({
+      setIsModalOpen,
+      overviewDescription,
+      downloadLink,
+      videoLink,
+      downloadLinkLabel,
+      useVideoIconInDownloadbtn,
+    }),
+    [
+      setIsModalOpen,
+      overviewDescription,
+      downloadLink,
+      videoLink,
+      downloadLinkLabel,
+      useVideoIconInDownloadbtn,
+    ]
   );
 
   React.useEffect(() => {
@@ -131,11 +149,15 @@ function Overview({
   overviewDescription,
   downloadLink,
   videoLink,
+  downloadLinkLabel,
+  useVideoIconInDownloadbtn,
 }: {
   setIsModalOpen: (x: boolean) => void;
   overviewDescription: string | GenericElements;
   downloadLink?: string;
   videoLink?: string;
+  downloadLinkLabel: string;
+  useVideoIconInDownloadbtn: boolean;
 }) {
   return (
     <ContentContainer>
@@ -151,11 +173,19 @@ function Overview({
                 }/12`}
               >
                 {downloadLink && (
-                  <Link href={downloadLink} target="_blank">
+                  <Link
+                    href={downloadLink}
+                    target={useVideoIconInDownloadbtn ? "" : "_blank"}
+                  >
                     <div className="flex gap-5 items-center">
-                      <Image src={documentIcon} alt="" />
+                      <Image
+                        src={
+                          useVideoIconInDownloadbtn ? videoIcon : documentIcon
+                        }
+                        alt=""
+                      />
                       <p className=" text-[#8C340D] font-semibold">
-                        Download Overview
+                        {downloadLinkLabel}
                       </p>
                     </div>
                   </Link>

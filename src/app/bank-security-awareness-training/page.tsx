@@ -60,6 +60,8 @@ const page = () => {
         </p>
       }
       downloadLink={`contact`}
+      downloadLinkLabel="Book a Demo Now"
+      useVideoIconInDownloadbtn
       data={SECURITY_AWARENESS_DATA}
       dataLabel={"SECURITY_AWARENESS_DATA"}
       featuresData={SA_FEATURES_DATA}
