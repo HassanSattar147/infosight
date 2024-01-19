@@ -5,6 +5,8 @@ import oilGasgIcon from "../../../../public/industries/industries-oil-gas-icon.s
 import IndOilGas from "./IndOilGasProvide";
 import { CardProps } from "@/components/Elements/Card";
 import Cards from "@/components/Elements/Cards";
+import ContentContainer from "@/components/Elements/ContentContainer";
+import { Features } from "@/components/Elements/ServicePageLayout";
 
 const OIL_GAS_CARDS_DATA: CardProps[] = [
   {
@@ -16,10 +18,21 @@ const OIL_GAS_CARDS_DATA: CardProps[] = [
   },
 ];
 
+const OIL_GAS_FEATURES_DATA = [
+  "SCADA & ICS Vulnerability Asessments",
+  "Disaster Recovery Planning",
+  "Social Engineering",
+  "Security Compliances, Policy & Procedure Updates",
+  "Industrial Control & IoT Services Security Compliances",
+  "Risk Management",
+  "24x7x365 Managed Security Services & SEIM",
+  "Employee Security Awareness Training",
+];
+
 const OilGas = () => {
   return (
-    <div>
-      <div className="p-5 lg:px-20">
+    <ContentContainer>
+      <div className="py-5">
         <div className="flex flex-col gap-3">
           <Image src={oilGasImg} alt="" className="w-full" />
           <div className="flex items-start">
@@ -92,8 +105,12 @@ const OilGas = () => {
           </div>
         </div>
       </div>
-      <IndOilGas />
-    </div>
+      {/* <IndOilGas /> */}
+      <Features
+        data={OIL_GAS_FEATURES_DATA}
+        title="For Oil & Gas Industry We Provide"
+      />
+    </ContentContainer>
   );
 };
 

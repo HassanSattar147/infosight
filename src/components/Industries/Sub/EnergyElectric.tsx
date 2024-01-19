@@ -5,6 +5,8 @@ import energyIcon from "../../../../public/casestudy/flash-icon.svg";
 import IndEnergyPr from "./IndEnergyPr";
 import { CardProps } from "@/components/Elements/Card";
 import Cards from "@/components/Elements/Cards";
+import ContentContainer from "@/components/Elements/ContentContainer";
+import { Features } from "@/components/Elements/ServicePageLayout";
 
 const ELECTRIC_CARDS_DATA: CardProps[] = [
   {
@@ -23,10 +25,21 @@ const ELECTRIC_CARDS_DATA: CardProps[] = [
   },
 ];
 
+const ENERGY_FEATURES_DATA = [
+  "SCADA & ICS Vulnerability Asessments",
+  "Disaster Recovery Planning",
+  "Social Engineering",
+  "Security Compliances, Policy & Procedure Updates",
+  "Industrial Control & IoT Services Security Compliances",
+  "Risk Management",
+  "24x7x365 Managed Security Services & SEIM",
+  "Employee Security Awareness Training",
+];
+
 const EnergyElectric = () => {
   return (
-    <div>
-      <div className="p-5 lg:px-20">
+    <ContentContainer>
+      <div className="py-5">
         <div className="flex flex-col gap-3">
           <Image src={energyImg} alt="" className="w-full" />
           <div className="flex items-start">
@@ -77,8 +90,12 @@ const EnergyElectric = () => {
           </div>
         </div>
       </div>
-      <IndEnergyPr />
-    </div>
+      {/* <IndEnergyPr /> */}
+      <Features
+        data={ENERGY_FEATURES_DATA}
+        title="For Energy & Electric Industry We Provide"
+      />
+    </ContentContainer>
   );
 };
 

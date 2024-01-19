@@ -4,6 +4,9 @@ import PartnersHeroSecton from "./Sub/PartnersHeroSecton";
 import PartnersCard from "./Sub/PartnersCard";
 import FutureBlackButtons from "../Elements/FutureBlackButtons";
 import PageLayout from "../PageLayout";
+import { Hero } from "../Elements/ServicePageLayout";
+import heroImg from "/public/partners/partners-hero-img.png";
+import Breadcrumbs from "../Elements/Breadcrumbs";
 
 const Partners = () => {
   React.useEffect(() => {
@@ -12,8 +15,12 @@ const Partners = () => {
 
   return (
     <PageLayout hideWeProvide hideOurServices hideWhyInfoSight>
-      <PartnersHeroSecton />
-      <p className="p-5 lg:px-20">Home / About Us / Partners</p>
+      <Hero
+        heroTitle="Partners"
+        heroDescription="Building trust and securing products of our industry leading partners."
+        heroImg={heroImg}
+      />
+      <Breadcrumbs path="Home / About Us / Partners" />
       <PartnersCard />
     </PageLayout>
   );

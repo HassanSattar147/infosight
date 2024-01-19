@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import ratingImg from "../../../../public/homepage/full-starts-img.svg";
 import Button from "@/components/Elements/Button";
+import ContentContainer from "@/components/Elements/ContentContainer";
 
 export const TESINOMIALS_DATA = [
   {
@@ -111,30 +112,32 @@ const TestimonialCard = () => {
   };
 
   return (
-    <div>
-      <div className="grid gap-5 lg:gap-10 mt-5 lg:mt-10 mb-10">
-        {TESINOMIALS_DATA.slice(0, showingCount).map(
-          ({ description, user }, i) => {
-            return (
-              <div
-                key={"TESINOMIALS_DATA__" + i}
-                className="bg-white shadow-md shadow-gray-300 border border-gray-200 p-5 rounded-xl"
-              >
-                <p className="pb-6">{description}</p>
-                <Image src={ratingImg} alt="" />
-                <p className="mt-2 font-semibold text-[#e16b38]">- {user}</p>
-                {/* <p >{designation}</p> */}
-              </div>
-            );
-          }
+    <ContentContainer>
+      <div>
+        <div className="grid gap-5 lg:gap-10 mt-5 lg:mt-10 mb-10">
+          {TESINOMIALS_DATA.slice(0, showingCount).map(
+            ({ description, user }, i) => {
+              return (
+                <div
+                  key={"TESINOMIALS_DATA__" + i}
+                  className="bg-white shadow-md shadow-gray-300 border border-gray-200 p-5 rounded-xl"
+                >
+                  <p className="pb-6">{description}</p>
+                  <Image src={ratingImg} alt="" />
+                  <p className="mt-2 font-semibold text-[#e16b38]">- {user}</p>
+                  {/* <p >{designation}</p> */}
+                </div>
+              );
+            }
+          )}
+        </div>
+        {showingCount > TESINOMIALS_DATA.length ? null : (
+          <div className="mb-10 text-center">
+            <Button text="Load More" onClick={handleLoadMore} />
+          </div>
         )}
       </div>
-      {showingCount > TESINOMIALS_DATA.length ? null : (
-        <div className="mb-10 text-center">
-          <Button text="Load More" onClick={handleLoadMore} />
-        </div>
-      )}
-    </div>
+    </ContentContainer>
   );
 };
 

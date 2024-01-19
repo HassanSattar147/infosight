@@ -5,6 +5,8 @@ import buildingIcon from "../../../../public/industries/industries-government-ic
 import IndGovtProvide from "./IndGovtProvide";
 import { CardProps } from "@/components/Elements/Card";
 import Cards from "@/components/Elements/Cards";
+import ContentContainer from "@/components/Elements/ContentContainer";
+import { Features } from "@/components/Elements/ServicePageLayout";
 
 const GOVT_CARDS_DATA: CardProps[] = [
   {
@@ -16,10 +18,30 @@ const GOVT_CARDS_DATA: CardProps[] = [
   },
 ];
 
+const GOVERNMENT_FEATURES_DATA = [
+  "SIEM Solutions",
+  "Penetration Testing",
+  "cybersecurity Awareness Training",
+  "IT Audits",
+  "Cyber Risk Assessments",
+  "Data Loss Prevention",
+  "Regulatory Compliance Reviews",
+  "24x7x365 Managed Security and Monitoring",
+  "Cloud Migration and Management",
+  "The My Florida Marketplace",
+  "The Florida Bid System",
+  "WebProcure",
+  "WEBS/ WSCA",
+  "TIPS",
+  "USAC",
+  "SCEIS",
+  "AEPA",
+];
+
 const Government = () => {
   return (
-    <div>
-      <div className="p-5 lg:px-20">
+    <ContentContainer>
+      <div className="py-5">
         <div className="flex flex-col gap-3">
           <Image src={buildingImg} alt="" className="w-full" />
           <div className="flex items-start">
@@ -47,8 +69,12 @@ const Government = () => {
           </div>
         </div>
       </div>
-      <IndGovtProvide />
-    </div>
+      {/* <IndGovtProvide /> */}
+      <Features
+        title="For Government Agencies We Provide"
+        data={GOVERNMENT_FEATURES_DATA}
+      />
+    </ContentContainer>
   );
 };
 

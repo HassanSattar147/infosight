@@ -26,6 +26,7 @@ import partnerIcon23 from "../../../../public/partners/ruckus-icon.png";
 import partnerIcon24 from "../../../../public/partners/brocade-2-icon.png";
 import Link from "next/link";
 import { link } from "fs";
+import ContentContainer from "@/components/Elements/ContentContainer";
 
 const PARTNERS_DATA = [
   {
@@ -128,23 +129,25 @@ const PARTNERS_DATA = [
 
 const PartnersCard = () => {
   return (
-    <div className="p-5 lg:px-20">
-      <h1 className="text-gray-900 text-2xl lg:text-4xl font-semibold">
-        We are Proud to have Industry leaders as our Partners
-      </h1>
-      <p className="text-gray-600 py-2">
-        InfoSight proudly partners with below industry leading companies.
-      </p>
-      <div className="grid lg:grid-cols-11 grid-cols-3 lg:gap-10 gap-6 py-5">
-        {PARTNERS_DATA.map(({ img, link }, i) => {
-          return (
-            <Link href={link} key={i}>
-              <Image src={img} alt=""  />
-            </Link>
-          );
-        })}
+    <ContentContainer>
+      <div className="py-5">
+        <h3 className="text-gray-900 text-2xl lg:text-4xl font-semibold">
+          We are Proud to have Industry leaders as our Partners
+        </h3>
+        <p className="text-gray-600 py-2">
+          InfoSight proudly partners with below industry leading companies.
+        </p>
+        <div className="grid lg:grid-cols-11 grid-cols-3 lg:gap-10 gap-6 py-5">
+          {PARTNERS_DATA.map(({ img, link }, i) => {
+            return (
+              <Link href={link} key={i}>
+                <Image src={img} alt="" />
+              </Link>
+            );
+          })}
+        </div>
       </div>
-    </div>
+    </ContentContainer>
   );
 };
 

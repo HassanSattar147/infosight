@@ -4,6 +4,8 @@ import energyImg from "../../../../public/industries/industries-entertainment-im
 import { CardProps } from "@/components/Elements/Card";
 import Cards from "@/components/Elements/Cards";
 import IndEnterProvide from "./IndEntertProvide";
+import ContentContainer from "@/components/Elements/ContentContainer";
+import { Features } from "@/components/Elements/ServicePageLayout";
 
 const ENTERTAINMENT_CARDS_DATA: CardProps[] = [
   {
@@ -15,10 +17,21 @@ const ENTERTAINMENT_CARDS_DATA: CardProps[] = [
   },
 ];
 
+const ENTERTAINMENT_FEATURES_DATA = [
+  "SCADA & ICS Vulnerability Asessments",
+  "Disaster Recovery Planning",
+  "Social Engineering",
+  "Security Compliances, Policy & Procedure Updates",
+  "Industrial Control & IoT Services Security Compliances",
+  "Risk Management",
+  "24x7x365 Managed Security Services & SEIM",
+  "Employee Security Awareness Training",
+];
+
 const Entertainment = () => {
   return (
-    <div>
-      <div className="p-5 lg:px-20">
+    <ContentContainer>
+      <div className="py-5">
         <div className="flex flex-col gap-3">
           <Image src={energyImg} alt="" className="w-full" />
           <div className="flex items-start">
@@ -104,8 +117,13 @@ const Entertainment = () => {
           </div>
         </div>
       </div>
-      <IndEnterProvide />
-    </div>
+      {/* <IndEnterProvide /> */}
+
+      <Features
+        data={ENTERTAINMENT_FEATURES_DATA}
+        title=" For Entertainment Industry We Provide"
+      />
+    </ContentContainer>
   );
 };
 

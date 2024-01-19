@@ -5,6 +5,8 @@ import healthIcon from "../../../../public/industries/industries-healthcare-icon
 import IndHealthProvide from "./IndHealthProvide";
 import Card, { CardProps } from "@/components/Elements/Card";
 import Cards from "@/components/Elements/Cards";
+import ContentContainer from "@/components/Elements/ContentContainer";
+import { Features } from "@/components/Elements/ServicePageLayout";
 
 const HEALTH_CARDS_DATA: CardProps[] = [
   {
@@ -16,10 +18,20 @@ const HEALTH_CARDS_DATA: CardProps[] = [
   },
 ];
 
+const HEALTH_FEATURES_DATA = [
+  "Proactive HIPAA compliant IT services networks",
+  "Multi-layered HIPAA compliant cybersecurity framework",
+  "Ensure customers follow HITECH regulatory standards",
+  "Provide support on various EHR systems",
+  "Perform HIPAA Risk & Security Assessments",
+  "Cloud Solutions & Office 365",
+  "24x7x365 Network & Security Monitoring",
+];
+
 const Healthcare = () => {
   return (
-    <div>
-      <div className="p-5 lg:px-20">
+    <ContentContainer>
+      <div className="py-5">
         <div className="flex flex-col gap-3">
           <Image src={healthImg} alt="" className="w-full" />
           <div className="flex items-start">
@@ -58,8 +70,12 @@ const Healthcare = () => {
           </div>
         </div>
       </div>
-      <IndHealthProvide />
-    </div>
+      {/* <IndHealthProvide /> */}
+      <Features
+        data={HEALTH_FEATURES_DATA}
+        title="For Healthcare Industry We Provide"
+      />
+    </ContentContainer>
   );
 };
 

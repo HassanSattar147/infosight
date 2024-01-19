@@ -210,7 +210,7 @@ function Overview({
   );
 }
 
-function Features({
+export function Features({
   data,
   title = "Key Features",
   isOther = false,
@@ -237,7 +237,7 @@ function Features({
   };
 
   return (
-    <ContentContainer isBgPrimary>
+    <ContentContainer>
       <div className={"py-10" + (!!isOther ? "pt-0" : "")}>
         <h3 className="text-white text-2xl lg:text-4xl font-semibold">
           {title}

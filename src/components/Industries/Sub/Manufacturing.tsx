@@ -5,6 +5,8 @@ import judgeIcon from "../../../../public/casestudy/judge-icon.svg";
 import IndManfProvide from "./IndManfProvide";
 import { CardProps } from "@/components/Elements/Card";
 import Cards from "@/components/Elements/Cards";
+import ContentContainer from "@/components/Elements/ContentContainer";
+import { Features } from "@/components/Elements/ServicePageLayout";
 
 const MANU_CARDS_DATA: CardProps[] = [
   {
@@ -16,10 +18,21 @@ const MANU_CARDS_DATA: CardProps[] = [
   },
 ];
 
+const MANUFACTURING_FEATURES_DATA = [
+  "SCADA & ICS Vulnerability Asessments",
+  "Disaster Recovery Planning",
+  "Social Engineering",
+  "Security Compliances, Policy & Procedure Updates",
+  "Industrial Control & IoT Services Security Compliances",
+  "Risk Management",
+  "24x7x365 Managed Security Services & SEIM",
+  "Employee Security Awareness Training",
+];
+
 const Manufacturing = () => {
   return (
-    <div>
-      <div className="p-5 lg:px-20">
+    <ContentContainer>
+      <div className="py-5">
         <div className="flex flex-col gap-3">
           <Image src={energyImg} alt="" className="w-full" />
           <div className="flex items-start">
@@ -77,8 +90,12 @@ const Manufacturing = () => {
           </div>
         </div>
       </div>
-      <IndManfProvide />
-    </div>
+      {/* <IndManfProvide /> */}
+      <Features
+        data={MANUFACTURING_FEATURES_DATA}
+        title="For Manufacturing Industry We Provide"
+      />
+    </ContentContainer>
   );
 };
 

@@ -3,6 +3,9 @@ import React from "react";
 import NavBar from "../Elements/NavBar";
 import WhyHeroSection from "./Sub/WhyHeroSection";
 import PageLayout from "../PageLayout";
+import Breadcrumbs from "../Elements/Breadcrumbs";
+import { Hero } from "../Elements/ServicePageLayout";
+import heroImg from "/public/why-us-hero-img.png";
 
 const WhyUs = () => {
   React.useEffect(() => {
@@ -11,8 +14,15 @@ const WhyUs = () => {
 
   return (
     <PageLayout hideWeProvide hideOurServices>
-      <WhyHeroSection />
-      <p className="p-5 lg:px-20">Home / About Us / Why InfoSight</p>
+      <Hero
+        heroTitle="Why Us?"
+        heroDescription={`Case studies focus on the complexity, dynamics and circumstances of a
+      single case (sometimes called a phenomenon). Multiple research methods
+      are used. Cases are intensively explored in-depth, retrospectively,
+      currently and sometimes over time.`}
+        heroImg={heroImg}
+      />
+      <Breadcrumbs path="Home / About Us / Why InfoSight" />
     </PageLayout>
   );
 };
