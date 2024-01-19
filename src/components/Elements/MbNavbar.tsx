@@ -4,27 +4,27 @@ import logoImg from "../../../public/infosight-new-logo-1.svg";
 import Link from "next/link";
 import "@/styles/mbnav.css";
 
-interface RootObject {
+export interface RootObject {
   title: string;
   link?: string;
   children?: Child3[];
 }
-interface Child3 {
+export interface Child3 {
   title: string;
   children?: Child2[];
   link?: string;
 }
-interface Child2 {
+export interface Child2 {
   title: string;
   children?: IMenuItem[];
   link?: string;
 }
-interface IMenuItem {
+export interface IMenuItem {
   title: string;
   link: string;
 }
 
-const ALL_MENUS: RootObject[] = [
+export const ALL_MENUS: RootObject[] = [
   { title: "Home", link: "/" },
   {
     title: "Services & Solutions",

@@ -6,6 +6,7 @@ import WhyInfoSight from "../CaseStudy/Sub/InfoSight";
 import FooterFutureSection from "../Elements/FutureBlackButtons";
 import OurServices from "../HomePage/sub/OurServices";
 import { GenericElements } from "@/types";
+import LgNavbar from "../Elements/LgNavbar";
 
 interface Props {
   children: GenericElements;
@@ -34,7 +35,7 @@ const PageLayout: React.FC<Props> = ({
 }) => {
   return (
     <div>
-      {!hideNavbar && <NavBar />}
+      {!hideNavbar && <LgNavbar />}
       <div className={"page-content-container-"}>{children}</div>
       {!hideWeProvide && <WeProvide />}
       {!hideOurServices && <OurServices heading={ourServicesHeading} />}
