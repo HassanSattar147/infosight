@@ -49,17 +49,17 @@ const RISK_MANAGEMENT_DATA = [
     link: "/enterprise-risk-management",
   },
   {
-    title: "SCADA/ICS Risk Assessments",
-    link: "/scada-ics-risk-assessments",
+    title: "HIPAA Risk Assessment",
+    link: "/HIPAA-risk-assessment",
   },
 ];
 
-const COMPLIANCe_DATA = [
-  { title: "PCI - DSS", link: "/compliance?s=0" },
-  { title: "HIPAA", link: "/compliance?s=1" },
-  { title: "NERC - CIP", link: "/compliance?s=2" },
-  { title: "GLBA", link: "/compliance?s=3" },
-];
+// const COMPLIANCe_DATA = [
+//   { title: "PCI - DSS", link: "/compliance?s=0" },
+//   { title: "HIPAA", link: "/compliance?s=1" },
+//   { title: "NERC - CIP", link: "/compliance?s=2" },
+//   { title: "GLBA", link: "/compliance?s=3" },
+// ];
 
 const MANAGED_SERVICES_DATA = [
   { title: "Managed XDR", link: "/managed-xdr" },
@@ -158,8 +158,8 @@ const ADV_SERVICE_SECURITY_DATA_2 = [
   },
 
   {
-    title: "SCADA-ICS Risk & Vulnerability Assessments",
-    link: "scada-ics-risk-assessments",
+    title: "HIPAA Risk Assessment",
+    link: "/HIPAA-risk-assessment",
   },
 
   {
@@ -254,7 +254,7 @@ const NavBar = () => {
                             </ul>
                           </div>
                         </li>
-                        <li className="flex items-center justify-between gap-2 px-5">
+                        {/* <li className="flex items-center justify-between gap-2 px-5">
                           <Link href="">Compliance</Link>
                           <Image
                             src={chevronRightIcon}
@@ -272,7 +272,7 @@ const NavBar = () => {
                               })}
                             </ul>
                           </div>
-                        </li>
+                        </li> */}
                         <li className="flex items-center justify-between gap-2 px-5 pb-3">
                           <Link href="">Audit & Assurance</Link>
                           <Image
@@ -296,11 +296,11 @@ const NavBar = () => {
                       </ul>
                     </div>
                   </li>
-                  <li className="px-5">
+                  {/* <li className="px-5">
                     <Link href="24x7-managed-detection-&-response">
                       24x7 Managed Detection & Response
                     </Link>
-                  </li>
+                  </li> */}
                   <li className="px-5">
                     <Link href="SOCaaS">SOCaaS</Link>
                   </li>

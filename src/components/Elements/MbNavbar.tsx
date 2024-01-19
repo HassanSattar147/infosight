@@ -68,8 +68,8 @@ const ALL_MENUS: RootObject[] = [
               },
 
               {
-                title: "SCADA-ICS Risk & Vulnerability Assessments",
-                link: "/scada-ics-risk-assessments",
+                title: "HIPAA Risk Assessment",
+                link: "/HIPAA-risk-assessment",
               },
 
               {
@@ -87,20 +87,20 @@ const ALL_MENUS: RootObject[] = [
                 link: "/enterprise-risk-management",
               },
               {
-                title: "SCADA/ICS Risk Assessments",
-                link: "/scada-ics-risk-assessments",
+                title: "HIPAA Risk Assessment",
+                link: "/HIPAA-risk-assessment",
               },
             ],
           },
-          {
-            title: "Compliance",
-            children: [
-              { title: "PCI - DSS", link: "/compliance?s=0" },
-              { title: "HIPAA", link: "/compliance?s=1" },
-              { title: "NERC - CIP", link: "/compliance?s=2" },
-              { title: "GLBA", link: "/compliance?s=3" },
-            ],
-          },
+          // {
+          //   title: "Compliance",
+          //   children: [
+          //     { title: "PCI - DSS", link: "/compliance?s=0" },
+          //     { title: "HIPAA", link: "/compliance?s=1" },
+          //     { title: "NERC - CIP", link: "/compliance?s=2" },
+          //     { title: "GLBA", link: "/compliance?s=3" },
+          //   ],
+          // },
           {
             title: "Audit & Assurance",
             children: [
@@ -113,10 +113,10 @@ const ALL_MENUS: RootObject[] = [
           },
         ],
       },
-      {
-        title: "24x7 Managed Detection & Response",
-        link: "/24x7-managed-detection-&-response",
-      },
+      // {
+      //   title: "24x7 Managed Detection & Response",
+      //   link: "/24x7-managed-detection-&-response",
+      // },
       {
         title: "SOCaaS",
         link: "/SOCaaS",
