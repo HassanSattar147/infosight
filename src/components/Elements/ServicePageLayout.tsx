@@ -237,7 +237,7 @@ export function Features({
   };
 
   return (
-    <ContentContainer>
+    <ContentContainer isBgPrimary>
       <div className={"py-10" + (!!isOther ? "pt-0" : "")}>
         <h3 className="text-white text-2xl lg:text-4xl font-semibold">
           {title}
