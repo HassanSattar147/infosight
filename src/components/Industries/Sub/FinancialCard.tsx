@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import financialImg from "../../../../public/industries/industries-financial-img.png";
 import IndFinancialPr from "./IndustryProvide";
-import Card, { CardProps } from "@/components/Elements/Card";
+import { CardProps } from "@/components/Elements/Card";
 import Cards from "@/components/Elements/Cards";
 
 const FINANCIAL_CARDS_DATA: CardProps[] = [
@@ -53,9 +53,9 @@ const FinancialCard = () => {
               <span className="font-semibold">
                 24x7x365 Managed Security and Advisory Services
               </span>{" "}
-              that test and monitor your network&apos;s infrastructure; keeping you{" "}
-              <span className="font-semibold">secure</span> from any breaches
-              that could occur.
+              that test and monitor your network&apos;s infrastructure; keeping
+              you <span className="font-semibold">secure</span> from any
+              breaches that could occur.
             </p>
           </div>
         </div>
@@ -68,9 +68,7 @@ const FinancialCard = () => {
             examples on how InfoSight provides solutions for maximum financial
             security.
           </p>
-          <div className="flex flex-col lg:flex-row gap-5 py-5 lg:py-10">
-            <Cards cardsData={FINANCIAL_CARDS_DATA} />
-          </div>
+          <Cards cardsData={FINANCIAL_CARDS_DATA} conatinerClass="mt-5" />
         </div>
       </div>
       <IndFinancialPr />

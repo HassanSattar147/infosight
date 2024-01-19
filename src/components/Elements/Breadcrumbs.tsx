@@ -8,7 +8,7 @@ const Breadcrumbs = ({ path }: { path: string }) => {
   }, [path]);
   return (
     <ContentContainer>
-      <p className="px-5 md:px-0 py-5">
+      <p className="py-5">
         {splitPath.map((p, i) => {
           const isLast = splitPath.length - 1 === i;
           const isFirst = i === 0;

@@ -107,14 +107,16 @@ function Hero({
 }) {
   return (
     <ContentContainer bgImage={heroImg}>
-      <div className="md:min-h-[40vh] min-h-[30vh] flex justify-center items-center px-5 md:px-0 py-5">
+      <div className="md:min-h-[40vh] min-h-[30vh] flex justify-center items-center py-5">
         <div className="flex flex-col items-start">
           <h1 className="text-white text-center md:text-[55px] text-4xl font-extrabold leading-tight">
             {heroTitle}
           </h1>
-          <p className="text-white text-center md:text-xl text-lg ">
-            {heroDescription}
-          </p>
+          {heroDescription && (
+            <p className="text-white text-center md:text-xl text-lg ">
+              {heroDescription}
+            </p>
+          )}
         </div>
       </div>
     </ContentContainer>
@@ -134,10 +136,8 @@ function Overview({
 }) {
   return (
     <ContentContainer>
-      <h3 className="px-5 md:px-0 mb-5 text-2xl lg:text-4xl font-semibold">
-        Overview
-      </h3>
-      <div className="px-5 md:px-0 ">
+      <h3 className="mb-5 text-2xl lg:text-4xl font-semibold">Overview</h3>
+      <div>
         <div className="border-b border-gray-300 pb-10">
           <div className="lg:p-10 p-5 bg-gray-100 flex flex-col lg:flex-row gap-5 lg:gap-20 justify-between">
             {overviewDescription}
@@ -205,7 +205,7 @@ function Features({
 
   return (
     <ContentContainer isBgPrimary>
-      <div className={"px-5 md:px-0 py-10" + (!!isOther ? "pt-0" : "")}>
+      <div className={"py-10" + (!!isOther ? "pt-0" : "")}>
         <h3 className="text-white text-2xl lg:text-4xl font-semibold">
           {title}
         </h3>
