@@ -11,39 +11,49 @@ import ContentContainer from "@/components/Elements/ContentContainer";
 const WHYINFOSIGHT_DATA = [
   {
     img: featuredIcon1,
-    title: "Us Based SOC/NOC",
-    description:
-      "Our service allows systems and their staff to secure and build businesses with ease due their trust in Certified SOC/NOC from the top level of this country.",
+    description: "24x7x365 US-based SOC/NOC",
   },
   {
     img: featuredIcon2,
-    title: "25+ Years Regulatory Compliance",
     description:
-      "Our service allows systems and their staff to secure and build businesses with ease due to 25+ years of regulatory compliance experience.",
+      "25+ years Regulatory Compliance experience (GLBA, PCI, HIPAA, NERC, AWIA, etc.)",
   },
   {
     img: featuredIcon3,
-    title: "Certified SOC/NOC",
-    description:
-      "Our service allows systems and their staff to secure and build  businesses with ease due their trust in Certified SOC/NOC from the  top level of this country.",
-  },
-  {
-    img: featuredIcon4,
-    title: "MSSP Services",
-    description:
-      "Our service allows systems and their staff to secure and build businesses with ease due their trust in MSSP services from the top level of this country.",
+    description: "SOC 2 Certified",
   },
   {
     img: featuredIcon5,
-    title: "Cybersecurity Trainings",
     description:
-      " Our service allows systems and their staff to secure and build businesses with ease as we provide cybersecurity trainings to the management and resources.",
+      "Complete MSSP Services that include Monitoring, Real-Time Threat Analysis, Mitigation/Remediation, Alerting, Reporting and Device Management",
+  },
+  {
+    img: featuredIcon5,
+    description:
+      "Offering comprehensive cybersecurity Awareness Training Solutions",
   },
   {
     img: featuredIcon6,
-    title: "Flexible Pricing Models",
     description:
-      "Our service allows systems and their staff to secure and build businesses with ease due flexible pricing models.",
+      "Managed Services for On-premise Data center, Cloud and Hybrid environments",
+  },
+  {
+    img: featuredIcon4,
+    description:
+      "Flexible pricing models that can be 24x7, 8x5, OR off-peak 7pm to 7am only coverage",
+  },
+  {
+    img: featuredIcon6,
+    description: "MSP & MSSP Solutions for both IT & OT ICS environments",
+  },
+  {
+    img: featuredIcon4,
+    description: "Certified Experts (CISSP, CISA, CEH, OSCP, AWS, AWWA, etc.)",
+  },
+  {
+    img: featuredIcon4,
+    description:
+      "Virtual ISO Programs that bridge the communication gap between IT and OT networks",
   },
 ];
 
@@ -59,19 +69,14 @@ const InfoSight = () => {
           clients. Trusted by over 4,000+ Clients.
         </p>
         <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-5 lg:gap-10 mt-8">
-          {WHYINFOSIGHT_DATA.map(({ img, title, description }, i) => {
+          {WHYINFOSIGHT_DATA.map(({ img, description }, i) => {
             return (
               <div
-                className="flex items-start flex-col gap-2 px-8 py-5 bg-[#E9F0F7] rounded-md shadow-md shadow-gray-300"
+                className="flex items-start flex-col gap-5 px-8 py-5 bg-[#E9F0F7] rounded-md shadow-md shadow-gray-300"
                 key={"WHYINFOSIGHT_DATA__" + i}
               >
                 <Image src={img} alt="" />
-                <h1 className=" lg:text-xl mt-5 font-semibold text-[#274A68]">
-                  {title}
-                </h1>
-                <p className="text-[#3B719F] text-sm lg:text-base">
-                  {description}
-                </p>
+                <p className="text-[#3B719F] font-semibold">{description}</p>
               </div>
             );
           })}

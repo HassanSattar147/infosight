@@ -107,7 +107,7 @@ function Hero({
 }) {
   return (
     <ContentContainer bgImage={heroImg}>
-      <div className="md:min-h-[40vh] min-h-[0vh] flex justify-center items-center md:justify-start px-5 md:px-2 lg:px-0 py-5">
+      <div className="md:min-h-[40vh] min-h-[30vh] flex justify-center items-center px-5 md:px-0 py-5">
         <div className="flex flex-col items-start">
           <h1 className="text-white text-center md:text-[55px] text-4xl font-extrabold leading-tight">
             {heroTitle}
