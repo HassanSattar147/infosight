@@ -58,7 +58,7 @@ const INDUSTRY_SERVICE_DATA = [
 const IndustryServices = () => {
   return (
     <ContentContainer isBgPrimary>
-      <div className="bg-[#3B719F] py-5 px-5 md:px-0 lg:py-20">
+      <div className="py-5 lg:py-20">
         <h2 className="text-white text-2xl lg:text-4xl font-semibold">
           Services by Industry
         </h2>

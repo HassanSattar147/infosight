@@ -21,7 +21,7 @@ const TesimonialsComp = () => {
   const data = React.useMemo(() => TESINOMIALS_DATA.slice(0, 3), []);
   return (
     <ContentContainer>
-      <div className="py-5 px-5 md:px-0 lg:py-20">
+      <div className="py-10 lg:py-20">
         <h1 className=" text-2xl lg:text-4xl font-semibold">
           Infosights Testimonials
         </h1>

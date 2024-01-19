@@ -13,8 +13,8 @@ const Latest = () => {
   return (
     <>
       <ContentContainer>
-        <div className="py-10 lg:py-20 md:px-0 px-5">
-          <h2 className="text-gray-900 px-5 md:px-0 text-2xl lg:text-4xl font-semibold">
+        <div className="py-10 lg:py-20">
+          <h2 className="text-gray-900 text-2xl lg:text-4xl font-semibold">
             Infosight&apos;s Latest
           </h2>
           <div className="bg-[#F9FAFB] p-8 lg:p-10 mt-8">
