@@ -17,6 +17,7 @@ interface Props {
   hideFooterFutureBtns?: boolean;
   hideFooter?: boolean;
   ourServicesHeading?: string;
+  isFutureBtnOrange?: boolean;
 }
 
 const PageLayout: React.FC<Props> = ({
@@ -28,16 +29,21 @@ const PageLayout: React.FC<Props> = ({
   hideFooterFutureSection = false,
   hideFooterFutureBtns = false,
   hideFooter = false,
+  ourServicesHeading,
+  isFutureBtnOrange = false,
 }) => {
   return (
     <div>
       {!hideNavbar && <NavBar />}
       <div className={"page-content-container-"}>{children}</div>
       {!hideWeProvide && <WeProvide />}
-      {!hideOurServices && <OurServices />}
+      {!hideOurServices && <OurServices heading={ourServicesHeading} />}
       {!hideWhyInfoSight && <WhyInfoSight />}
       {!hideFooterFutureSection && (
-        <FooterFutureSection hideFutureBtns={hideFooterFutureBtns} />
+        <FooterFutureSection
+          hideFutureBtns={hideFooterFutureBtns}
+          isBtnOrange={isFutureBtnOrange}
+        />
       )}
       {!hideFooter && <Footer />}
     </div>

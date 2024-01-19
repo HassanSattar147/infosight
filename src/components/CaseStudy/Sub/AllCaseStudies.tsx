@@ -2,6 +2,7 @@ import React from "react";
 import DropDown from "@/components/Elements/ButtonGrp";
 import Cards from "@/components/Elements/Cards";
 import { CardProps } from "@/components/Elements/Card";
+import ContentContainer from "@/components/Elements/ContentContainer";
 
 const FINANCIAL_CARDS_DATA: CardProps[] = [
   {
@@ -83,24 +84,30 @@ const AllCaseStudies = () => {
   const [selected, setSelected] = React.useState(0);
 
   return (
-    <div className="p-5 lg:py-10 lg:px-20">
-      <div className="flex items-center justify-between gap-2 mb-8">
-        <h1 className="text-xl lg:text-4xl font-extrabold ">
-          All Case Studies
-        </h1>
-        <DropDown
-          options={options}
-          onChange={(e) => {
-            setSelected(+e.target.value);
-          }}
+    <ContentContainer>
+      <div className="py-5 lg:py-10">
+        <div className="flex items-start md:items-center justify-between gap-2 mb-8 flex-col md:flex-row">
+          <h2 className="text-[36px] font-extrabold">
+            {selected === 0
+              ? "All Case Studies"
+              : options[selected].lable + " Case Studies"}
+          </h2>
+          <DropDown
+            options={options}
+            onChange={(e) => {
+              setSelected(+e.target.value);
+            }}
+          />
+        </div>
+        <Cards
+          cardsData={
+            selected === 0
+              ? ALL_CARDS_DATA.flat()
+              : ALL_CARDS_DATA[selected - 1]
+          }
         />
       </div>
-      <Cards
-        cardsData={
-          selected === 0 ? ALL_CARDS_DATA.flat() : ALL_CARDS_DATA[selected - 1]
-        }
-      />
-    </div>
+    </ContentContainer>
   );
 };
 

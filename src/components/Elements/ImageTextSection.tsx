@@ -50,7 +50,7 @@ const ImageTextSection = ({
 }) => {
   return (
     <ContentContainer>
-      <div className="px-5 md:px-0 py-5">
+      <div className="py-5">
         {data.map((imgTextProps, i) => {
           const isLeft = i % 2 !== 0;
           const hideHr = data.length - 1 === i;

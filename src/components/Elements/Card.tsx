@@ -31,6 +31,17 @@ const imgsTable = {
   FUEL: fuelIcon,
 };
 
+const labelColors = {
+  WLT: "text-[#C94B12] bg-[#FDEEE8]",
+  JUD: "text-[#444444] bg-[#f2f2f2]",
+  FLASH: "text-[#274A68] bg-[#E9F0F7]",
+  DRP: "text-[#364BBA] bg-[#E9F0F7]",
+  ENT: "text-[#70028C] bg-[#F9E8FD]",
+  GOVT: "text-[#1D70B8] bg-[#E9F2FB]",
+  HLTH: "text-[#207E29] bg-[#E5F7E7]",
+  FUEL: "text-[#C99612] bg-[#FCF7EA]",
+};
+
 export interface CardProps {
   imgType: CardImgType;
   title: string;
@@ -47,20 +58,26 @@ const Card: React.FC<CardProps> = ({
   link,
 }) => {
   return (
-    <div className="p-5 border border-gray-300 rounded-lg lg:min-w-[300px] min-w-[250px]">
+    <div className="p-5 border border-gray-300 rounded-lg h-full">
       <Image src={imgsTable[imgType]} alt="" />
-      <h1 className="text-xl text-gray-900 font-medium lg:mt-10 mt-5">
+      <h3 className="text-xl text-gray-900 font-medium lg:mt-10 mt-5">
         {title}
-      </h1>
+      </h3>
       <p className="text-gray-500 mb-1">{description}</p>
-      <span className="text-[#C94B12] text-xs font-semibold bg-[#FDEEE8] px-2 py-1 rounded">
+      <span
+        className={
+          `text-xs font-semibold px-2 py-1 rounded ` + labelColors[imgType]
+        }
+      >
         {tag}
       </span>
       <div className="lg:mt-10 mt-5 flex lg:gap-5 gap-3">
-        <Link href={link} target="_blank">
-          <button className="text-gray-700 border hover:bg-gray-100  border-gray-300 px-5 py-2 rounded-md ">
-            Download PDF
-          </button>
+        <Link
+          href={link}
+          target="_blank"
+          className="text-gray-700 border hover:bg-gray-100  border-gray-300 px-5 py-2 rounded-md "
+        >
+          Download PDF
         </Link>
       </div>
     </div>

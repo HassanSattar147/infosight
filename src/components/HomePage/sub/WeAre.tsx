@@ -14,7 +14,7 @@ const WeAre = () => {
   return (
     <>
       <ContentContainer isBgPrimary>
-        <div className="bg-[#3B719F] py-8 px-5 md:px-0 lg:py-20">
+        <div className="py-10 lg:py-20">
           <div className="flex flex-col items-center lg:flex-row gap-10">
             <div className="text-white">
               <h1 className="text-2xl lg:text-4xl font-semibold">

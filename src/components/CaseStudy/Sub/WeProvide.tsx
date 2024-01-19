@@ -6,8 +6,8 @@ import serviceIcon3 from "../../../../public/homepage/service-icon3.svg";
 import serviceIcon4 from "../../../../public/homepage/service-icon4.svg";
 import serviceIcon5 from "../../../../public/homepage/service-icon5.svg";
 import serviceIcon6 from "../../../../public/homepage/service-icon6.svg";
-import { title } from "process";
 import Link from "next/link";
+import ContentContainer from "@/components/Elements/ContentContainer";
 
 const WEPROVIDE_DATA = [
   {
@@ -44,26 +44,27 @@ const WEPROVIDE_DATA = [
 
 const WeProvide = () => {
   return (
-    <div className="bg-[#3B719F] p-5 lg:p-20">
-      <h1 className="text-2xl text-white lg:text-4xl font-semibold">
-        We Provide
-      </h1>
-      <div className="grid lg:grid-cols-3 gap-3 lg:gap-10 mt-8">
-        {WEPROVIDE_DATA.map(({ img, title, link }, i) => {
-          return (
-            <div
-              className="flex items-start flex-col gap-4 px-8 py-5 bg-white rounded-md cursor-pointer hover:bg-gray-200"
-              key={title + i}
-            >
-              <Link href={link}>
-                <Image src={img} alt="" className="w-14 " />
-                <h1 className="mb-2 font-semibold">{title}</h1>
+    <ContentContainer isBgPrimary>
+      <div className="py-5 lg:py-20">
+        <h2 className="text-2xl text-white lg:text-4xl font-semibold">
+          We Provide
+        </h2>
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-3 lg:gap-10 mt-8">
+          {WEPROVIDE_DATA.map(({ img, title, link }, i) => {
+            return (
+              <Link
+                href={link}
+                key={title + i}
+                className="flex flex-col gap-4 px-8 py-5 bg-white rounded-md hover:bg-gray-200"
+              >
+                <Image src={img} alt="" className="w-14" />
+                <h3 className="mt-2 font-semibold">{title}</h3>
               </Link>
-            </div>
-          );
-        })}
+            );
+          })}
+        </div>
       </div>
-    </div>
+    </ContentContainer>
   );
 };
 

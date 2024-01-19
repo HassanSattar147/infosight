@@ -16,7 +16,8 @@ interface IServicesPageProps {
   heroImg: StaticImageData;
   heroTitle: string;
   heroDescription?: string;
-  overviewDescription: string | GenericElements;
+  overviewDescription?: string | GenericElements;
+  overviewComp?: GenericElements;
   downloadLink?: string;
   videoLink?: string;
   data: ITextImageData[];
@@ -27,6 +28,8 @@ interface IServicesPageProps {
   otherFeaturesData?: string[];
   featureTitle?: string;
   otherFeatureTitle?: string;
+  downloadLinkLabel?: string;
+  useVideoIconInDownloadbtn?: boolean;
 }
 
 const ServicePageLayout = ({
@@ -45,6 +48,9 @@ const ServicePageLayout = ({
   otherFeatureTitle,
   data,
   dataLabel,
+  overviewComp,
+  downloadLinkLabel = "Download Overview",
+  useVideoIconInDownloadbtn = false,
 }: IServicesPageProps) => {
   const [isModalOpen, setIsModalOpen] = React.useState(false);
 
@@ -54,8 +60,22 @@ const ServicePageLayout = ({
   );
 
   const overviewProps = React.useMemo(
-    () => ({ setIsModalOpen, overviewDescription, downloadLink, videoLink }),
-    [setIsModalOpen, overviewDescription, downloadLink, videoLink]
+    () => ({
+      setIsModalOpen,
+      overviewDescription,
+      downloadLink,
+      videoLink,
+      downloadLinkLabel,
+      useVideoIconInDownloadbtn,
+    }),
+    [
+      setIsModalOpen,
+      overviewDescription,
+      downloadLink,
+      videoLink,
+      downloadLinkLabel,
+      useVideoIconInDownloadbtn,
+    ]
   );
 
   React.useEffect(() => {
@@ -67,7 +87,8 @@ const ServicePageLayout = ({
       <PageLayout hideWeProvide hideOurServices>
         <Hero {...heroProps} />
         <Breadcrumbs path={path} />
-        <Overview {...overviewProps} />
+        {overviewComp || <Overview {...overviewProps} />}
+
         <ImageTextSection data={data} dataLabel={dataLabel} />
         <Features
           data={featuresData}
@@ -107,14 +128,16 @@ function Hero({
 }) {
   return (
     <ContentContainer bgImage={heroImg}>
-      <div className="md:min-h-[40vh] min-h-[30vh] flex justify-center items-center px-5 md:px-0 py-5">
+      <div className="md:min-h-[40vh] min-h-[30vh] flex justify-center items-center py-5">
         <div className="flex flex-col items-start">
           <h1 className="text-white text-center md:text-[55px] text-4xl font-extrabold leading-tight">
             {heroTitle}
           </h1>
-          <p className="text-white text-center md:text-xl text-lg ">
-            {heroDescription}
-          </p>
+          {heroDescription && (
+            <p className="text-white text-center md:text-xl text-lg ">
+              {heroDescription}
+            </p>
+          )}
         </div>
       </div>
     </ContentContainer>
@@ -126,18 +149,20 @@ function Overview({
   overviewDescription,
   downloadLink,
   videoLink,
+  downloadLinkLabel,
+  useVideoIconInDownloadbtn,
 }: {
   setIsModalOpen: (x: boolean) => void;
   overviewDescription: string | GenericElements;
   downloadLink?: string;
   videoLink?: string;
+  downloadLinkLabel: string;
+  useVideoIconInDownloadbtn: boolean;
 }) {
   return (
     <ContentContainer>
-      <h3 className="px-5 md:px-0 mb-5 text-2xl lg:text-4xl font-semibold">
-        Overview
-      </h3>
-      <div className="px-5 md:px-0 ">
+      <h3 className="mb-5 text-2xl lg:text-4xl font-semibold">Overview</h3>
+      <div>
         <div className="border-b border-gray-300 pb-10">
           <div className="lg:p-10 p-5 bg-gray-100 flex flex-col lg:flex-row gap-5 lg:gap-20 justify-between">
             {overviewDescription}
@@ -148,11 +173,19 @@ function Overview({
                 }/12`}
               >
                 {downloadLink && (
-                  <Link href={downloadLink} target="_blank">
+                  <Link
+                    href={downloadLink}
+                    target={useVideoIconInDownloadbtn ? "" : "_blank"}
+                  >
                     <div className="flex gap-5 items-center">
-                      <Image src={documentIcon} alt="" />
+                      <Image
+                        src={
+                          useVideoIconInDownloadbtn ? videoIcon : documentIcon
+                        }
+                        alt=""
+                      />
                       <p className=" text-[#8C340D] font-semibold">
-                        Download Overview
+                        {downloadLinkLabel}
                       </p>
                     </div>
                   </Link>
@@ -205,7 +238,7 @@ function Features({
 
   return (
     <ContentContainer isBgPrimary>
-      <div className={"px-5 md:px-0 py-10" + (!!isOther ? "pt-0" : "")}>
+      <div className={"py-10" + (!!isOther ? "pt-0" : "")}>
         <h3 className="text-white text-2xl lg:text-4xl font-semibold">
           {title}
         </h3>

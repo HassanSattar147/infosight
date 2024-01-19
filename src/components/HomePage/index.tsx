@@ -1,20 +1,14 @@
 "use client";
 import React from "react";
-import { useState } from "react";
 import HeroSection from "./sub/HeroSection";
-import NavBar from "../Elements/NavBar";
 import Latest from "./sub/Latest";
 import OurServices from "./sub/OurServices";
 import IndustryServices from "./sub/IndustryServices";
-import Footer from "../Elements/Footer";
-import FutureOrangeButtons from "../Elements/FutureOrangButtons";
 import TesimonialsComp from "./sub/TesimonialComp";
 import WeAre from "./sub/WeAre";
 import PageLayout from "../PageLayout/index";
 
 const HomePage = () => {
-  const [open, setOpen] = React.useState(false);
-
   React.useEffect(() => {
     document.title = "InfoSight Network & Cybersecurity & Training Solutions";
   }, []);
@@ -24,7 +18,7 @@ const HomePage = () => {
       hideWeProvide
       hideOurServices
       hideWhyInfoSight
-      hideFooterFutureSection
+      isFutureBtnOrange
     >
       <HeroSection />
       <Latest />
@@ -32,7 +26,6 @@ const HomePage = () => {
       <OurServices heading="What we Provide" />
       <IndustryServices />
       <TesimonialsComp />
-      <FutureOrangeButtons />
     </PageLayout>
   );
 };

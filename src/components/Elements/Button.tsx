@@ -2,18 +2,25 @@ import React, { CSSProperties } from "react";
 
 const Button = ({
   text,
-  style,
   onClick,
+  variant = "black",
+  style,
 }: {
   text: string;
-  style?: CSSProperties;
   onClick?: React.MouseEventHandler<HTMLButtonElement>;
+  variant?: "black" | "orange";
+  style?: CSSProperties;
 }) => {
+  const btnColors =
+    variant === "orange"
+      ? "bg-[#EC6A30] hover:bg-[#d8622c]"
+      : "bg-[#000000] hover:bg-[#222]";
+
   return (
     <button
-      className="bg-[#EC6A30] hover:bg-[#d8622c] px-5 py-2 text-white rounded-md"
-      style={style}
+      className={"px-5 py-2 text-white rounded-md " + btnColors}
       onClick={onClick}
+      style={style}
     >
       {text}
     </button>

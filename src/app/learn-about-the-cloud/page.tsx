@@ -108,6 +108,7 @@ const page = () => {
         </p>
       }
       downloadLink={`https://www.infosightinc.com/pdf/LearnCloud-Course-Catalog-InfoSight.pdf`}
+      downloadLinkLabel="View Course Catalog"
       data={CLOUDMS_DATA}
       dataLabel={"CLOUDMS_DATA"}
       featuresData={CLOUD_FEATURES_DATA}

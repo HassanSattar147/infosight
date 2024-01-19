@@ -5,6 +5,7 @@ import heroImg from "/public/audit/Audit-img.png";
 import auditInfoImg1 from "/public/audit/Audit-info-img1.png";
 import auditInfoImg2 from "/public/audit/Audit-info-img2.png";
 import Image from "next/image";
+import ContentContainer from "@/components/Elements/ContentContainer";
 
 const ITAUDIT_DATA = [
   {
@@ -34,12 +35,12 @@ const page = () => {
       heroDescription="The compliance service ensures that a business adheres to external
       rules and internal controls."
       path={`Home / Advisory Services / Audit & Assurance / IT Audit`}
-      overviewDescription={
-        <>
-          <h1 className="px-5 md:px-0 text-2xl lg:text-4xl font-semibold">
+      overviewComp={
+        <ContentContainer>
+          <h2 className="text-2xl lg:text-4xl font-semibold mb-5 mt-5">
             IT Audit
-          </h1>
-          <div className="px-5 md:px-0">
+          </h2>
+          <div>
             <p>
               InfoSight conducts IT Audits under ISACA (Information Systems
               Audit and Control Association) standards to provide your
@@ -53,9 +54,16 @@ const page = () => {
               provide you with a one stop shop in planning, testing and
               reporting activities.
             </p>
-            <Image src={auditInfoImg1} alt="" className="w-full pt-3" />
+            <div
+              className="ImageText__img mt-6"
+              style={{
+                backgroundImage: `url(${auditInfoImg1.src})`,
+                height: "350px",
+              }}
+            />
           </div>
-        </>
+          <hr className="mt-10 mb-5" />
+        </ContentContainer>
       }
       data={ITAUDIT_DATA}
       dataLabel={"ITAUDIT_DATA"}
