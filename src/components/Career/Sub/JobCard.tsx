@@ -21,15 +21,7 @@ const JobCard = ({ title, description, tag }: Prop) => {
         </div>
         <div className="mt-8 lg:mt-0">
           <Link href={"contact"}>
-            <Button
-              text="Contact Us"
-              style={{
-                color: "white",
-                backgroundColor: "black",
-                padding: "10px 25px",
-                borderRadius: "10px",
-              }}
-            />
+            <Button text="Contact Us" />
           </Link>
         </div>
       </div>

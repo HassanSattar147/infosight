@@ -5,9 +5,13 @@ import ContentContainer from "./ContentContainer";
 
 interface Props {
   hideFutureBtns?: boolean;
+  isBtnOrange: boolean;
 }
 
-const FutureBlackButtons: React.FC<Props> = ({ hideFutureBtns = false }) => {
+const FutureBlackButtons: React.FC<Props> = ({
+  hideFutureBtns = false,
+  isBtnOrange,
+}) => {
   return (
     <ContentContainer isBgPrimary>
       <div className="py-5 md:py-10 lg:py-20">
@@ -22,12 +26,7 @@ const FutureBlackButtons: React.FC<Props> = ({ hideFutureBtns = false }) => {
               <Link href="contact">
                 <Button
                   text="Contact Us"
-                  style={{
-                    color: "white",
-                    backgroundColor: "black",
-                    padding: "10px 25px",
-                    borderRadius: "10px",
-                  }}
+                  variant={isBtnOrange ? "orange" : "black"}
                 />
               </Link>
             </div>

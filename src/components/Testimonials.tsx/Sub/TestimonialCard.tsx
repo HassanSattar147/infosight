@@ -131,11 +131,7 @@ const TestimonialCard = () => {
       </div>
       {showingCount > TESINOMIALS_DATA.length ? null : (
         <div className="mb-10 text-center">
-          <Button
-            text="Load More"
-            style={{ backgroundColor: "black" }}
-            onClick={handleLoadMore}
-          />
+          <Button text="Load More" onClick={handleLoadMore} />
         </div>
       )}
     </div>
