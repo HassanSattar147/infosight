@@ -51,7 +51,7 @@ const page = () => {
           practical guidance and critical considerations in preparing for a
           cyber incident. A cybersecurity Incident Response Plan (IRP) enables
           an organization to take swift, effective action to minimize damage on
-          all levels. It's crucial for organizations to protect themselves
+          all levels. It&apos;s crucial for organizations to protect themselves
           against cyber threats and recover quickly in case of a security
           breach.
         </p>

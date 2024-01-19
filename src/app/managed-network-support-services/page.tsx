@@ -58,7 +58,7 @@ const page = () => {
       overviewDescription={
         <>
           <p className="text-[#444444]">
-            Today's networks are hybrid environments that combine a mix of
+            Today&apos;s networks are hybrid environments that combine a mix of
             traditional data centers and cloud estates. Additionally, most
             environments are a heterogenous mix of many different vendor
             technology solutions with no single management platform.

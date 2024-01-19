@@ -47,8 +47,8 @@ const page = () => {
         <>
           <p className="text-[#444444]">
             Is your team tired of managing Azure Sentinel, Splunk, or another
-            XDRs or SIEM? Hand us the keys! We'll manage it and maintain it and
-            deliver SOCaaS if you need it too!
+            XDRs or SIEM? Hand us the keys! We&apos;ll manage it and maintain it
+            and deliver SOCaaS if you need it too!
           </p>
         </>
       }

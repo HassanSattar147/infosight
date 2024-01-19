@@ -16,8 +16,8 @@ const WEB_APP_DATA = [
           Design & Develop
         </h4>
         <p className="text-gray-900 text-sm lg:text-base py-1 text-justify">
-          We'll assess your run time environment and check for security flaws
-          introduced during coding. This step plays an important role in
+          We&apos;ll assess your run time environment and check for security
+          flaws introduced during coding. This step plays an important role in
           building strong applications.
         </p>
         <h4 className="text-gray-900 text-sm lg:text-base pt-3 font-semibold pb-1 text-justify">
@@ -66,12 +66,12 @@ const page = () => {
       Application Assessments`}
       overviewDescription={
         <p className="text-[#444444]">
-          InfoSight's Web Application Assessment provides the most complete and
-          effective suite of security testing to protect against a wide range of
-          vulnerabilities and sophisticated cyberattacks. Our comprehensive
-          testing will provide both detailed technical remediation reporting for
-          internal teams, and an executive-level report that can be shared to
-          demonstrate your applications' security.
+          InfoSight&apos;s Web Application Assessment provides the most complete
+          and effective suite of security testing to protect against a wide
+          range of vulnerabilities and sophisticated cyberattacks. Our
+          comprehensive testing will provide both detailed technical remediation
+          reporting for internal teams, and an executive-level report that can
+          be shared to demonstrate your applications&apos; security.
         </p>
       }
       downloadLink={`https://www.infosightinc.com/pdf/InfoSight-Web-Application-Testing.pdf`}

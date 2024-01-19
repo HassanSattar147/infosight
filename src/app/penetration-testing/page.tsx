@@ -48,13 +48,13 @@ const page = () => {
       Testing`}
       overviewDescription={
         <p className=" text-[#444444] lg:w-8/12">
-          InfoSight's Penetration Testing services reduce the risk of successful
-          cyberattacks by attempting to exploit identified vulnerabilities
-          before a bad actor does. With over two decades of experience in
-          security, compliance and risk management, our experts work to identify
-          security issues beyond the capability of automated tools and
-          assessments/tests. As AI continues to evolve, cyberattacks will
-          continue to become more complex requiring a systemic approach to
+          InfoSight&apos;s Penetration Testing services reduce the risk of
+          successful cyberattacks by attempting to exploit identified
+          vulnerabilities before a bad actor does. With over two decades of
+          experience in security, compliance and risk management, our experts
+          work to identify security issues beyond the capability of automated
+          tools and assessments/tests. As AI continues to evolve, cyberattacks
+          will continue to become more complex requiring a systemic approach to
           testing.
         </p>
       }

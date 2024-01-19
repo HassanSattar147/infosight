@@ -48,14 +48,14 @@ const page = () => {
           <div>
             <p>
               An IT audit, or an Information Technology audit, is a systematic
-              evaluation and examination of an organization's information
+              evaluation and examination of an organization&apos;s information
               technology systems, processes, policies, and controls. The primary
               purpose of an IT audit is to assess the effectiveness, security,
-              and compliance of an organization's IT environment. IT audits can
-              encompass a wide range of areas within the IT domain, including,
-              Information Security, Data Management, Network Infrastructure,
-              Application Controls, Compliance with Regulations, Risk
-              Management, Change Management, Incident Response, Business
+              and compliance of an organization&apos;s IT environment. IT audits
+              can encompass a wide range of areas within the IT domain,
+              including, Information Security, Data Management, Network
+              Infrastructure, Application Controls, Compliance with Regulations,
+              Risk Management, Change Management, Incident Response, Business
               Continuity and Disaster Recovery, IT Governance, Vendor Management
               and Infrastructure and Asset Management.
             </p>

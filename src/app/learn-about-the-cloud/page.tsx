@@ -25,7 +25,7 @@ const CLOUDMS_DATA = [
     description: (
       <>
         <p className="py-2">
-          InfoSight's LearnCloud LMS can become your portal and includes:
+          InfoSight&apos;s LearnCloud LMS can become your portal and includes:
         </p>
         <div className="px-1 flex">
           <span className="pr-2 text-gray-600">&bull;</span>
@@ -95,10 +95,11 @@ const page = () => {
       path={`Home / Services & Solutions / Training & Education / Learn Cloud LMS`}
       overviewDescription={
         <p className="text-[#444444]">
-          InfoSight's LearnCloud Learning Management System (LMS) is a learning
-          platform that allows you to deliver training content to students and
-          track their progress. Additionally, with the online policy module,
-          employees can be digitally attest to company policies, handbooks, etc.
+          InfoSight&apos;s LearnCloud Learning Management System (LMS) is a
+          learning platform that allows you to deliver training content to
+          students and track their progress. Additionally, with the online
+          policy module, employees can be digitally attest to company policies,
+          handbooks, etc.
         </p>
       }
       downloadLink={`https://www.infosightinc.com/pdf/LearnCloud-Course-Catalog-InfoSight.pdf`}

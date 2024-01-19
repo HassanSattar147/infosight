@@ -46,9 +46,9 @@ const page = () => {
       overviewDescription={
         <p>
           Business Continuity and Disaster Recovery Planning (BCP/R) are
-          critical for an organization's resilience, risk management, and
+          critical for an organization&apos;s resilience, risk management, and
           ability to navigate unexpected challenges. They not only protect the
-          organization's assets and data but also contribute to its overall
+          organization&apos;s assets and data but also contribute to its overall
           stability, reputation, and long-term success.
         </p>
       }

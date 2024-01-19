@@ -58,11 +58,11 @@ const page = () => {
         <p>
           InfoSight takes a holistic approach to Enterprise Risk Management
           (ERM) by developing strategies to mitigate risks at an enterprise
-          level across the entire organization. InfoSight's experts work with
-          you and your risk management team leveraging a risk-based approach to
-          help you make well-informed risk management decisions that align with
-          your business operations. This approach assists in justifying
-          investments in the risk management process.
+          level across the entire organization. InfoSight&apos;s experts work
+          with you and your risk management team leveraging a risk-based
+          approach to help you make well-informed risk management decisions that
+          align with your business operations. This approach assists in
+          justifying investments in the risk management process.
         </p>
       }
       data={RISK_MANAGEMENT_DATA}
