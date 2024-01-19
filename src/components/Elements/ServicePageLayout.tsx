@@ -74,7 +74,13 @@ const ServicePageLayout = ({
           title={featureTitle}
           description={featuresDescription}
         />
-        <Features data={otherFeaturesData} title={otherFeatureTitle} isOther />
+        {otherFeaturesData && (
+          <Features
+            data={otherFeaturesData}
+            title={otherFeatureTitle}
+            isOther
+          />
+        )}
       </PageLayout>
 
       {videoLink && (
@@ -177,19 +183,37 @@ function Features({
   isOther = false,
   description,
 }: {
-  data?: string[];
+  data: string[];
   title?: string;
   isOther?: boolean;
   description?: string | GenericElements;
 }) {
   if (!data) return null;
+
+  const getGridClass = () => {
+    const numberOfFeatures = data.length;
+    const twoCols = [2, 4];
+    const threeCols = [3, 5, 6, 9, 13, 15, 17, 18];
+
+    const isTwoCols = twoCols.includes(numberOfFeatures);
+    const isThreeCols = threeCols.includes(numberOfFeatures);
+
+    const gridNum = isTwoCols ? 2 : isThreeCols ? 3 : 4;
+
+    return ` lg:grid-cols-${gridNum} `;
+  };
+
   return (
     <ContentContainer isBgPrimary>
       <div className={"px-5 md:px-0 py-10" + (!!isOther ? "pt-0" : "")}>
         <h3 className="text-white text-2xl lg:text-4xl font-semibold">
           {title}
         </h3>
-        <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-5 py-5 lg:py-10">
+        <div
+          className={
+            "py-5 lg:py-10 grid gap-5 md:grid-cols-2 " + getGridClass()
+          }
+        >
           {data.map((el, i) => {
             const key = el.substring(0, 10) + i;
 

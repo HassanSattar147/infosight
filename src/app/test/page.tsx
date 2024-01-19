@@ -38,6 +38,14 @@ const PATCH_VULNERABILITY_FEATURES_DATA = [
   "Vulnerability Management",
 ];
 
+const PATCH_VULNERABILITY_FEATURES_DATA2 = [
+  "Windows/Linux Server and Workstation Patches",
+  "3rd party application patches",
+  "Windows/Linux Server and Workstation Patches",
+  "3rd party application patches",
+  "Windows/Linux Server and Workstation Patches",
+];
+
 const page = () => {
   return (
     <ServicePageLayout
@@ -58,11 +66,11 @@ const page = () => {
       dataLabel={"PATCH_VULNERABILITY_DATA"}
       featuresData={PATCH_VULNERABILITY_FEATURES_DATA}
       featureTitle={"Key Service Features"}
-      otherFeaturesData={[
-        ...PATCH_VULNERABILITY_FEATURES_DATA,
-        ...PATCH_VULNERABILITY_FEATURES_DATA,
-      ]}
-      otherFeatureTitle={"Other Key Service Features"}
+      otherFeaturesData={PATCH_VULNERABILITY_FEATURES_DATA2}
+      otherFeatureTitle={
+        "Other Key Service Features " +
+        PATCH_VULNERABILITY_FEATURES_DATA2.length
+      }
     />
   );
 };
