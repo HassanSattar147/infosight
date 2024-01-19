@@ -117,7 +117,7 @@ const ServicePageLayout = ({
 
 export default ServicePageLayout;
 
-function Hero({
+export function Hero({
   heroImg,
   heroTitle,
   heroDescription,
@@ -134,7 +134,7 @@ function Hero({
             {heroTitle}
           </h1>
           {heroDescription && (
-            <p className="text-white text-center md:text-xl text-lg ">
+            <p className="text-white text-center md:text-left md:text-xl text-lg ">
               {heroDescription}
             </p>
           )}
