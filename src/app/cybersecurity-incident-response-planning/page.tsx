@@ -11,27 +11,30 @@ const CYBERSECURITY_IRPM_DATA = [
     img: infoImg1,
     title: "The Challenge",
     description:
-      "Having a safe and secure environment is a must but so is knowing what to do in case a successful cyber breach occurs. A cybersecurity Incident Response Plan provides utilities with practical guidance and critical considerations in preparing for a cyber incident. A cybersecurity Incident Response Plan enables staff to take swift, effective action.",
+      "With AI -assisted Social Engineering attacks, and new Deep Fakes almost impossible to detect, it's not a matter of if you'll have an incident, just when. There is also a call for the government to outlaw ransomware payments, what then?! If it becomes a crime to pay to get your data back, you'd better have a solid Incident Response Plan (IRP). The key is to become Cyberresllient, where responding to an attack is swift and effective yet collateral damage is limited. However, achieving the goal with limited resources and budget is the challenge. ",
   },
   {
     img: infoImg2,
     title: "How We Solve It",
     description:
-      "InfoSight identifies the external response organizations—including law enforcement, information sharing organizations, and cyber mutual assistance groups—the utility might engage during cyber incident response, particularly for severe incidents that outpace utility resources and expertise. Our staff collaborates with your team to outline your incident response requirements as well as timelines in case of an emergency.",
+      "InfoSight's 18-step methodology helps organizations identify, assess, and quantify risks to create an IRP that is truly effective. From Risk Analysis and 3rd party collaboration to testing and maintenance, our approach is comprehensive. Our staff collaborates with your team to create an IRP that is unique to your organization.",
   },
   {
     img: infoImg3,
     title: "The Outcome",
     description:
-      "Once your Cybersecurity Incident Response Plan is in place your organization will have a strategic plan in case an attack were to occur.",
+      "InfoSight's cybersecurity Incident Response Planning & Management will ensure your organization is truly Cyberresllient and your data is protected. We'll help you create cyberresiliency through an ongoing process that helps you assess cybersecurity posture routinely to adapt to emerging threats to stay ahead of cybercriminals. ",
   },
 ];
 
 const CYBERSECURITYIRPM_FEATURES_DATA = [
-  "Understand your system and environment",
-  "Identify the response procedures the CERT will take to investigate, contain, eradicate, and recover from a variety of different incidents",
-  "Develop strategic communication procedures for cyber incidents.",
-  "Define response procedures and responsibilities of the utility's legal team during cyber incident investigation and response.",
+  "Improve your Information Security Program",
+  "Provide Independent Oversight of IT Security Controls",
+  "Perform Annual IT Security Risk Assessments",
+  "Leverage the Most Current Threat Mitigation Strategies",
+  "Assist in Security Process Development & Incident Response Planning",
+  "Provide Recommendations & Reporting",
+  "Enhance & Integrate IT/InfoSec Policies & Procedures",
 ];
 
 const page = () => {
@@ -44,10 +47,13 @@ const page = () => {
       Cybersecurity Incident Response Planning & Management`}
       overviewDescription={
         <p className="text-[#444444]">
-          InfoSight&apos;s cybersecurity Incident Response Planning & Management
-          will continuously ensure your environment is protected and your
-          organization&apos;s data is secure as well as make sure you are up to
-          date on industry compliance.
+          A cybersecurity Incident Response Plan provides organizations with
+          practical guidance and critical considerations in preparing for a
+          cyber incident. A cybersecurity Incident Response Plan (IRP) enables
+          an organization to take swift, effective action to minimize damage on
+          all levels. It&apos;s crucial for organizations to protect themselves
+          against cyber threats and recover quickly in case of a security
+          breach.
         </p>
       }
       data={CYBERSECURITY_IRPM_DATA}

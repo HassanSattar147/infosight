@@ -38,10 +38,6 @@ const FOOTER_DATA = [
     title: "Quick Links",
     items: [
       {
-        text: "24 x 7 Managed Detection & Response",
-        link: "/24x7-managed-detection-&-response",
-      },
-      {
         text: "Managed EDR",
         link: "/managed-edr",
       },

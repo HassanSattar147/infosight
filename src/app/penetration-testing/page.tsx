@@ -11,19 +11,19 @@ const PENETRATION_DATA = [
     img: infoImg1,
     title: "The Challenge",
     description:
-      "Today all organizations across every industry face the risks of cybercriminals and breached networks. Regular penetration testing is crucial to ensure network security against sophisticated attackers. We understand it is difficult to find a trustworthy third party that understands your industry specific compliance as well as your overall security system. That's where we come in.",
+      "Today all organizations face the risks of ransomware attacks and AI-powered cyber-attacks. Staying ahead of bad actors often seems like a losing battle. That's where we come in!",
   },
   {
     img: infoImg2,
     title: "How We Solve It",
     description:
-      "InfoSight's experienced engineers test your network manually to identify the extent your system could currently be compromised by a real-life attacker. Our penetration testing service can be used to test your security policy compliance, the effectiveness of your employee security awareness training and your organization's ability to identify and respond to security incidents. InfoSight provides remediation reports going in-depth on steps to take your overall security to the next level. Our team can act as an extension of your team to assist in the remediation process to ensure cybersecurity right away.",
+      "Our expert security assessors test your network to identify vulnerabilities that could be exploited by a bad actor. Our assessments are goal-oriented and designed to test not just your Network, but also your Applications, APIs, Mobile Apps, Web Apps and SCADA/ICS Networks, as well as your organization's ability to respond to security incidents. Our reports are comprehensive, providing both in-depth technical reports that include exploit videos and remediation instructions. Additionally, executive-level reporting. Is provided to suit your C-Suite, BOD, and 3rd party audit audiences.",
   },
   {
     img: infoImg3,
     title: "The Outcome",
     description:
-      "InfoSight's security experts conduct real-world attacks to determine your security weaknesses. Our extensive knowledge of the most current attack vectors, along with our expertise network types including on-premise Data Centers, Cloud or Hybrid environments will provide the assurance and confidence you need. This enables your team to concentrate on day-to-day business rather than on the discovery of potential network security risks.",
+      "Our comprehensive assessments leverage over 2 decades of experience and knowledge of the most current attack vectors including AI, to deliver the most actionable data. Our personalized approach will help quantify your cyber risk, prioritize the most critical threats, and create a continuous threat exposure management roadmap.",
   },
 ];
 
@@ -35,7 +35,7 @@ const PENETRATION_FEATURES_DATA = [
   "Reduce the risk of a successful attack before it occurs",
   "Goes beyond typical penetration testing to involve mission-oriented Red Teaming operations",
   "Prioritize your risks and quickly take the right preventative measures",
-  "Vulnerability Management",
+  "Assists in implementing a Continuous Threat Exposure Management (CTEM) strategy",
 ];
 
 const page = () => {
@@ -48,13 +48,14 @@ const page = () => {
       Testing`}
       overviewDescription={
         <p className=" text-[#444444] lg:w-8/12">
-          InfoSight&apos;s Penetration Testing services reduce the risk of a
-          successful attacks before they occur. With over two decades of
+          InfoSight&apos;s Penetration Testing services reduce the risk of
+          successful cyberattacks by attempting to exploit identified
+          vulnerabilities before a bad actor does. With over two decades of
           experience in security, compliance and risk management, our experts
-          work as ethical hackers to identify security issues beyond the
-          capability of automated tools and assessments/tests. As cyberattacks
-          continue to rise everyday it is important to perform penetration tests
-          regularly.
+          work to identify security issues beyond the capability of automated
+          tools and assessments/tests. As AI continues to evolve, cyberattacks
+          will continue to become more complex requiring a systemic approach to
+          testing.
         </p>
       }
       downloadLink={`https://www.infosightinc.com/pdf/InfoSight-Penetration-Testing.pdf`}

@@ -11,18 +11,18 @@ const VIRTUAL_INFO_DATA = [
     img: infoImg1,
     title: "The Challenge",
     description:
-      "Most organizations face budget constraints and/or their corporate structure doesn't support adding a full-time senior executive for information and cyber security management. This leaves many organizations at risk. Cyberattacks stop at nothing and no industry is immune.",
+      "Most organizations need an ISO, but maybe not full-time. Or with ISOs in such high demand and with salaries on the rise, can't afford a full-time resource. This can leave an organization in a conundrum, because cyberattacks stop at nothing and no industry is immune. So, what to do?",
   },
   {
     img: infoImg2,
     title: "How We Solve It",
     description:
-      "We provide your organization with a Virtual ISO who serves as an extension of your business and is responsible for making recommendations for the development, implementation and management of your organization's corporate security vision, strategy, and programs. Your appointed VISO is retained on a contractual basis and facilitates conversations that lead to executive critical decision-making related to information security issues. Our Tactical VISO Program offers an ISO in an advisory roe to review organizational security policies, processes and reporting. Whereas our Strategic VISO Program combines our Tactical VISO Program with added organizational oversight, mitigation activity tracking, resource assignments and risk assessment preparation utilizing our GRC (Governance, Risk & Compliance) Platform.",
+      "We provide organizations with a Virtual ISO (vISO) who serves as an extension of your team and is responsible for making recommendations for the development, implementation, and management of your organization's corporate security vision. Your vISO is retained on a contractual basis and facilitates conversations that lead to executive critical decision-making related to information security issues. Our Tactical & Strategic vISO Programs include organizational oversight, mitigation tracking, resource assignments and risk assessments, audit preparation utilizing our GRC Platform.",
   },
 ];
 
 const VINFO_FEATURES_DATA = [
-  "Reduce Costs by Maximizing IT Budget & Strategic Planning",
+  "Improve your Information Security Program",
   "Provide Independent Oversight of IT Security Controls",
   "Perform Annual IT Security Risk Assessments",
   "Leverage the Most Current Threat Mitigation Strategies",
@@ -41,13 +41,12 @@ const page = () => {
       Information Security Officer (VISO)`}
       overviewDescription={
         <p className="lg:w-11/12 text-[#444444]">
-          Today, Information Security Officer (ISO) resources are stretched thin
-          due to limited staff and tight cybersecurity budgets. The need for an
-          ISO is critical but can be overlooked because of budget constraints.
-          When a crisis hits, valuable response times can be wasted figuring out
-          how to respond leaving your organization at risk of breached, data
-          stolen or worse held for ransom. You need a trained expert around
-          full-time.
+          Information Security Officers (ISO) are stretched thin due to limited
+          resources and tight cybersecurity budgets. The need for an ISO is
+          critical but can be minimized due to budget constraints. When a crisis
+          hits, valuable response time can be wasted figuring out how to respond
+          leaving your organization at risk. You need a trained expert around
+          full-time
         </p>
       }
       downloadLink={`https://www.infosightinc.com/pdf/InfoSight-VISO-2.pdf`}

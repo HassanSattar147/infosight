@@ -11,13 +11,13 @@ const MANAGED_EDR_DATA = [
     img: infoImg1,
     title: "The Challenge",
     description:
-      "Endpoints represent a significant security risk to all organization's no matter the industry. Relying solely on alerts to end users and overloaded network administrators is no longer the best and most effective method to protect against threats. Responding to endpoint-focused attacks has never been more challenging and is a 24x7 task that exhausts IT personnel.",
+      "Endpoints represent a significant security risk to all organizations no matter the industry. Relying solely on alerts to end users and overloaded network administrators is no longer the best and most effective method to protect against threats. Responding to endpoint-focused attacks has never been more challenging and is a 24x7 task that exhausts IT personnel.",
   },
   {
     img: infoImg2,
     title: "How We Solve It",
     description:
-      "InfoSight's EDR Service monitors triages and remediates malware attacks and infections and significantly enhances visibility of attacks targeting endpoint devices. Our trusted professional's quickly coordinate remediation support and incident response solutions through patterns and repetition as well as new adjustments for immediate endpoint protection saving your organization time and money.",
+      "InfoSight's EDR Service monitors triages and remediates malware attacks and infections and significantly enhances visibility of attacks targeting endpoint devices. Our trusted professionals quickly coordinate remediation support and incident response solutions through patterns and repetition as well as new adjustments for immediate endpoint protection saving your organization time and money.",
   },
   {
     img: infoImg3,
@@ -41,7 +41,7 @@ const page = () => {
     <ServicePageLayout
       pageTitle="Managed EDR | Infosight"
       heroImg={heroImg}
-      heroTitle={"Endpoint Detection & Response"}
+      heroTitle={"Managed Endpoint Detection and Response"}
       path={`Home / Services & Solutions / Managed Services / Managed EDR`}
       overviewDescription={
         <>

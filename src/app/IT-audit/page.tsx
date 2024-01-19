@@ -10,9 +10,16 @@ import ContentContainer from "@/components/Elements/ContentContainer";
 const ITAUDIT_DATA = [
   {
     img: auditInfoImg2,
+    title:
+      "What the difference between an IT Audit and a Vulnerability Assessment?”",
+    description:
+      "An IT audit and a vulnerability assessment are related but distinct processes that serve different purposes within the realm of information technology security and compliance. While both IT audits and vulnerability assessments play essential roles in ensuring the security and compliance of an organization's IT environment, they have distinct focuses and scopes. An IT audit provides a comprehensive evaluation of IT governance, security, and compliance, while a vulnerability assessment specifically identifies and quantifies vulnerabilities within the IT infrastructure. These assessments can complement each other, with the findings of a vulnerability assessment informing the broader IT audit process.",
+  },
+  {
+    img: auditInfoImg2,
     title: "Why are IT Audits Important?",
     description:
-      " IT Audits provide independent objective assurance that controls are working as they are intended. The scope of an IT Audit is determined by the results of a risk assessment that includes qualitative and quantitative criteria as well as historic and current information. IT Audits may also be required to demonstrate that all mitigation programs are working as intended. This can be a key element of monitoring and governance oversight.",
+      "IT audits are essential for several reasons, as they play a critical role in ensuring the security, compliance, and efficiency of an organization's information technology (IT) systems and processes. IT audits are a proactive and essential tool for organizations to assess and improve their IT security, compliance, and overall operational effectiveness. They help organizations identify and mitigate risks, enhance data protection, and ensure that IT practices align with business goals and regulatory requirements. By investing in IT audits, organizations can better protect their assets, reputation, and stakeholders' trust",
   },
 ];
 
@@ -31,28 +38,26 @@ const page = () => {
     <ServicePageLayout
       pageTitle="IT Audits under ISACA | Infosight"
       heroImg={heroImg}
-      heroTitle={"Audit & Assurance"}
-      heroDescription="The compliance service ensures that a business adheres to external
-      rules and internal controls."
+      heroTitle={"IT Audit"}
       path={`Home / Advisory Services / Audit & Assurance / IT Audit`}
       overviewComp={
         <ContentContainer>
           <h2 className="text-2xl lg:text-4xl font-semibold mb-5 mt-5">
-            IT Audit
+            What is an IT Audit?
           </h2>
           <div>
             <p>
-              InfoSight conducts IT Audits under ISACA (Information Systems
-              Audit and Control Association) standards to provide your
-              organization with the best planning, fieldwork, knowledge and
-              reporting on current IT systems, controls and processes to meet
-              your compliance requirements. InfoSight&apos;s experts understand
-              the requirements of general and industry specific guidelines and
-              compliance to ensure you a successful IT Audit unique to your
-              company. Our experts conduct your custom IT Audits around your
-              organization&apos;s standards, requirements and best practices to
-              provide you with a one stop shop in planning, testing and
-              reporting activities.
+              An IT audit, or an Information Technology audit, is a systematic
+              evaluation and examination of an organization&apos;s information
+              technology systems, processes, policies, and controls. The primary
+              purpose of an IT audit is to assess the effectiveness, security,
+              and compliance of an organization&apos;s IT environment. IT audits
+              can encompass a wide range of areas within the IT domain,
+              including, Information Security, Data Management, Network
+              Infrastructure, Application Controls, Compliance with Regulations,
+              Risk Management, Change Management, Incident Response, Business
+              Continuity and Disaster Recovery, IT Governance, Vendor Management
+              and Infrastructure and Asset Management.
             </p>
             <div
               className="ImageText__img mt-6"

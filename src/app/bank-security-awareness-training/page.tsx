@@ -11,19 +11,19 @@ const SECURITY_AWARENESS_DATA = [
     img: infoImg1,
     title: "The Challenge",
     description:
-      "Today financial services providers are extremely busy and don't have the time to train employees on the importance of security awareness. This could lead to accidental internal leaks, clicking on links that they shouldn't and giving out confidential information. All of these instances could hurt your banks overall security posture and cost your company thousands to fix.",
+      "Today, AI-enabled social engineering is creating deep fakes so good they are nearly impossible to spot! These threats are using social media to launch sophisticated phishing attacks - so, it's not a matter of if, but when a customer clicks… With cyberattacks on the rise, it is critical that your online banking clients can spot phishing attacks whether they are via email, SMS or voice-drive. Additionally, FFIEC compliance requirements mandate all institutions have an online banking client cybersecurity awareness and training program. That's where we come in!",
   },
   {
     img: infoImg2,
     title: "How We Solve It",
     description:
-      " InfoSight's CSAP (Cybersecurity Awareness Program) helps you educate your online banking customers about the dangers from bad actors that create ACH & wire fraud, malware, phishing and more. Our convenient web portal makes it easy to create awareness and train your online banking customers with a complete library of ready-to-use content and materials.",
+      "InfoSight's CSAP (Cyber Security Awareness Program) helps you educate your online banking customers about the dangers from bad actors with Videos, Newsletters, Email and Social Media and other vehicles. Our security awareness content is designed to protect your OLB customers from ACH & wire fraud, malware, phishing and more. Our convenient web portal makes it easy to create awareness and train your online banking customers with a complete library of ready-to-use content and materials.",
   },
   {
     img: infoImg3,
     title: "The Outcome",
     description:
-      "InfoSight's security experts refresh the content on our portal weekly to ensure you are getting the latest and greatest information. We offer a hands-on approach and a hands-off approach where your organization can pick and choose where you need our assistance or if you want to take the reins yourself! Our CSAP portal will leave your employees with the knowledge they need to be able to spot a cybercriminal and learn key tactics on how to avoid breaches.",
+      "Our CSAP program will give you the tools you need to create awareness and check compliance boxes at the same time. It will leave your customers with the knowledge they need to be able to spot fraud and learn key tactics on how to protect themselves from bad actors. ",
   },
 ];
 
@@ -45,18 +45,17 @@ const page = () => {
     <ServicePageLayout
       pageTitle="Bank Security Awareness Training | (877) 557-9703"
       heroImg={heroImg}
-      heroTitle={"Security Awareness Training for Online Banking"}
+      heroTitle={"Online Banking Cyber Security Awareness Program"}
       path={`Home / Services & Solutions / Training & Education / Security Awareness
       Training for Online Banking`}
       overviewDescription={
         <p className="text-[#444444]">
-          Your clients play a key role in protecting their own confidential but
-          sometimes they can be their own worst enemy. With cyberattacks on the
-          rise it is critical that your online banking clients are aware how to
-          prevent data breaches and cybercrime. Additionally, FFIEC compliance
-          requirements mandate all institutions have an online banking client
-          cybersecurity awareness and training program. That&apos;s where we
-          come in!
+          The FFIEC requires all financial institutions to provide security
+          awareness training and education for their online banking clients, and
+          that is exactly what our program is designed for - your OLB
+          client-base! Our targeted security awareness content for your both
+          commercial and retail customers is “delivery-ready” and can be
+          customized by our team or yours.
         </p>
       }
       downloadLink={`contact`}
