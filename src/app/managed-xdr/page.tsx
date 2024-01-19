@@ -11,19 +11,19 @@ const MANAGED_XDR_DATA = [
     img: infoImg1,
     title: "The Challenge",
     description:
-      "Having many different types of devices and data sources to monitor can put your organization at higher risk for a security incident. It can be overwhelming to monitor, analyze and respond to thousands of alerts each day. The threat analysis is a full-time job within itself and InfoSight wants to make it easier on you.",
+      "Many organizations have XDRs and SIEMs that are not fully implemented or optimized due to time and resource constraints. As a result, the platforms often have limited visibility and blind spots or worse, create alert fatigue for worked teams. That's where we come in!",
   },
   {
     img: infoImg2,
-    title: "How We Solve It",
+    title: "How We Deliver It",
     description:
-      "InfoSight's Managed XDR services, er take your data sources where our experts to monitor them from a “single pane of glass” 24x7x365. Additionally, Security Orchestration and Automation (SOAR) helps automate and speed up incident response and recovery in the instance of a breach. When data sources are normalized and no threats are apparent, our SOC analyst conduct threat hunting exercises to proactive look for threats.",
+      "Our SOC team can take over the keys and drive for you. With or without our SOCaaS, we can manage and maintain your XDR or SIEM platform with our US-based SOC team.",
   },
   {
     img: infoImg3,
     title: "The Outcome",
     description:
-      " You can be at ease 24x7x365 that InfoSight&apos;s Managed XDR services are at work even when you're not! Our Managed XDR can make response times quicker, smarter, more efficient, and more cost effective. Leveraging our XDR resources will allow you to experience better cybersecurity and act quickly on any threats that come your way!",
+      "Our Managed XDR can make response times quicker, more efficient, with expense. Leveraging our XDR resources will allow your team to focus on what matters in supporting the day-to-day operation.",
   },
 ];
 
@@ -32,8 +32,8 @@ const MANAGED_XDR_FEATURES_DATA = [
   "Cyber Incident Response",
   "Threat Intelligence",
   "Behavior Monitoring",
-  "Policy Creation & Management",
-  "Full scope services on any type of software, firewall or device",
+  "Run/Play book Maintenance",
+  "SOCaaS",
 ];
 
 const page = () => {
@@ -46,22 +46,9 @@ const page = () => {
       overviewDescription={
         <>
           <p className="text-[#444444]">
-            InfoSight&apos;s Managed Extended Detection & Response (XDR)
-            Services can detect and respond to incidents 24x7x365 regardless of
-            the source. Most organizations find it difficult to find the right
-            staff to monitor and manage their own detection and response systems
-            24x7x365. InfoSight&apos;s XDR services consolidates your
-            on-premise, hybrid and/or Cloud environments into one cohesive
-            overview to monitor and manage vulnerabilities.
-            <br />
-            <br />
-            Securing information assets and sensitive data is a complex task
-            that can only be achieved by understanding the threat environment
-            and employing the right technologies, processes, training and
-            people.
-            <br />
-            <br />
-            <span className="font-semibold">That&apos;s where WE come in!</span>
+            Is your team tired of managing Azure Sentinel, Splunk, or another
+            XDRs or SIEM? Hand us the keys! We'll manage it and maintain it and
+            deliver SOCaaS if you need it too!
           </p>
         </>
       }

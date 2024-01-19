@@ -3,27 +3,38 @@ import React from "react";
 import ServicePageLayout from "@/components/Elements/ServicePageLayout";
 import heroImg from "/public/services-solutions/Managed-XDR-img.png";
 import infoImg1 from "/public/services-solutions/Business-Planning-Disaster-Recovery-info-img1.png";
+import infoImg2 from "/public/services-solutions/Business-Planning-Disaster-Recovery-info-img2.png";
+import infoImg3 from "/public/services-solutions/Business-Planning-Disaster-Recovery-info-img3.png";
 
 const MUCCCS_DATA = [
   {
     img: infoImg1,
-    title:
-      "Why are InfoSight's Unified Communications, Collaboration & Connect Services Important?",
+    title: "The Challenge",
     description:
-      "InfoSight's Managed Unified Communications, Collaboration & Connect Support Services can provide the appropriate skillsets to achieve the ideal level of UCC acumen required for your specific environment. We employ a personalized approach to design the ideal Managed Unified Communications, Collaboration & Connect Services program for your business to achieve the best possible outcome.",
+      "Traditional phone systems are hardware-driven, inflexible and have a high cost of ownership. Also, they rarely support video and when they do it unaffordable! Additionally, they are often proprietary so migrating from one platform to another requires a forklift!",
+  },
+  {
+    img: infoImg2,
+    title: "How We Solve It",
+    description:
+      "Microsoft Teams with a phone plan allows you to use your existing workstations to seamlessly have voice conversations with video and messaging all from the same platform, all at one time. You can also include contact center for larger environments",
+  },
+  {
+    img: infoImg3,
+    title: "The Outcome",
+    description:
+      "A voice and vide platforms for today that supports your workforce no matter where they are! ",
   },
 ];
 
 const MUCCCS_FEATURES_DATA = [
-  "24x7x365 UCC infrastructure monitoring covering IP Telephony, Messaging, Multi-media Video Conferencing, and Contact Center that leverages Artificial Intelligence (AI).",
-  "On-demand implementation of new technologies to remain agile",
-  "Support for multi-vendor connectivity platforms, SOHO integration, and business analytics and reporting",
-  "Multi-vendor case management",
-  "AWS Connect, AWS Chime, AWS Workspaces",
-  "Technical Human Capital with multi-vendor experience to satisfy any level of network operations and management complexity",
-  "A flexible support and services model to complement any size in-house IT team",
-  "Run/Playbook creation and maintenance",
-  "Shoretel/Mitel, Cisco",
+  "Cloud-based phone system",
+  "Includes phone number with metered outbound calling minutes from Microsoft",
+  "Unlimited inbound calling",
+  "Call queue, auto attendant, recording, transcription, transfer between devices",
+  "Unlimited meetings and messaging",
+  "File sharing, tasks, and polling",
+  "10 GB of cloud storage per user",
 ];
 
 const page = () => {
@@ -31,22 +42,16 @@ const page = () => {
     <ServicePageLayout
       pageTitle="Managed Communications | infoSight"
       heroImg={heroImg}
-      heroTitle={"Managed Extended Detection & Response (XDR)"}
+      heroTitle={"Microsoft Teams Essentials With Voice"}
       path={`Home / Services & Solutions / Managed Services / Managed Unified
       Communications, Collaboration & Connect Services`}
       overviewDescription={
         <>
           <p className="text-[#444444]">
-            Today more than ever, workforces need to be agile enough to work
-            from anywhere and still maintain the same level of operational
-            efficiency and creativity. Unified communications and collaboration
-            (UCC) facilitates the convergence of disparate voice, video, contact
-            center, and collaboration service networks creating a virtual
-            workforce. However, UCC technological complexities can be a drain on
-            internal resources, which can be overrun with the sheer volume of
-            operational support requirements. This ever-evolving virtual
-            workforce initiative can be very difficult for many IT teams to
-            deploy and manage.
+            Using Microsoft Team Essentials with Microsoft Team Phone, you can
+            power business growth by combining the collaboration tools your
+            business needs with the advanced phone connectivity options to keep
+            your employees connected.
           </p>
         </>
       }
