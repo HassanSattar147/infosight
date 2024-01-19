@@ -37,7 +37,7 @@ const page = () => {
     <ServicePageLayout
       pageTitle="SECaaS"
       heroImg={heroImg}
-      heroTitle={"Security as a Service (SECaaS)"}
+      heroTitle={"Mitigator Vulnerability & Threat Management Platform"}
       path={`Home / Services & Solutions / SECaaS`}
       overviewDescription={
         <p>

@@ -11,19 +11,19 @@ const PLANNING_DISASTER_DATA = [
     img: infoImg1,
     title: "The Challenge",
     description:
-      "In today's world we have both a war against cybercrime and the need for systems services to be available 24x7x365., To further exasperate this challenge is a tighter budget and fewer resources. Additionally, having a plan that addresses all risk, even Pandemics is critical to success!",
+      "BCP/R planning requires great effort and significant resources because it involves every person, process, and function of an organization. It presents challenges such as resource constraints, data management, regulatory compliance, vendor dependencies, supply chain resilience, crisis management and of course, cybersecurity.  Taking all these things into consideration makes the challenge almost too much for many organizations due to a lack of resources, limited budget, and executive support. Additionally, most organizations don't have a Certified Business Continuity Planning (CBCP) on staff.",
   },
   {
     img: infoImg2,
     title: "How We Solve It",
     description:
-      "We recognize that BCP & DR planning isn't just about natural disaster, but also man-made events and pandemic circumstances never taken seriously in the past. Additionally, all BCP & DR plans should be cyber-resilient to protect against attacks by bad actors and even rogue employees. We provide you with a 5-step approach that to showcase current security posture by testing your network, recommending where to improve so we can come up with a strong plan and then continuously testing that plan to ensure it upholds against attacks.",
+      "We recognize that BCP & DR planning isn't only about natural disasters, but also human error,  pandemics and supply chain circumstances, so our goal is to look at each organizations' operations from an intimate perspective enabling our CBCPs to understand your business' unique operating characteristics. With our a 5-step approach we start with a Business Impact Analysis (BIA) and move through a Technology Assessment to determine if your IT/OT systems will support departmental Recovery Time Objectives (RTO) and Recover Point Objective (RPO) to ensure your technology solutions can deliver on your plan. Our deliverables include a BIA, Risk Assessment, Technology Assessment,  a BCP Framework document and Emergency Response Plan.",
   },
   {
     img: infoImg3,
     title: "The Outcome",
     description:
-      "A plan that is more than a document, but a workable plan you employees can follow to ensure successful operations during a crucial time. We develop not just a BCP document but an “Emergency Response Plan” your employees can actually follow! With our process you can feel secure knowing your organization has the most up to date plan to restore operations quickly.",
+      "InfoSight's Certified Business Continuity Planners (CBCP's) utilize decades of experience in BCP/DR experience to develop a customized plan for your organization that ensures you can continue operations before, during and after adverse events. We make recommendations along the way to improve processes, technology, and security to make your plan its very best. We deliver more than a BCP document, but a workable plan your employees can follow to ensure successful operations during a critical time.",
   },
 ];
 
@@ -45,11 +45,11 @@ const page = () => {
       Planning & Disaster Recovery`}
       overviewDescription={
         <p>
-          InfoSight&apos;s Certified Business Continuity Planners (CBCP&apos;s)
-          utilize years of experience in Business Continuity Planning and
-          Disaster Recovery experience to develop a specific plan for your
-          organization that ensures you can continue operations before, during
-          and after adverse events.
+          Business Continuity and Disaster Recovery Planning (BCP/R) are
+          critical for an organization's resilience, risk management, and
+          ability to navigate unexpected challenges. They not only protect the
+          organization's assets and data but also contribute to its overall
+          stability, reputation, and long-term success.
         </p>
       }
       downloadLink={`https://www.infosightinc.com/pdf/InfoSight-Business-Continuity-Planning.pdf`}
