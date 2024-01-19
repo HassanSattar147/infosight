@@ -3,7 +3,6 @@ import React from "react";
 import energyImg from "../../../../public/industries/industries-entertainment-img.png";
 import { CardProps } from "@/components/Elements/Card";
 import Cards from "@/components/Elements/Cards";
-import IndEnterProvide from "./IndEntertProvide";
 import ContentContainer from "@/components/Elements/ContentContainer";
 import { Features } from "@/components/Elements/ServicePageLayout";
 

@@ -1,7 +1,6 @@
 import Image from "next/image";
 import React from "react";
 import financialImg from "../../../../public/industries/industries-financial-img.png";
-import IndFinancialPr from "./IndustryProvide";
 import { CardProps } from "@/components/Elements/Card";
 import Cards from "@/components/Elements/Cards";
 import ContentContainer from "@/components/Elements/ContentContainer";

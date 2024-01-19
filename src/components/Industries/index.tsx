@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-import IndustriesHero from "./Sub/IndustriesHero";
 import OurServices from "../HomePage/sub/OurServices";
 import FinancialCard from "./Sub/FinancialCard";
 import EnergyElectric from "./Sub/EnergyElectric";

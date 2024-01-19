@@ -1,7 +1,6 @@
 import Image from "next/image";
 import React from "react";
 import energyImg from "../../../../public/industries/industries-water-img.png";
-import IndWaterProvide from "./IndWaterProvide";
 import { CardProps } from "@/components/Elements/Card";
 import Cards from "@/components/Elements/Cards";
 import ContentContainer from "@/components/Elements/ContentContainer";

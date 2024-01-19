@@ -1,8 +1,6 @@
 import Image from "next/image";
 import React from "react";
 import healthImg from "../../../../public/industries/industries-healthcare-img.png";
-import healthIcon from "../../../../public/industries/industries-healthcare-icon.svg";
-import IndHealthProvide from "./IndHealthProvide";
 import Card, { CardProps } from "@/components/Elements/Card";
 import Cards from "@/components/Elements/Cards";
 import ContentContainer from "@/components/Elements/ContentContainer";

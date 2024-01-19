@@ -1,8 +1,6 @@
 import Image from "next/image";
 import React from "react";
 import buildingImg from "../../../../public/industries/industries-government-img.png";
-import buildingIcon from "../../../../public/industries/industries-government-icon.svg";
-import IndGovtProvide from "./IndGovtProvide";
 import { CardProps } from "@/components/Elements/Card";
 import Cards from "@/components/Elements/Cards";
 import ContentContainer from "@/components/Elements/ContentContainer";

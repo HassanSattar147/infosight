@@ -1,8 +1,6 @@
 import Image from "next/image";
 import React from "react";
 import oilGasImg from "../../../../public/industries/industries-oil-gas-img.png";
-import oilGasgIcon from "../../../../public/industries/industries-oil-gas-icon.svg";
-import IndOilGas from "./IndOilGasProvide";
 import { CardProps } from "@/components/Elements/Card";
 import Cards from "@/components/Elements/Cards";
 import ContentContainer from "@/components/Elements/ContentContainer";

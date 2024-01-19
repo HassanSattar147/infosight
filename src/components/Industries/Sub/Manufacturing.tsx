@@ -1,8 +1,6 @@
 import Image from "next/image";
 import React from "react";
 import energyImg from "../../../../public/industries/industries-manufacturing-img.png";
-import judgeIcon from "../../../../public/casestudy/judge-icon.svg";
-import IndManfProvide from "./IndManfProvide";
 import { CardProps } from "@/components/Elements/Card";
 import Cards from "@/components/Elements/Cards";
 import ContentContainer from "@/components/Elements/ContentContainer";

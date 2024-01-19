@@ -1,8 +1,6 @@
 import Image from "next/image";
 import React from "react";
 import energyImg from "../../../../public/industries/industries-energy-img.png";
-import energyIcon from "../../../../public/casestudy/flash-icon.svg";
-import IndEnergyPr from "./IndEnergyPr";
 import { CardProps } from "@/components/Elements/Card";
 import Cards from "@/components/Elements/Cards";
 import ContentContainer from "@/components/Elements/ContentContainer";
