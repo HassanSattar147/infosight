@@ -1,8 +1,6 @@
 "use client";
 import React from "react";
-import Button from "../Elements/Button";
 import TestimonialCard from "./Sub/TestimonialCard";
-import TestHeroSection from "./Sub/TestHeroSection";
 import PageLayout from "../PageLayout";
 import Breadcrumbs from "../Elements/Breadcrumbs";
 import { Hero } from "../Elements/ServicePageLayout";
@@ -19,8 +17,7 @@ const Testimonials = () => {
       <Hero
         heroImg={heroImg}
         heroTitle="Testimonials"
-        heroDescription="Read reviews and critical feedbacks from our esteemed clients and
-      users."
+        heroDescription="Read reviews and critical feedbacks from our esteemed clients and users."
       />
       <Breadcrumbs path="Home / About Us / Testimonials" />
       <ContentContainer>
