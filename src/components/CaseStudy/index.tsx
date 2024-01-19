@@ -12,7 +12,7 @@ const CaseStudy = () => {
   }, []);
 
   return (
-    <PageLayout hideOurServices>
+    <PageLayout hideOurServices={false} ourServicesHeading="Hello world">
       <CSHeroSection />
       <Breadcrumbs path="Home / Case Studies" />
       <AllCaseStudies />

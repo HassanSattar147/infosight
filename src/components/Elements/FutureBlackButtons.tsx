@@ -10,12 +10,12 @@ interface Props {
 const FutureBlackButtons: React.FC<Props> = ({ hideFutureBtns = false }) => {
   return (
     <ContentContainer isBgPrimary>
-      <div className="bg-[#3B719F] py-5 md:py-10 lg:py-20 px-5 md:px-0">
+      <div className="py-5 md:py-10 lg:py-20">
         <div className="flex flex-col items-center w-full lg:justify-between lg:flex-row">
           <div className="text-white">
-            <h1 className="text-2xl lg:text-4xl font-semibold">
+            <h2 className="text-2xl lg:text-4xl font-semibold text-center lg:text-left">
               The Future is Secure with Us!
-            </h1>
+            </h2>
           </div>
           {!hideFutureBtns && (
             <div className="mt-8 lg:mt-0">

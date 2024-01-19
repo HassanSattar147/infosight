@@ -54,27 +54,29 @@ const OURSERVICES_DATA = [
   },
 ];
 
-const OurServices = ({ heading }: { heading?: string }) => {
+const OurServices = ({
+  heading = "What We also Provide",
+}: {
+  heading?: string;
+}) => {
   return (
     <ContentContainer>
-      <div className="py-5 px-5 md:px-0 lg:py-20">
-        <div>
-          <h1 className="text-2xl lg:text-4xl font-semibold">{heading}</h1>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-10 mt-8">
-            {OURSERVICES_DATA.map(({ img, title, description, link }, i) => {
-              return (
-                <Link key={title + i} href={link}>
-                  <div className="flex items-start gap-4 p-3 border border-gray-300 rounded-md hover:bg-gray-50 h-[100%]">
-                    <Image src={img} alt="" className="w-10 lg:w-20" />
-                    <div>
-                      <h1 className="lg:text-xl mb-2 font-semibold">{title}</h1>
-                      <p className="text-sm lg:text-base">{description}</p>
-                    </div>
+      <div className="py-5 lg:py-20">
+        <h1 className="text-2xl lg:text-4xl font-semibold">{heading}</h1>
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-10 mt-8">
+          {OURSERVICES_DATA.map(({ img, title, description, link }, i) => {
+            return (
+              <Link key={title + i} href={link}>
+                <div className="flex items-start gap-4 p-3 border border-gray-300 rounded-md hover:bg-gray-50 h-[100%]">
+                  <Image src={img} alt="" className="w-10 lg:w-20" />
+                  <div>
+                    <h1 className="lg:text-xl mb-2 font-semibold">{title}</h1>
+                    <p className="text-sm lg:text-base">{description}</p>
                   </div>
-                </Link>
-              );
-            })}
-          </div>
+                </div>
+              </Link>
+            );
+          })}
         </div>
       </div>
     </ContentContainer>

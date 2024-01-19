@@ -28,7 +28,6 @@
   transform: translateX(-150vw);
   transition: all 0.3s ease-in-out;
   padding: 12px 24px;
-  outline: 1px solid red;
 }
 
 .mb-exp-menu.expanded {
@@ -48,9 +47,3 @@
   color: #666;
   padding-left: 6px;
 }
-
-/* *,
-*::before,
-*::after {
-  outline: 1px solid red;
-} */

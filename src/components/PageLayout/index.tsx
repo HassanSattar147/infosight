@@ -28,13 +28,14 @@ const PageLayout: React.FC<Props> = ({
   hideFooterFutureSection = false,
   hideFooterFutureBtns = false,
   hideFooter = false,
+  ourServicesHeading,
 }) => {
   return (
     <div>
       {!hideNavbar && <NavBar />}
       <div className={"page-content-container-"}>{children}</div>
       {!hideWeProvide && <WeProvide />}
-      {!hideOurServices && <OurServices />}
+      {!hideOurServices && <OurServices heading={ourServicesHeading} />}
       {!hideWhyInfoSight && <WhyInfoSight />}
       {!hideFooterFutureSection && (
         <FooterFutureSection hideFutureBtns={hideFooterFutureBtns} />
