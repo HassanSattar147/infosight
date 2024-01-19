@@ -11,19 +11,19 @@ const TEAM_ASSESSMENT_DATA = [
     img: infoImg1,
     title: "Red Team Testing",
     description:
-      "Red Team Testing services utilize a strategic approach towards an organization to test the resilience of the target using custom sophisticated attacks. InfoSight imitates persistent, motivated, and heavily resourced attackers by using advanced tactics, techniques, and procedures to penetrate the organization and achieve realistic goals. This method of assessment is geared towards clients with a mature and highly evolved security posture. This is the highest capability testing level from an assailant and resistance maturity standpoint, which classifies methodological, technical, and behavioral security control weaknesses. Red Team testing elevates an already mature security-aware organization by exercising all aspects of their prevention, detection, and response capabilities and demonstrates the return on their investment in security.",
+      "Red Team Testing services imitate persistent, motivated, and heavily resourced attackers by using advanced tactics, techniques, and procedures to penetrate the organization and achieve realistic goals. This method of assessment is geared towards environments with a mature and highly evolved security posture. This is a realistic adversary attack simulation of a bad actor and will identify technical and behavioral security control weaknesses. Red Team testing elevates an already mature security-aware organization by exercising all aspects of their prevention, detection, and response capabilities and demonstrates the return on their investment in security.",
   },
   {
     img: infoImg2,
     title: "Blue Team Testing",
     description:
-      "InfoSight's security experts conduct real-world attacks to determine your security weaknesses. Our extensive knowledge of the most current attack vectors, along with our expertise network types including on-premise Data Centers, Cloud or Hybrid environments will provide the assurance and confidence you need. This enables your team to concentrate on day-to-day business rather than on the discovery of potential network security risks.",
+      "InfoSight's testing focused on assessing and improving your organization's defense mechanisms and incident response capabilities. It involves simulating various cyber threats and attacks to evaluate how well an organization's security team, processes, and technologies can detect, respond to, and mitigate these threats effectively. blue team testing is a proactive cybersecurity practice that assesses an organization's ability to defend against cyber threats and respond effectively to incidents. It plays a vital role in enhancing an organization's overall cybersecurity resilience by identifying weaknesses and facilitating improvements in security measures.",
   },
   {
     img: infoImg3,
     title: "Purple Team Testing",
     description:
-      "Purple Team Testing services combine red and blue teams and allow both teams to work closely together to maximize cyber capabilities through continuous feedback and knowledge transfer. Some organizations perform purple teaming as one-off focused engagements, whereby security goals, timelines, and key deliverables are clearly defined, and there is a formal process for evaluating lessons learned over the course of an operation. This includes recognizing offensive and defensive shortcomings and outlining future training and technological requirements. An alternative approach gaining traction in the security market is to view purple teaming as a conceptual framework that runs throughout an organization, establishing permanent communication channels and fostering a collaborative and transparent culture that promotes continuous cybersecurity improvement.",
+      "We take a collaborative cybersecurity testing approach that combines elements of both red teaming and blue teaming. It focuses on improving an organization's overall security posture by enhancing communication and cooperation between the offensive (red) and defensive (blue) security teams. Purple team testing is designed to ensure that both teams work together effectively to identify vulnerabilities, test security controls, and improve incident detection and response capabilities. Purple team testing bridges the gap between offensive and defensive cybersecurity activities. It promotes a proactive and cooperative approach to cybersecurity by ensuring that the red and blue teams work together to strengthen the organization's security defenses, identify vulnerabilities, and enhance incident response capabilities.",
   },
 ];
 
@@ -44,16 +44,14 @@ const page = () => {
       Purple Team Assessments`}
       overviewDescription={
         <p className=" lg:w-10/12 text-[#444444]">
-          InfoSight performs Red Team, Blue Team, and/or Purple Team Testing for
-          organizations to assist in vulnerability detection, threat hunting,
-          and network monitoring by accurately simulating common threat
-          scenarios and facilitating the creation of new techniques designed to
-          prevent and detect new types of threats. Each testing is unique to
-          your organization and takes a strategic approach to establish the
-          effectiveness of your systems and network&apos;s security posture.
-          <br />
-          <br />
-          <span className="font-semibold">So, what&apos;s the difference?</span>
+          Our Red Team, Blue Team, and Purple Team Testing assists organizations
+          in vulnerability detection, threat hunting, and network monitoring by
+          accurately simulate common threat scenarios and the ability to
+          identify and defend your organization from different types of threats.
+          The testing plan is unique to your organization's operational
+          environment and existing attack surface. We take a strategic approach
+          to the planning but employ tactical expertise to execute the testing
+          itself.
         </p>
       }
       downloadLink={`https://www.infosightinc.com/pdf/InfoSight-Red-Blue-Purple-Team-Testing.pdf`}

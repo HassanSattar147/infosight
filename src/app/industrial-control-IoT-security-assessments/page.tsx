@@ -11,19 +11,19 @@ const INDUSTRIAL_CONTROL_DATA = [
     img: infoImg1,
     title: "The Challenge",
     description:
-      "To achieve the level of protection needed for critical IT and OT infrastructures, and to meet the AWIA requirements, security needs to grow from a collection of disparate technologies and practices to an effective business process. Securing information, systems and networks is a complex task that can be achieved by employing planning, common sense, understanding of business requirements and people aspects—as well as employing the right technologies.",
+      "Many organizations don't have an exact mapping or inventory of where all their ICS and SCADA assets are, and as a result are in a very vulnerable position. Securing ICS/SCADA systems and networks is a complex task that can only be achieved by understanding where assets are located, and by measuring their security posture in real-time. Additionally, compliance requirements must be met, so employing the right technologies to achieve successful outcomes is key! ",
   },
   {
     img: infoImg2,
     title: "How We Solve It",
     description:
-      "InfoSight performs Industrial Control & OT Security Assessments to provide a complete evaluation and holistic view of your organization's security posture. Our skilled security assessor team conducts multi-disciplinary, multifaced reviews to your company's current OT ICS network, SCADA systems to identify vulnerabilities that could be exploited by a Cyber Attacker. Every assessment is different, and a unique approach is required based upon the system functionality and what security measures may already in place.",
+      "InfoSight performs Industrial Control & OT Security Assessments that provide a complete evaluation and holistic view of your organization's security posture. Our technologies will map your entire ICS/SCADA network and perform a “critical path analysis” to uncover hidden dependencies. We will evaluate your overall OT Cyber Risk Posture by creating a digital image of your network and business processes. We will conduct a Breach Attack Simulation and help you understand Relevant Adversaries and necessary mitigations. Our Risk Reduction Planning Methodology is both Qualitive and Quantitative, and prioritizes CVEs based on the likelihood of the affected assets and will assist in cyber controls roadmap planning.",
   },
   {
     img: infoImg3,
     title: " The Outcome",
     description:
-      "Throughout the process, our team will work closely with the company's information assurance and technical teams in order to provide the clearest picture available of the overall security posture of the organization. We provide both logistic and technical recommendations and concise recommendations for dealing with risks appropriately. Our Industrial Control & IoT Security Assessment services include an expansive group of technical tests that inspect the security controls of industrial installations, resources, utilities, materials, information and IoT applications that are essential to safeguarding it from unauthorized access, service interruption or damage.",
+      "By leveraging AI toolsets, our skilled security assessment team conducts multi-disciplinary, multifaced reviews of your organization's IT and OT networks to identify vulnerabilities that could be exploited by a bad actor. Our actionable reporting, we will provide concise recommendations for dealing with cyber risks. The result is a roadmap to the best security practices today!",
   },
 ];
 
@@ -47,13 +47,13 @@ const page = () => {
       Control & IoT Security Assessments`}
       overviewDescription={
         <p className="text-[#444444]">
-          InfoSight&apos;s Vulnerability & Cybersecurity Assessments reduce the
-          risk of successful attacks before they occur. With over two decades of
-          experience in security, compliance and risk management, our experts
-          work as ethical hackers to identify security issues beyond the
-          capability of automated tools and assessments/tests. As cyberattacks
-          continue to rise everyday it is important to perform penetration tests
-          regularly.
+          Whether its state sponsored attacks, or for-profit bad actors,
+          Critical Infrastructure is under attack more than ever before. Now is
+          the time to take an offensive approach to defending Industrial Control
+          (ICS) and SCADA systems. Cyberattacks are continuing to increase in
+          the municipal, industrial, and manufacturing sectors, often with
+          dangerous consequences, so performing regular and ongoing threat
+          assessments are critical.
         </p>
       }
       data={INDUSTRIAL_CONTROL_DATA}

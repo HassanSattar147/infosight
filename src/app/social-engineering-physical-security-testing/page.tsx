@@ -11,19 +11,19 @@ const SOCIAL_ENGG_DATA = [
     img: infoImg1,
     title: "The Challenge",
     description:
-      "Today all organizations across every industry face the risks of cybercriminals and breached networks. Regular penetration testing is crucial to ensure network security against sophisticated attackers. We understand it is difficult to find a trustworthy third party that understands your industry specific compliance as well as your overall security system. That's where we come in.",
+      "In today's war against cybercrime, people have become your new perimeter defense. There is no need to work hard to get through layers of security safeguards if you can fool an employee into giving you, their keys! And today AI is creating deep fakes so good they are nearly impossible to spot! So, it's not a matter of if, but when an employee clicks… ",
   },
   {
     img: infoImg2,
     title: "How We Solve It",
     description:
-      "InfoSight's experienced engineers test your network manually to identify the extent your system could currently be compromised by a real-life attacker. Our penetration testing service can be used to test your security policy compliance, the effectiveness of your employee security awareness training and your organization's ability to identify and respond to security incidents. InfoSight provides remediation reports going in-depth on steps to take your overall security to the next level. Our team can act as an extension of your team to assist in the remediation process to ensure cybersecurity right away.",
+      "Leveraging Ai-powered tools, we conduct testing in a real-world scenario. Our goal is to measure your employee's ability to detect and alert to a phishing attack, whether its via email, SMS or voice prompts.",
   },
   {
     img: infoImg3,
     title: "The Outcome",
     description:
-      "InfoSight's security experts conduct real-world attacks to determine your security weaknesses. Our extensive knowledge of the most current attack vectors, along with our expertise network types including on-premise Data Centers, Cloud or Hybrid environments will provide the assurance and confidence you need. This enables your team to concentrate on day-to-day business rather than on the discovery of potential network security risks.",
+      "Our reports are actionable and give you the data you need to target security awareness training. We also provide recommendations just training to ensure your social defense efforts are multi-channel.",
   },
 ];
 
@@ -64,7 +64,7 @@ const page = () => {
       data={SOCIAL_ENGG_DATA}
       dataLabel={"SOCIAL_ENGG_DATA"}
       featuresData={SE_FEATURES_DATA}
-      featureTitle={"Key Security Features"}
+      featureTitle={"Key Security Tests"}
     />
   );
 };

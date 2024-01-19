@@ -11,19 +11,19 @@ const MOBILE_API_DATA = [
     img: infoImg1,
     title: "The Challenge",
     description:
-      "Today, Applications have become a tremendous target for cybercriminals because of their heightened value of stored information. Weaknesses and flaws in an application's source code or APIs can result in exploits compromising confidential data.",
+      "Applications have become a prime target for cybercriminals because of the data stored within them. Weaknesses and flaws in an application's source code or APIs can result in exploitation compromising confidential data. AI poses a growing threat to application security where automation can play a role allowing bad actors to attack at velocity.",
   },
   {
     img: infoImg2,
     title: "How We Solve It",
     description:
-      "InfoSight's API and Code Reviews, which can include Mobile, assist in identifying any underlying security issues with the application by providing a comprehensive review of Application code and API's. This will identify vulnerabilities and ensure your applications meet the latest security standards needed.",
+      "InfoSight's API and Code Reviews, which can include Mobile operating systems, assist in identifying any underlying security issues with the application by providing a comprehensive review of Application code and API's. By leveraging AI-powered tools and decades of experience, our team ensures applications are hardened for today's threat landscape.",
   },
   {
     img: infoImg3,
     title: "The Outcome",
     description:
-      "Recommendations for remedial action will be made at the conclusion of the testing procedure, with the option of additional security testing following post-change. Following the reports, we suggest maintaining a change management log of all code changes and/or architectural changes. We can also provide follow up services upon further discussion with your IT team.",
+      "Our reporting is actionable! Recommendations for remedial action are made at the conclusion of testing, with the option of retesting post remediation.  Our personalized approach will help quantify your cyber risk, prioritize the most critical threats, and create a continuous threat exposure management roadmap.",
   },
 ];
 
@@ -60,7 +60,7 @@ const page = () => {
       data={MOBILE_API_DATA}
       dataLabel={"MOBILE_API_DATA"}
       featuresData={MOBILE_FEATURES_DATA}
-      featureTitle={"Key Security Features"}
+      featureTitle={"Key Security Tests"}
     />
   );
 };
