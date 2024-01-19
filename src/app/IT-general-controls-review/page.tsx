@@ -7,6 +7,7 @@ import auditInfoImg1 from "/public/audit/Audit-info-img1.png";
 import generalinfoImg1 from "/public/audit/IT-General-Control-Review-img1.png";
 import generalinfoImg2 from "/public/audit/IT-General-Control-Review-img2.png";
 import Link from "next/link";
+import ContentContainer from "@/components/Elements/ContentContainer";
 
 const IT_GENERAL_CONTROL_DATA = [
   {
@@ -39,24 +40,34 @@ const page = () => {
       heroDescription="The compliance service ensures that a business adheres to external
       rules and internal controls."
       path={` Home / Advisory Services / Audit & Assurance / IT General Control Review`}
-      overviewDescription={
+      overviewComp={
         <>
-          <h1 className="px-5 md:px-0 text-2xl lg:text-4xl font-semibold">
-            IT General Control Review
-          </h1>
-          <div className="px-5 md:px-0">
-            <p>
-              InfoSight conducts General IT Controls Reviews (GITCR) to identify
-              principle IT control policies and analyze the current condition of
-              such policies to make necessary changes to ensure regulatory
-              compliance. This review will also provide the foundation to assist
-              your organization in aligning its control environment with
-              industry standards and best practices. Overall, InfoSight&apos;s
-              GITCR serves as a tool for managing risk levels as your company
-              moves forward with future growth strategies.
-            </p>
-            <Image src={auditInfoImg1} alt="" className="w-full pt-3" />
-          </div>
+          <ContentContainer>
+            <h2 className="text-2xl lg:text-4xl font-semibold mb-5 mt-5">
+              IT General Control Review
+            </h2>
+            <div>
+              <p>
+                InfoSight conducts General IT Controls Reviews (GITCR) to
+                identify principle IT control policies and analyze the current
+                condition of such policies to make necessary changes to ensure
+                regulatory compliance. This review will also provide the
+                foundation to assist your organization in aligning its control
+                environment with industry standards and best practices. Overall,
+                InfoSight&apos;s GITCR serves as a tool for managing risk levels
+                as your company moves forward with future growth strategies.
+              </p>
+              <div
+                className="ImageText__img mt-6"
+                style={{
+                  backgroundImage: `url(${auditInfoImg1.src})`,
+                  height: '350px',
+                  
+                }}
+              />
+            </div>
+            <hr className="mt-10 mb-5" />
+          </ContentContainer>
         </>
       }
       data={IT_GENERAL_CONTROL_DATA}

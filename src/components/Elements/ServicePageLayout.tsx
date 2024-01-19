@@ -16,7 +16,8 @@ interface IServicesPageProps {
   heroImg: StaticImageData;
   heroTitle: string;
   heroDescription?: string;
-  overviewDescription: string | GenericElements;
+  overviewDescription?: string | GenericElements;
+  overviewComp?: GenericElements;
   downloadLink?: string;
   videoLink?: string;
   data: ITextImageData[];
@@ -45,6 +46,7 @@ const ServicePageLayout = ({
   otherFeatureTitle,
   data,
   dataLabel,
+  overviewComp,
 }: IServicesPageProps) => {
   const [isModalOpen, setIsModalOpen] = React.useState(false);
 
@@ -67,7 +69,8 @@ const ServicePageLayout = ({
       <PageLayout hideWeProvide hideOurServices>
         <Hero {...heroProps} />
         <Breadcrumbs path={path} />
-        <Overview {...overviewProps} />
+        {overviewComp || <Overview {...overviewProps} />}
+
         <ImageTextSection data={data} dataLabel={dataLabel} />
         <Features
           data={featuresData}
