@@ -8,7 +8,7 @@ const PlanningHero = () => {
       <Image src={heroImg} alt="" className="w-full" />
       <div className="text-white bg-[#1E3A52] lg:bg-transparent px-5 py-5 lg:py-0 lg:p-0 lg:absolute lg:top-[25%] lg:left-[6.5%]">
         <h1 className="lg:text-[60px] text-2xl font-extrabold lg:w-7/12 leading-tight">
-          Business Continuity Planning& Disaster Recovery
+          Business Continuity Planning & Disaster Recovery
         </h1>
       </div>
     </div>

@@ -40,7 +40,7 @@ const page = () => {
     <ServicePageLayout
       pageTitle="Business Continuity | InfoSight"
       heroImg={heroImg}
-      heroTitle={"Business Continuity Planning& Disaster Recovery"}
+      heroTitle={"Business Continuity Planning & Disaster Recovery"}
       path={`Home / Services & Solutions / Advisory Services / Business Continuity
       Planning & Disaster Recovery`}
       overviewDescription={
