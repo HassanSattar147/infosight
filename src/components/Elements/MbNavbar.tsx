@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import logoImg from "../../../public/infosight-new-logo-1.svg";
 import Link from "next/link";
-import "@/styles/mbnav.css";
+import "@/styles/nav.css";
 
 export interface RootObject {
   title: string;
@@ -250,7 +250,7 @@ const MbNavbar = () => {
   }, [selectedMenus]);
 
   return (
-    <div className="mb-nav-container flex md:hidden">
+    <div className="mb-nav-container">
       <button
         onClick={() => {
           setIsNavExpanded(true);

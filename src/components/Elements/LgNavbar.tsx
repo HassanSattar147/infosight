@@ -1,10 +1,9 @@
 import React from "react";
 import { ALL_MENUS, Child2, Child3, RootObject } from "./MbNavbar";
-import "@/styles/lgnav.css";
 import Link from "next/link";
 import Image from "next/image";
 import logoImg from "../../../public/infosight-new-logo-1.svg";
-// import DDIcon from "../../../public/DDIcon.svg";
+import "@/styles/nav.css";
 
 const LgNavbar = () => {
   return (
