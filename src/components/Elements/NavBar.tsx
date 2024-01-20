@@ -171,11 +171,22 @@ const ADV_SERVICE_SECURITY_DATA_2 = [
 const NavBar = () => {
   return (
     <ContentContainer>
-      <nav className="hidden bg-white md:flex items-center h-[80px]">
-        <div className="container">
-          <ul className="flex items-center justify-between gap-5 px-20">
+      <nav className="hidden bg-white md:flex items-center justify-center h-[80px] ">
+        <div className="container md:flex items-center justify-center">
+          <ul className="flex items-center gap-10">
             <Link href="/">
-              <Image src={logoImg} alt="" className="lg:w-32 md:w-52" />
+              <Image
+                src={logoImg}
+                alt=""
+                style={{
+                  width: "128px",
+                  height: "49px",
+                  minWidth: "128px",
+                  minHeight: "49px",
+                  maxWidth: "128px",
+                  maxHeight: "49px",
+                }}
+              />
             </Link>
             <li>
               <Link href="/">Home</Link>

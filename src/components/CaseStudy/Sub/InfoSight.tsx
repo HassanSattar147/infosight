@@ -60,7 +60,7 @@ const WHYINFOSIGHT_DATA = [
 const InfoSight = () => {
   return (
     <ContentContainer>
-      <div className="py-5 md:py-10 lg:py-20">
+      <div className="py-5 md:py-10">
         <h2 className="text-2xl lg:text-4xl mb-5 font-semibold">
           Why InfoSight?
         </h2>
