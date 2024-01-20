@@ -162,6 +162,7 @@ a.dd-menu-item:focus-visible {
 /* Mobile view Navbar styles - Start */
 
 .mb-nav-container {
+  display: none;
   align-items: center;
   padding: 12px 24px;
   position: relative;
@@ -212,3 +213,12 @@ a.dd-menu-item:focus-visible {
 }
 
 /* Mobile view Navbar styles - End */
+
+@media screen and (max-width: 992px) {
+  .lgnavbar {
+    display: none;
+  }
+  .mb-nav-container {
+    display: flex;
+  }
+}
