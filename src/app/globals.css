@@ -113,6 +113,16 @@ body {
   }
 }
 
+.industry-card-img {
+  width: 100%;
+  height: 200px;
+  border-radius: 8px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 24px;
+}
+
 /* 
 Breakpoint 	          Class infix 	Dimensions
 X-Small    	          None         	<576px

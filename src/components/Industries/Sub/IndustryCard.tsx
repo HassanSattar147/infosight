@@ -12,19 +12,14 @@ const IndustryCard = ({
 }) => {
   return (
     <ContentContainer>
-      <div className="py-5 mb-[40px]">
+      <div className="mb-[40px] mt-[20px]">
         <div
+          className="industry-card-img"
           style={{
             backgroundImage: `url(${img.src})`,
-            width: "100%",
-            height: "200px",
-            borderRadius: "8px",
-            backgroundPosition: "center",
-            backgroundSize: "cover",
-            marginBottom: "24px",
           }}
         />
-        <p className="text-[#222222] my-1 text-[18px]" style={{fontWeight: '500'}}>
+        <p className="text-[#222222] my-1 text-[16px] font-medium">
           {description}
         </p>
       </div>
