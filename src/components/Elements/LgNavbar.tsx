@@ -1,5 +1,5 @@
 import React from "react";
-import { ALL_MENUS, Child2, Child3, RootObject } from "./MbNavbar";
+import { ALL_MENUS, Child2, Child3, RootObject } from "./NavBar";
 import Link from "next/link";
 import Image from "next/image";
 import logoImg from "../../../public/infosight-new-logo-1.svg";
