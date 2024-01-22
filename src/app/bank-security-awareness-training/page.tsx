@@ -46,8 +46,7 @@ const page = () => {
       pageTitle="Bank Security Awareness Training | (877) 557-9703"
       heroImg={heroImg}
       heroTitle={"Online Banking Cyber Security Awareness Program"}
-      path={`Home / Services & Solutions / Training & Education / Security Awareness
-      Training for Online Banking`}
+      path={`Home / Services & Solutions / Training & Education / Security Awareness Training for Online Banking`}
       overviewDescription={
         <p className="text-[#444444]">
           The FFIEC requires all financial institutions to provide security
@@ -58,9 +57,9 @@ const page = () => {
           team or yours.
         </p>
       }
-      downloadLink={`contact`}
+      downloadLink={`/contact`}
       downloadLinkLabel="Find out more!"
-      // useVideoIconInDownloadbtn
+      hideDownloadIcon
       data={SECURITY_AWARENESS_DATA}
       dataLabel={"SECURITY_AWARENESS_DATA"}
       featuresData={SA_FEATURES_DATA}

@@ -49,12 +49,13 @@ const page = () => {
             Early detection of attacks targeting endpoints is critical to
             protecting networks from all types of threats including ransomware.
             However, without a team of security experts working 24x7x365 to
-            proactively protect your organization from threats, it's unlikely to
-            achieve the outcome in threat prevention everyone is looking to for.
-            InfoSight's Endpoint Detection & Response (EDR) service provides you
-            with real time incident response, remediation and threat containment
-            you need 24x7x365. Coupled with our Security Operations Center
-            (SOC), we serve as your own trusted cybersecurity team.
+            proactively protect your organization from threats, it&apos;s
+            unlikely to achieve the outcome in threat prevention everyone is
+            looking to for. InfoSight&apos;s Endpoint Detection & Response (EDR)
+            service provides you with real time incident response, remediation
+            and threat containment you need 24x7x365. Coupled with our Security
+            Operations Center (SOC), we serve as your own trusted cybersecurity
+            team.
           </p>
         </>
       }
