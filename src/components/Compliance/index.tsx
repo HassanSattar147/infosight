@@ -32,6 +32,7 @@ const Compliance = () => {
     setSelected(newVal);
   }, [selectedFromParam]);
 
+  return null;
   return (
     <PageLayout hideWeProvide hideOurServices>
       <ComplianceHero />

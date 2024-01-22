@@ -20,14 +20,14 @@ const FOOTER_DATA = [
         text: "Case Studies",
         link: "/case-studies",
       },
-      {
-        text: "Why Infosight",
-        link: "/why-infosight",
-      },
-      {
-        text: "About us",
-        link: "/about-us",
-      },
+      // {
+      //   text: "Why Infosight",
+      //   link: "/why-infosight",
+      // },
+      // {
+      //   text: "About us",
+      //   link: "/about-us",
+      // },
       {
         text: "Contact us",
         link: "/contact",
@@ -66,7 +66,7 @@ const Footer = () => {
     <ContentContainer>
       <div className="pt-5 lg:pt-20 flex flex-col-reverse gap-5 lg:flex-row items-start justify-between w-full">
         <div className="flex flex-col gap-3 ">
-          <a href="home-page">
+          <a href="/">
             <Image src={logoImg} alt="" className="w-56" />
           </a>
           <div>

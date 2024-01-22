@@ -15,7 +15,7 @@ const OURSERVICES_DATA = [
     title: "Managed Security Services",
     description:
       "InfoSight's Security Operations Center (SOC) leverages sound and repeatable processes to mitigate threats in a systematic approach delivering superior outcomes with no alert fatigue ever.",
-    link: "SECaaS",
+    link: "/mitigator-vulnerability-threat-manager",
   },
   {
     img: serviceIcon2,
@@ -43,7 +43,7 @@ const OURSERVICES_DATA = [
     title: "Managed EDR",
     description:
       "InfoSight's Endpoint Detection & Response (EDR) provides you with real time incident response, enterprise remediation and threat containment 24x7x365. Coupled with our Security Operations Center (SOC).",
-    link: "managed-EDR",
+    link: "managed-edr",
   },
   {
     img: serviceIcon6,

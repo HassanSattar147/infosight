@@ -23,7 +23,7 @@ const WEPROVIDE_DATA = [
   {
     img: serviceIcon3,
     title: "Managed Security Services",
-    link: "SECaaS",
+    link: "/mitigator-vulnerability-threat-manager",
   },
   {
     img: serviceIcon4,
@@ -33,7 +33,7 @@ const WEPROVIDE_DATA = [
   {
     img: serviceIcon5,
     title: "Managed EDR",
-    link: "managed-EDR",
+    link: "managed-edr",
   },
   {
     img: serviceIcon6,

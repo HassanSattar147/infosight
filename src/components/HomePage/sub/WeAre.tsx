@@ -35,7 +35,11 @@ const WeAre = () => {
               </p>
               <Button text="Watch Video" onClick={handleOpenModal} />
             </div>
-            <Image src={aboutImg} alt="" className="lg:w-10/12 md:w-8/12" />
+            <Image
+              src={aboutImg}
+              alt=""
+              className="lg:w-10/12 md:w-8/12 border-2 border-gray-50 rounded-lg"
+            />
           </div>
         </div>
         <VideoPopup
