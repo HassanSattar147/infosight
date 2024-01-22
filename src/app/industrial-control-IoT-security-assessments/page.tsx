@@ -53,7 +53,7 @@ const page = () => {
           (ICS) and SCADA systems. Cyberattacks are continuing to increase in
           the municipal, industrial, and manufacturing sectors, often with
           dangerous consequences, so performing regular and ongoing threat
-          assessments are critical.
+          assessments is critical.
         </p>
       }
       data={INDUSTRIAL_CONTROL_DATA}

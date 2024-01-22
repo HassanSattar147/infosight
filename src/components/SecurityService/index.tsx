@@ -4,7 +4,7 @@ import NavBar from "../Elements/NavBar";
 
 const SecurityService = () => {
   React.useEffect(() => {
-    document.title = "Security as a Service | InfoSight";
+    document.title = "Mitigator Vulnerability & threat Manager | InfoSight";
   }, []);
 
   return (

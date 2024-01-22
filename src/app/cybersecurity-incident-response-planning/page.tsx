@@ -28,7 +28,7 @@ const CYBERSECURITY_IRPM_DATA = [
 ];
 
 const CYBERSECURITYIRPM_FEATURES_DATA = [
-  "Improve your Information Security Program",
+  "Reduce Costs by Maximizing IT Budget & Strategic Planning",
   "Provide Independent Oversight of IT Security Controls",
   "Perform Annual IT Security Risk Assessments",
   "Leverage the Most Current Threat Mitigation Strategies",

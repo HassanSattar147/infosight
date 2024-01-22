@@ -45,13 +45,12 @@ const page = () => {
       overviewDescription={
         <p className=" lg:w-10/12 text-[#444444]">
           Our Red Team, Blue Team, and Purple Team Testing assists organizations
-          in vulnerability detection, threat hunting, and network monitoring by
-          accurately simulate common threat scenarios and the ability to
+          in vulnerability detection and threat hunting by accurately simulating
+          common threat scenarios. The goal is to collaborate with your team to
           identify and defend your organization from different types of threats.
           The testing plan is unique to your organization&apos;s operational
           environment and existing attack surface. We take a strategic approach
-          to the planning but employ tactical expertise to execute the testing
-          itself.
+          to the planning but employ tactical expertise to execute the testing.
         </p>
       }
       downloadLink={`https://www.infosightinc.com/pdf/InfoSight-Red-Blue-Purple-Team-Testing.pdf`}

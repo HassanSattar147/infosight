@@ -64,10 +64,6 @@ const InfoSight = () => {
         <h2 className="text-2xl lg:text-4xl mb-5 font-semibold">
           Why InfoSight?
         </h2>
-        <p>
-          Powerful product which helps you grow engage, and retain make more
-          clients. Trusted by over 4,000+ Clients.
-        </p>
         <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-5 lg:gap-10 mt-8">
           {WHYINFOSIGHT_DATA.map(({ img, description }, i) => {
             return (

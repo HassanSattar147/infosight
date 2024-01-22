@@ -28,7 +28,7 @@ const MOBILE_API_DATA = [
 ];
 
 const MOBILE_FEATURES_DATA = [
-  "SAuthentication",
+  "Authentication",
   "Authorization",
   "Session management",
   "Data validation",

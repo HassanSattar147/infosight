@@ -65,10 +65,10 @@ export const ALL_MENUS: RootObject[] = [
                 link: "/cybersecurity-incident-response-planning",
               },
 
-              {
-                title: "HIPAA Risk Assessment",
-                link: "/HIPAA-risk-assessment",
-              },
+              // {
+              //   title: "HIPAA Risk Assessment",
+              //   link: "/HIPAA-risk-assessment",
+              // },
 
               {
                 title: "Red Blue Purple Team Testing",
@@ -120,8 +120,8 @@ export const ALL_MENUS: RootObject[] = [
         link: "/SOCaaS",
       },
       {
-        title: "SECaaS",
-        link: "/SECaaS",
+        title: "Mitigator Vulnerability & threat Manager",
+        link: "/mitigator-vulnerability-threat-manager",
       },
       {
         title: "Managed Services",
