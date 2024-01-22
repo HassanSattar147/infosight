@@ -14,19 +14,19 @@ const IT_GENERAL_CONTROL_DATA = [
     img: generalinfoImg1,
     title: "The Challenge",
     description:
-      "Controls for smaller institutions has no shortage of challenges including limited resources, personnel, and technological capabilities. Whether it's a smaller workforce, which can make it challenging to designate individuals solely responsible for risk management, a complex regulatory environment, there never seems to be enough time of budget to get everything accomplished to the satisfaction or regulating bodies. Additionally, third-party risk seems to be on the risk due to supply chain compromises and cyberthreat trends.",
+      "Controls for smaller institutions have no shortage of challenges including limited resources, personnel, and technological capabilities. Whether it's a smaller workforce, which can make it challenging to designate individuals solely responsible for risk management or a complex regulatory environment, there never seems to be enough time or budget to get everything accomplished to the satisfaction of regulating bodies. Additionally, third-party risk seems to be on the rise due to supply chain compromises and cyberthreat trends.",
   },
   {
     img: generalinfoImg2,
     title: "How We Solve it",
     description:
-      "Our advisors review your institutions' organizational structure and operating environment to conduct an IT Controls Review based upon FFIEC guidelines and your appetite for risk. We prioritize the control environment and assist in leveraging cost-effective technology solutions for risk assessment, data analytics, and cybersecurity to enhance risk management capabilities. ",
+      "Our advisors review your institutions' organizational structure and operating environment to conduct an IT Controls Review based upon FFIEC guidelines and your appetite for risk. We prioritize the control environment and assist in leveraging cost-effective technology solutions for risk assessment, data analytics, and cybersecurity to enhance controls capabilities.",
   },
   {
     img: infoImg3,
     title: "The Outcome",
     description:
-      "The outcome is a proactive and strategic approach to It Controls that helps your institution build resilience and effectively manage risks within your limitations.",
+      "The outcome is a proactive and strategic approach to IT Controls that helps your institution build resilience and effectively manage risks within your limitations.",
   },
 ];
 

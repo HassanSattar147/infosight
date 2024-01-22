@@ -13,6 +13,7 @@ const Partners = () => {
     document.title = "InfoSight Partners | InfoSight";
   }, []);
 
+  return null;
   return (
     <PageLayout hideWeProvide hideOurServices hideWhyInfoSight>
       <Hero

@@ -2,6 +2,7 @@ import React from "react";
 import energyImg from "../../../../public/industries/industries-entertainment-img.png";
 import { Features } from "@/components/Elements/ServicePageLayout";
 import IndustryCard from "./IndustryCard";
+import ContentContainer from "@/components/Elements/ContentContainer";
 
 const ENTERTAINMENT_FEATURES_DATA = [
   "SCADA & ICS Vulnerability Asessments",
@@ -19,11 +20,13 @@ const description = `High-profile cyber attacks on the entertainment industry ha
 const Entertainment = () => {
   return (
     <>
+      <ContentContainer>
+        <h3 className="py-5 text-2xl lg:text-4xl font-semibold">
+          Entertainment doesn&apos;t need to be a Cyber drama…
+        </h3>
+      </ContentContainer>
       <IndustryCard img={energyImg} description={description} />
-      <Features
-        data={ENTERTAINMENT_FEATURES_DATA}
-        title=" For Entertainment Industry We Provide"
-      />
+      <Features data={ENTERTAINMENT_FEATURES_DATA} title="We Provide" />
     </>
   );
 };

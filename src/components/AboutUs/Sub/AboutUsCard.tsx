@@ -10,9 +10,23 @@ const AboutUsCard = () => {
         <div className="p-5 border border-gray-300 rounded-2xl">
           <div className="flex items-center lg:items-start lg:flex-col gap-5">
             <Image src={storyIcon} alt="" />
-            <p className="text-[30px]">Since 1988</p>
+            <p className="text-[30px]">Established in 1998</p>
           </div>
           <p className="py-5">
+            Our skilled team members predate the term “Cybersecurity” with
+            decades of experience in “Information Security”!
+            <br />
+            <br />
+            We are a Cyber Security and Risk Management Company that helps
+            organizations become Cyberresllient through Continuous Threat
+            Exposure Management (CTEM), Risk Management, and real-time 24x7
+            Threat Monitoring and Incident Response.
+            <br />
+            <br />
+            Based in Florida and serving clients in North America and the
+            Caribbean.
+          </p>
+          {/* <p className="py-5">
             InfoSight has digitally transformed clients by achieving unheralded
             business outcomes through our{" "}
             <span className="text-gray-600 font-bold">
@@ -29,7 +43,7 @@ const AboutUsCard = () => {
             <span className="text-gray-600 font-bold">
               enterprise cyber risk program.
             </span>
-          </p>
+          </p> */}
         </div>
       </div>
     </ContentContainer>
@@ -37,3 +51,11 @@ const AboutUsCard = () => {
 };
 
 export default AboutUsCard;
+
+// Established in 1998
+
+// Our skilled team members predate the term “Cybersecurity” with decades of experience in “Information Security”!
+
+// We are a Cyber Security and Risk Management Company that helps organizations become Cyberresllient through Continuous Threat Exposure Management (CTEM), Risk Management, and real-time 24x7 Threat Monitoring and Incident Response.
+
+// Based in Florida and serving clients in North America and the Caribbean.

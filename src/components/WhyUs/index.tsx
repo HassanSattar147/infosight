@@ -12,6 +12,7 @@ const WhyUs = () => {
     document.title = "Why InfoSight";
   }, []);
 
+  return null;
   return (
     <PageLayout hideWeProvide hideOurServices>
       <Hero

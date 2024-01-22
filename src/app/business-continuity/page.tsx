@@ -17,13 +17,13 @@ const PLANNING_DISASTER_DATA = [
     img: infoImg2,
     title: "How We Solve It",
     description:
-      "We recognize that BCP & DR planning isn't only about natural disasters, but also human error,  pandemics and supply chain circumstances, so our goal is to look at each organizations' operations from an intimate perspective enabling our CBCPs to understand your business' unique operating characteristics. With our a 5-step approach we start with a Business Impact Analysis (BIA) and move through a Technology Assessment to determine if your IT/OT systems will support departmental Recovery Time Objectives (RTO) and Recover Point Objective (RPO) to ensure your technology solutions can deliver on your plan. Our deliverables include a BIA, Risk Assessment, Technology Assessment,  a BCP Framework document and Emergency Response Plan.",
+      "We recognize that BCP & DR planning isn't only about natural disasters, but also human error, pandemics and supply chain circumstances, so our goal is to look at each organizations' operations from an intimate perspective enabling our CBCPs to understand your business' unique operating characteristics. With our a 5-step approach we start with a Business Impact Analysis (BIA) and move through a Technology Assessment to determine if your IT/OT systems will support departmental Recovery Time Objectives (RTO) and Recover Point Objectives (RPO) to ensure your technology solutions can deliver on your plan. Our deliverables include a BIA, Risk Assessment, Technology Assessment, a BCP Framework document and Emergency Response Plan.",
   },
   {
     img: infoImg3,
     title: "The Outcome",
     description:
-      "InfoSight's Certified Business Continuity Planners (CBCP's) utilize decades of experience in BCP/DR experience to develop a customized plan for your organization that ensures you can continue operations before, during and after adverse events. We make recommendations along the way to improve processes, technology, and security to make your plan its very best. We deliver more than a BCP document, but a workable plan your employees can follow to ensure successful operations during a critical time.",
+      "InfoSight's Certified Business Continuity Planners (CBCP's) utilize decades of experience in BCP/DR disciplines to develop a customized plan for your organization that ensures you can continue operations before, during and after adverse events. We make recommendations along the way to improve processes, technology, and security to make your plan its very best. We deliver more than a BCP document, but a workable plan your employees can follow to ensure successful operations during a critical time.",
   },
 ];
 

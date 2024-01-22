@@ -2,6 +2,7 @@ import React from "react";
 import energyImg from "../../../../public/industries/industries-energy-img.png";
 import { Features } from "@/components/Elements/ServicePageLayout";
 import IndustryCard from "./IndustryCard";
+import ContentContainer from "@/components/Elements/ContentContainer";
 
 const ENERGY_FEATURES_DATA = [
   "SCADA & ICS Vulnerability Asessments",
@@ -19,11 +20,13 @@ const description = `With cyber attacks on the rise, energy providers and electr
 const EnergyElectric = () => {
   return (
     <>
+      <ContentContainer>
+        <h3 className="py-5 text-2xl lg:text-4xl font-semibold">
+          We have Electrified Solutions!
+        </h3>
+      </ContentContainer>
       <IndustryCard img={energyImg} description={description} />
-      <Features
-        data={ENERGY_FEATURES_DATA}
-        title="For Energy & Electric Industry We Provide"
-      />
+      <Features data={ENERGY_FEATURES_DATA} title="We Provide" />
     </>
   );
 };

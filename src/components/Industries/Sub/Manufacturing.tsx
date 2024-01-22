@@ -2,6 +2,7 @@ import React from "react";
 import energyImg from "../../../../public/industries/industries-manufacturing-img.png";
 import { Features } from "@/components/Elements/ServicePageLayout";
 import IndustryCard from "./IndustryCard";
+import ContentContainer from "@/components/Elements/ContentContainer";
 
 const MANUFACTURING_FEATURES_DATA = [
   "SCADA & ICS Vulnerability Asessments",
@@ -14,16 +15,19 @@ const MANUFACTURING_FEATURES_DATA = [
   "Employee Security Awareness Training",
 ];
 
-const description = `With cyber attacks on the rise, security officers are facing more pressure than ever to protect both IT and OT networks. It is imperative for SCADA and ICS networks to keep policies and procedures updated to secure information safety. No organization is immune to cyber attacks, but a proactive, all-encompassing strategy can mitigate these cyber attacks, breaches and threats. InfoSight's SCADA strategies and services can reduce the risk of compromised data from your information control systems. We provide your team with the most efficient incident response and recovery preparation and planning possible helping owners defend their critical infrastructures from emerging cyber threats.`;
+const description = `With cyber attacks on the rise, CISOs are facing more pressure than ever to protect both IT and OT networks. Also, with added pressure to keep the line running, it is imperative for SCADA and ICS networks be resilient to cyberattack! Our solutions make organizations “Cyberresllient”, where responding to an attack is swift and collateral damage is minimal. 
+`;
 
 const Manufacturing = () => {
   return (
     <>
+      <ContentContainer>
+        <h3 className="py-5 text-2xl lg:text-4xl font-semibold">
+          Explore our Industrial Coverage
+        </h3>
+      </ContentContainer>
       <IndustryCard img={energyImg} description={description} />
-      <Features
-        data={MANUFACTURING_FEATURES_DATA}
-        title="For Manufacturing Industry We Provide"
-      />
+      <Features data={MANUFACTURING_FEATURES_DATA} title="We Provide" />
     </>
   );
 };

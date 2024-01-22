@@ -2,6 +2,7 @@ import React from "react";
 import oilGasImg from "../../../../public/industries/industries-oil-gas-img.png";
 import { Features } from "@/components/Elements/ServicePageLayout";
 import IndustryCard from "./IndustryCard";
+import ContentContainer from "@/components/Elements/ContentContainer";
 
 const OIL_GAS_FEATURES_DATA = [
   "SCADA & ICS Vulnerability Asessments",
@@ -19,11 +20,13 @@ const description = `With cyber attacks on the rise, oil & gas companies need to
 const OilGas = () => {
   return (
     <>
+      <ContentContainer>
+        <h3 className="py-5 text-2xl lg:text-4xl font-semibold">
+          Explore our solutions for Oil & Gas!
+        </h3>
+      </ContentContainer>
       <IndustryCard img={oilGasImg} description={description} />
-      <Features
-        data={OIL_GAS_FEATURES_DATA}
-        title="For Oil & Gas Industry We Provide"
-      />
+      <Features data={OIL_GAS_FEATURES_DATA} title="We Provide" />
     </>
   );
 };

@@ -23,7 +23,7 @@ const SECURITY_AWARENESS_DATA = [
     img: infoImg3,
     title: "The Outcome",
     description:
-      "Our CSAP program will give you the tools you need to create awareness and check compliance boxes at the same time. It will leave your customers with the knowledge they need to be able to spot fraud and learn key tactics on how to protect themselves from bad actors. ",
+      "Our CSAP program will give you the tools you need to create awareness and check compliance boxes at the same time. It will leave your customers with the knowledge they need to be able to spot fraud and learn key skills to protect themselves from fraud.",
   },
 ];
 
@@ -52,15 +52,15 @@ const page = () => {
         <p className="text-[#444444]">
           The FFIEC requires all financial institutions to provide security
           awareness training and education for their online banking clients, and
-          that is exactly what our program is designed for - your OLB
-          client-base! Our targeted security awareness content for your both
-          commercial and retail customers is “delivery-ready” and can be
-          customized by our team or yours.
+          that is exactly what our program is designed for - your OLB client
+          base! Our targeted security awareness content for your both commercial
+          and retail customers is “delivery-ready” and can be customized by our
+          team or yours.
         </p>
       }
       downloadLink={`contact`}
-      downloadLinkLabel="Book a Demo Now"
-      useVideoIconInDownloadbtn
+      downloadLinkLabel="Find out more!"
+      // useVideoIconInDownloadbtn
       data={SECURITY_AWARENESS_DATA}
       dataLabel={"SECURITY_AWARENESS_DATA"}
       featuresData={SA_FEATURES_DATA}

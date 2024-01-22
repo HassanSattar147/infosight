@@ -84,6 +84,12 @@ export const ALL_MENUS: RootObject[] = [
                 title: "Enterprise Risk Management",
                 link: "/enterprise-risk-management",
               },
+
+              {
+                title: "Risk Assessments for Financial Institutions",
+                link: "/financial-risk-assessment",
+              },
+
               {
                 title: "HIPAA Risk Assessment",
                 link: "/HIPAA-risk-assessment",
@@ -132,8 +138,8 @@ export const ALL_MENUS: RootObject[] = [
             link: "/managed-network-support-services",
           },
           {
-            title: "Managed Communications, Collaboration & Connect Services",
-            link: "/managed-communications",
+            title: "Microsoft Teams Essentials With Voice",
+            link: "/microsoft-teams-essentials",
           },
           { title: "Managed EDR", link: "/managed-edr" },
           {
@@ -212,17 +218,17 @@ export const ALL_MENUS: RootObject[] = [
     title: "About Us",
     children: [
       {
-        title: "About Us & Company History",
+        title: "About Us",
         link: "/about-us",
       },
-      {
-        title: "Partners",
-        link: "/partners",
-      },
-      {
-        title: "Why InfoSight",
-        link: "/why-infosight",
-      },
+      // {
+      //   title: "Partners",
+      //   link: "/partners",
+      // },
+      // {
+      //   title: "Why InfoSight",
+      //   link: "/why-infosight",
+      // },
       {
         title: "Testimonials",
         link: "/testimonials",

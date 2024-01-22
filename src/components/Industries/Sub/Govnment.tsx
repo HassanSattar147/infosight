@@ -2,6 +2,7 @@ import React from "react";
 import buildingImg from "../../../../public/industries/industries-government-img.png";
 import { Features } from "@/components/Elements/ServicePageLayout";
 import IndustryCard from "./IndustryCard";
+import ContentContainer from "@/components/Elements/ContentContainer";
 
 const GOVERNMENT_FEATURES_DATA = [
   "SIEM Solutions",
@@ -28,11 +29,13 @@ const description = `InfoSight understands that Government agencies are increasi
 const Government = () => {
   return (
     <>
+      <ContentContainer>
+        <h3 className="py-5 text-2xl lg:text-4xl font-semibold">
+          Cybersecurity for Government & Law Enforcement!
+        </h3>
+      </ContentContainer>
       <IndustryCard img={buildingImg} description={description} />
-      <Features
-        title="For Government Agencies We Provide"
-        data={GOVERNMENT_FEATURES_DATA}
-      />
+      <Features title="We Provide" data={GOVERNMENT_FEATURES_DATA} />
     </>
   );
 };

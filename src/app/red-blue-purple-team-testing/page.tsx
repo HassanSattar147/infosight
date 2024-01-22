@@ -11,19 +11,19 @@ const TEAM_ASSESSMENT_DATA = [
     img: infoImg1,
     title: "Red Team Testing",
     description:
-      "Red Team Testing services imitate persistent, motivated, and heavily resourced attackers by using advanced tactics, techniques, and procedures to penetrate the organization and achieve realistic goals. This method of assessment is geared towards environments with a mature and highly evolved security posture. This is a realistic adversary attack simulation of a bad actor and will identify technical and behavioral security control weaknesses. Red Team testing elevates an already mature security-aware organization by exercising all aspects of their prevention, detection, and response capabilities and demonstrates the return on their investment in security.",
+      "Red Team Testing services imitate motivated and heavily resourced attackers by using advanced tactics, techniques, and tools to compromise the and achieve realistic goals. This method of assessment is geared towards mature environments with s highly evolved security culture. This is a realistic adversary attack simulation of a bad actor and will identify technical and behavioral security control weaknesses. Red Team testing elevates an already mature security-aware organization by exercising all aspects of their prevention, detection, and response capabilities and demonstrates the return on their investment in security.",
   },
   {
     img: infoImg2,
     title: "Blue Team Testing",
     description:
-      "InfoSight's testing focused on assessing and improving your organization's defense mechanisms and incident response capabilities. It involves simulating various cyber threats and attacks to evaluate how well an organization's security team, processes, and technologies can detect, respond to, and mitigate these threats effectively. blue team testing is a proactive cybersecurity practice that assesses an organization's ability to defend against cyber threats and respond effectively to incidents. It plays a vital role in enhancing an organization's overall cybersecurity resilience by identifying weaknesses and facilitating improvements in security measures.",
+      "InfoSight's testing focuses on assessing and improving your organization's defense mechanisms and incident response capabilities. It involves simulating various cyber threats and attacks to evaluate how well an organization's security team, processes, detects, respond to, and mitigate these threats effectively. It plays a vital role in enhancing an organization's overall cybersecurity resilience by identifying weaknesses and facilitating improvements in security measures.",
   },
   {
     img: infoImg3,
     title: "Purple Team Testing",
     description:
-      "We take a collaborative cybersecurity testing approach that combines elements of both red teaming and blue teaming. It focuses on improving an organization's overall security posture by enhancing communication and cooperation between the offensive (red) and defensive (blue) security teams. Purple team testing is designed to ensure that both teams work together effectively to identify vulnerabilities, test security controls, and improve incident detection and response capabilities. Purple team testing bridges the gap between offensive and defensive cybersecurity activities. It promotes a proactive and cooperative approach to cybersecurity by ensuring that the red and blue teams work together to strengthen the organization's security defenses, identify vulnerabilities, and enhance incident response capabilities.",
+      "Here, we take a collaborative cybersecurity testing approach with your team that combines elements of both red teaming and blue teaming. It focuses on improving an organization's overall security posture by enhancing communication and cooperation between the offensive (red) and defensive (blue) security teams. Purple team testing is designed to ensure that both teams work together effectively to identify vulnerabilities, test security controls, and improve incident detection and response capabilities. Purple team testing bridges the gap between offensive and defensive cybersecurity activities. It promotes a proactive and cooperative approach to cybersecurity by ensuring that the red and blue teams work together to strengthen the organization's security defenses, identify vulnerabilities, and enhance incident response capabilities.",
   },
 ];
 

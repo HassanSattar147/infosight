@@ -23,7 +23,7 @@ const RISK_MANAGEMENT_DATA = [
     img: infoImg3,
     title: "The Outcome",
     description:
-      "To outcome is an ERM framework that creates a risk-aware culture, where investments in data analytics and technology, as well as engagement with senior leadership play key roles. Our goal is to deliver an ERM plan whereby organizations can continuously update and adapt their ERM strategies to address emerging risks effectively. We help organizations develop a collaboration among different departments and a proactive approach to risk management which is also key to success.",
+      "The outcome is an ERM framework that creates a risk-aware culture, where investments in data analytics and technology, as well as engagement with senior leadership play key roles. Our goal is to deliver an ERM plan whereby organizations can continuously update and adapt their ERM strategies to address emerging risks effectively. We help organizations develop a collaboration among different departments and a proactive approach to risk management which is also key to success.",
   },
 ];
 

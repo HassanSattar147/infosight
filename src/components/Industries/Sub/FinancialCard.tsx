@@ -2,6 +2,7 @@ import React from "react";
 import financialImg from "../../../../public/industries/industries-financial-img.png";
 import { Features } from "@/components/Elements/ServicePageLayout";
 import IndustryCard from "./IndustryCard";
+import ContentContainer from "@/components/Elements/ContentContainer";
 
 const FINANCIAL_FEATURES_DATA = [
   "SCADA & ICS Vulnerability Asessments",
@@ -19,11 +20,13 @@ const desctiption = `InfoSight provides solutions for financial industries to im
 const FinancialCard = () => {
   return (
     <>
+      <ContentContainer>
+        <h3 className="py-5 text-2xl lg:text-4xl font-semibold">
+          We know Financial!
+        </h3>
+      </ContentContainer>
       <IndustryCard img={financialImg} description={desctiption} />
-      <Features
-        data={FINANCIAL_FEATURES_DATA}
-        title="For Financial Industry We Provide"
-      />
+      <Features data={FINANCIAL_FEATURES_DATA} title="We Provide" />
     </>
   );
 };

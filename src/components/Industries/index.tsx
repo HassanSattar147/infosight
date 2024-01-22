@@ -68,9 +68,6 @@ const Industries = () => {
       />
       <Breadcrumbs path="Home / Industries" />
       <ContentContainer>
-        <h3 className="py-5 text-2xl lg:text-4xl font-semibold">
-          Explore our Industrial Coverage
-        </h3>
         <div className="py-5 lg:flex gap-2 grid grid-cols-2">
           {BTNS_TEXTS.map((btnText, i) => {
             return (

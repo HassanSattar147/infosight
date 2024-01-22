@@ -11,7 +11,7 @@ const MUCCCS_DATA = [
     img: infoImg1,
     title: "The Challenge",
     description:
-      "Traditional phone systems are hardware-driven, inflexible and have a high cost of ownership. Also, they rarely support video and when they do it unaffordable! Additionally, they are often proprietary so migrating from one platform to another requires a forklift!",
+      "Traditional phone systems are hardware-driven, inflexible and have a high cost of ownership. Also, they rarely support video and when they do it's unaffordable! Additionally, they are often proprietary so migrating from one platform to another requires a forklift!",
   },
   {
     img: infoImg2,
@@ -23,7 +23,7 @@ const MUCCCS_DATA = [
     img: infoImg3,
     title: "The Outcome",
     description:
-      "A voice and vide platforms for today that supports your workforce no matter where they are! ",
+      "A voice and video platform for today that supports your workforce no matter where they are!",
   },
 ];
 
@@ -40,7 +40,7 @@ const MUCCCS_FEATURES_DATA = [
 const page = () => {
   return (
     <ServicePageLayout
-      pageTitle="Managed Communications | infoSight"
+      pageTitle="Microsoft Teams Essentials With Voice | infoSight"
       heroImg={heroImg}
       heroTitle={"Microsoft Teams Essentials With Voice"}
       path={`Home / Services & Solutions / Managed Services / Managed Unified

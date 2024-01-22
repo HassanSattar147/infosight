@@ -32,8 +32,8 @@ const PositionCard = () => {
             tag="Cybersecurity"
           />
           <JobCard
-            title="Sales Professional"
-            description="Part-time"
+            title="Account Executives and S/BDRs "
+            description="Full-time"
             tag="Sales"
           />
           <JobCard

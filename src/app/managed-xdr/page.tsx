@@ -11,19 +11,19 @@ const MANAGED_XDR_DATA = [
     img: infoImg1,
     title: "The Challenge",
     description:
-      "Many organizations have XDRs and SIEMs that are not fully implemented or optimized due to time and resource constraints. As a result, the platforms often have limited visibility and blind spots or worse, create alert fatigue for worked teams. That's where we come in!",
+      "Many organizations have XDRs and SIEMs that are not fully implemented or optimized due to time and resource constraints. As a result, the platforms often have limited visibility and blind spots, or worse, create alert fatigue for overworked It security teams. That's where we come in!",
   },
   {
     img: infoImg2,
     title: "How We Deliver It",
     description:
-      "Our SOC team can take over the keys and drive for you. With or without our SOCaaS, we can manage and maintain your XDR or SIEM platform with our US-based SOC team.",
+      "Our SOC team can take the keys and drive for you. With or without our 24x7 SOCaaS, we can manage and maintain your XDR or SIEM platform with our US-based SOC team.",
   },
   {
     img: infoImg3,
     title: "The Outcome",
     description:
-      "Our Managed XDR can make response times quicker, more efficient, with expense. Leveraging our XDR resources will allow your team to focus on what matters in supporting the day-to-day operation.",
+      "Our Managed XDR can make response times quicker, more efficient, with less expense. Leveraging our XDR resources will allow your team to focus on what matters, supporting the day-to-day operation.",
   },
 ];
 
@@ -47,7 +47,7 @@ const page = () => {
         <>
           <p className="text-[#444444]">
             Is your team tired of managing Azure Sentinel, Splunk, or another
-            XDRs or SIEM? Hand us the keys! We&apos;ll manage it and maintain it
+            XDR or SIEM? Hand us the keys! We&apos;ll manage it and maintain it
             and deliver SOCaaS if you need it too!
           </p>
         </>

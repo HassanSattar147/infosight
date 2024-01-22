@@ -2,6 +2,7 @@ import React from "react";
 import energyImg from "../../../../public/industries/industries-water-img.png";
 import { Features } from "@/components/Elements/ServicePageLayout";
 import IndustryCard from "./IndustryCard";
+import ContentContainer from "@/components/Elements/ContentContainer";
 
 const WATER_FEATURES_DATA = [
   "SCADA & ICS Vulnerability Asessments",
@@ -19,11 +20,13 @@ const description = `With cyber attacks on the rise, water and wastewater cooper
 const Water = () => {
   return (
     <>
+      <ContentContainer>
+        <h3 className="py-5 text-2xl lg:text-4xl font-semibold">
+          Our solutions flow for Water & Wastewater!
+        </h3>
+      </ContentContainer>
       <IndustryCard img={energyImg} description={description} />
-      <Features
-        data={WATER_FEATURES_DATA}
-        title="For Water & Wastewater Industry We Provide"
-      />
+      <Features data={WATER_FEATURES_DATA} title="We Provide" />
     </>
   );
 };

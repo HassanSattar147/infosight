@@ -1,104 +1,69 @@
 "use client";
 import React from "react";
 import ServicePageLayout from "@/components/Elements/ServicePageLayout";
-import heroImg from "/public/services-solutions/Vulnerability-&-CybersSecurity-Assessments.png";
+import heroImg from "/public/compliance/compliance-hero-img.png";
 import infoImg1 from "/public/services-solutions/Business-Planning-Disaster-Recovery-info-img1.png";
 import infoImg2 from "/public/services-solutions/Business-Planning-Disaster-Recovery-info-img2.png";
 import infoImg3 from "/public/services-solutions/Business-Planning-Disaster-Recovery-info-img3.png";
 
-const SCADA_DATA = [
+const HIPPA_DATA = [
   {
     img: infoImg1,
     title: "The Challenge",
     description:
-      "Risk management for smaller institutions has no shortage of challenges due to limited resources, personnel, and technological capabilities. Whether it's a smaller workforce, which can make it challenging to designate individuals solely responsible for risk management, a complex regulatory environment, there never seems to be enough time of budget to get everything accomplished to the satisfaction or regulating bodies. Additionally, third-party risk seems to be on the risk due to supply chain compromises and cyberthreat trends.",
+      "HIPAA regulations are complex and multifaceted. Navigating and interpreting the various rules and requirements can be challenging, especially for organizations without dedicated compliance expertise. The healthcare sector is also a prime target for cyberattacks, and the threat landscape is continually evolving. Assessing and addressing emerging cybersecurity threats requires constant vigilance and expertise. Additionally, many healthcare organizations or entities with limited budgets may struggle to allocate the necessary resources for a comprehensive risk assessment. This includes financial resources, skilled personnel, and specialized technology tools.",
   },
   {
     img: infoImg2,
     title: "How We Solve It",
-    description: (
-      <>
-        <p className="text-gray-900 text-sm lg:text-base py-1 text-justify">
-          Our advisors review your institutions&apos; organizational structure
-          and operating environment to conduct a risk assessment based upon
-          FFIEC guidelines and your appetite for risk. We prioritize risk
-          management and assist in leveraging cost-effective technology
-          solutions for risk assessment, data analytics, and cybersecurity to
-          enhance risk management capabilities. We deliver methods to regularly
-          assess and update risk assessments to identify emerging risks and
-          prioritize risk mitigation efforts.
-        </p>
-        <h4 className="text-gray-700 py-2">
-          Our Services include, but are not limited to:
-        </h4>
-        <div className="p-2 flex">
-          <span className="pr-2 text-gray-600">&bull;</span>
-          <span className="font-semibold text-gray-700">
-            GLBA Risk Assessment
-          </span>
-        </div>
-        <div className="p-2 flex">
-          <span className="pr-2 text-gray-600">&bull;</span>
-          <span className="font-semibold text-gray-700">
-            Online Banking Risk Assessment
-          </span>
-        </div>
-        <div className="p-2 flex">
-          <span className="pr-2 text-gray-600">&bull;</span>
-          <span className="font-semibold text-gray-700">
-            Mobile Banking Risk Assessment
-          </span>
-        </div>
-        <div className="p-2 flex">
-          <span className="pr-2 text-gray-600">&bull;</span>
-          <span className="font-semibold text-gray-700">
-            ACH & Wire Transfer Risk Assessment
-          </span>
-        </div>
-        <div className="p-2 flex">
-          <span className="pr-2 text-gray-600">&bull;</span>
-          <span className="font-semibold text-gray-700">
-            IT Risk Assessment
-          </span>
-        </div>
-      </>
-    ),
+    description:
+      "To address these challenges, our experienced HIPAA compliance experts, show your organization how to invest in relevant technology and training, and developing a systematic approach to risk assessment and management. We'll develop a standardized risk assessment framework tailored to your organization's specific needs and resources with clearly defined scope and objectives.",
   },
   {
     img: infoImg3,
     title: "The Outcome",
     description:
-      "The outcome is a proactive and strategic approach to Risk management and assessments that helps your institution build resilience and effectively manage risks within your limitations.",
+      "Our HIPAA Risk Assessment is a clear and concise review of your HIPAA risk posture. We will quantify and categorize risk based upon federal requirements while creating a roadmap to compliance that is easy to follow and actionable.",
   },
 ];
 
-const SCADA_FEATURES_DATA = [
-  "Reduce the risk of a successful attack before it occurs",
-  "Identify security issues beyond the capability of automated tools",
-  "Prioritize your risks and quickly take the right preventative measures",
-  "Help meet compliance requirements before deadlines",
+const HIPPA_FEATURES_DATA = [
+  "Risk Analysis and Management (administrative, physical, technical & organizational)",
+  "Security and privacy training",
+  "Storage of ePHI on portable devices and media",
+  "Off-site access and use of ePHI from remote locations",
+  "Disposal of equipment containing ePHI",
+  "Business associates and contracts",
+  "Data encryption",
+  "Virus protection",
+  "Technical safeguards in place to protect ePHI",
+  "Network vulnerability scan",
+  "Policies, procedures and practices regarding security, privacy and information technology",
 ];
 
 const page = () => {
   return (
     <ServicePageLayout
-      pageTitle="Risk Assessments for Financial Institutions | InfoSight"
+      pageTitle="HIPPA Risk Assessments | InfoSight"
       heroImg={heroImg}
-      heroTitle={"Risk Assessments for Financial Institutions"}
-      path={`Home / Services & Solutions / Advisory Services / Security / Risk Assessments for Financial Institutions`}
+      heroTitle={"HIPPA Risk Assessments"}
+      path={`Home / Services & Solutions / Advisory Services / Security / HIPPA Risk Assessments`}
       overviewDescription={
         <p className="text-[#444444]">
-          With decades of Banking and Credit Union experience, InfoSight
-          advisors understand your Financial Institutions&apos; risk categories
-          as we as what Examiners are looking for in a Risk Management plan. We
-          understand your institutions&apos; FFIEC compliance requirements in
-          addition to overall risk management best practices.
+          A HIPAA (Health Insurance Portability and Accountability Act) risk
+          assessment is a crucial component of compliance for healthcare
+          organizations and any business that handles protected health
+          information (PHI). A HIPAA risk assessment is essential because it is
+          a legal requirement, helps protect sensitive health information,
+          verifies compliance, strengthens legal defenses, preserves reputation,
+          and ultimately contributes to the overall security and trustworthiness
+          of healthcare organizations and other entities handling PHI.
         </p>
       }
-      data={SCADA_DATA}
-      dataLabel={"SCADA_DATA"}
-      featuresData={SCADA_FEATURES_DATA}
-      featureTitle={"Key Benefits"}
+      data={HIPPA_DATA}
+      dataLabel={"HIPPA_DATA"}
+      featuresData={HIPPA_FEATURES_DATA}
+      featureTitle={"What We Offer"}
     />
   );
 };
