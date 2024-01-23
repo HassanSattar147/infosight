@@ -29,6 +29,7 @@ interface IServicesPageProps {
   featureTitle?: string;
   otherFeatureTitle?: string;
   downloadLinkLabel?: string;
+  hideDownloadIcon?: boolean;
   useVideoIconInDownloadbtn?: boolean;
 }
 
@@ -51,6 +52,7 @@ const ServicePageLayout = ({
   overviewComp,
   downloadLinkLabel = "Download Overview",
   useVideoIconInDownloadbtn = false,
+  hideDownloadIcon = false,
 }: IServicesPageProps) => {
   const [isModalOpen, setIsModalOpen] = React.useState(false);
 
@@ -67,6 +69,7 @@ const ServicePageLayout = ({
       videoLink,
       downloadLinkLabel,
       useVideoIconInDownloadbtn,
+      hideDownloadIcon,
     }),
     [
       setIsModalOpen,
@@ -75,6 +78,7 @@ const ServicePageLayout = ({
       videoLink,
       downloadLinkLabel,
       useVideoIconInDownloadbtn,
+      hideDownloadIcon,
     ]
   );
 
@@ -151,6 +155,7 @@ function Overview({
   videoLink,
   downloadLinkLabel,
   useVideoIconInDownloadbtn,
+  hideDownloadIcon,
 }: {
   setIsModalOpen: (x: boolean) => void;
   overviewDescription: string | GenericElements;
@@ -158,6 +163,7 @@ function Overview({
   videoLink?: string;
   downloadLinkLabel: string;
   useVideoIconInDownloadbtn: boolean;
+  hideDownloadIcon: boolean;
 }) {
   return (
     <ContentContainer>
@@ -169,7 +175,8 @@ function Overview({
             {(downloadLink || videoLink) && (
               <div
                 className={`flex gap-5 flex-col lg:flex-row lg:items-center cursor-pointer lg:w-${
-                  downloadLink && videoLink ? "6" : "8"
+                  // downloadLink && videoLink ? "6" : "8"
+                  downloadLink && videoLink ? "6" : hideDownloadIcon ? "4" : "8"
                 }/12`}
               >
                 {downloadLink && (
@@ -178,12 +185,14 @@ function Overview({
                     target={useVideoIconInDownloadbtn ? "" : "_blank"}
                   >
                     <div className="flex gap-5 items-center">
-                      <Image
-                        src={
-                          useVideoIconInDownloadbtn ? videoIcon : documentIcon
-                        }
-                        alt=""
-                      />
+                      {!hideDownloadIcon && (
+                        <Image
+                          src={
+                            useVideoIconInDownloadbtn ? videoIcon : documentIcon
+                          }
+                          alt=""
+                        />
+                      )}
                       <p className=" text-[#8C340D] font-semibold">
                         {downloadLinkLabel}
                       </p>

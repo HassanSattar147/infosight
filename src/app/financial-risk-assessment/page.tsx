@@ -20,10 +20,10 @@ const SCADA_DATA = [
       <>
         <p className="text-gray-900 text-sm lg:text-base py-1 text-justify">
           With decades of Banking and Credit Union experience, InfoSight
-          advisors understand your Financial Institutions' risk categories as
-          well as what Examiners are looking for in a Risk Management Program.
-          We understand your institutions' FFIEC compliance requirements in
-          addition to overall risk management best practices.
+          advisors understand your Financial Institutions&apos; risk categories
+          as well as what Examiners are looking for in a Risk Management
+          Program. We understand your institutions&apos; FFIEC compliance
+          requirements in addition to overall risk management best practices.
         </p>
         <h4 className="text-gray-700 py-2">
           Our Services include, but are not limited to:
