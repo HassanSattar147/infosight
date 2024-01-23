@@ -15,7 +15,8 @@ const OIL_GAS_FEATURES_DATA = [
   "Employee Security Awareness Training",
 ];
 
-const description = `With cyber attacks on the rise, oil & gas companies need to have layered security controls in place to defend against or identify an attack in seconds. It is imperative for those with BES (Bulk Electric Systems) and ICS (Information Control Systems) to have the most current patches applied and monitored 24x7x365. No organization is immune to cyber attacks, but a proactive strategy can make your OT & IT networks more “cyber-resilient” to attacks and bad actors. In the oil and gas industry, attacks leading to Industrial Control Systems failure can be catastrophic on multiple levels.  InfoSight's Vulnerability Assessment and 24x7x365 threat monitoring can reduce the risk of a successful cyber attack. We can assist your organization by creating the most effective incident response and recover plans for your environment.`;
+const description = `We understand attacks against IT, OT and ICS/SCADA Networks are on the rise by both state-sponsored and profit-driven bad actors. So, our solutions are designed for your specified environments based upon your specific attack surface. From assessment and consulting, to 24x7 Managed Service IT & OT we have the experience-based knowledge you need to protect against cyberattack!
+`;
 
 const OilGas = () => {
   return (

@@ -15,7 +15,8 @@ const FINANCIAL_FEATURES_DATA = [
   "Employee Security Awareness Training",
 ];
 
-const desctiption = `InfoSight provides solutions for financial industries to improve overall compliance, security and financial infrastructure. InfoSight provides 24x7x365 Managed Security and Advisory Services that test and monitor your network's infrastructure; keeping you secure from any breaches that could occur.`;
+const desctiption = `Financial Institutions are the Core of InfoSight's solutions. We come from the financial core processing industry so we understanding your operating environment. Whether you're in-house or outsource, the platforms that run your operation are well known by our team. We provide Technology, Cybersecurity, Risk Management, Compliance and Online Banking Customer Security Awareness Training solutions for institutions of all sizes. 
+`;
 
 const FinancialCard = () => {
   return (

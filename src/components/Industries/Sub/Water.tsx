@@ -15,7 +15,8 @@ const WATER_FEATURES_DATA = [
   "Employee Security Awareness Training",
 ];
 
-const description = `With cyber attacks on the rise, water and wastewater cooperatives need to have the layered security controls in place to defend against or identify an attack in seconds. It is imperative for those ICS (Information Control Systems) to have the most current patches applied and monitored 24x7x365. No organization is immune to cyber attacks, but a proactive strategy can make your OT & IT Networks more “cyber-resilient” to attacks and bad actors. Cyber attacks leading to Industrial Control System failures can be catastrophic on multiple levels. InfoSight's Vulnerability Assessment and 24x7x365 threat monitoring can reduce the risk of a successful cyber attack. We can assist your organization by creating the most effective incident response and recovery plans for your environment. InfoSight's security strategies and services can reduce the risk of compromised data from your information control systems. We provide your team with the most efficient incident response and recovery preparation and planning possible helping owners defend their critical infrastructures from emerging cyber threats.`;
+const description = `We understand that being part of our Nation's Critical Infrastructure, your networks must be up and running 24x7x365. However, the fact is, both geopolitical dangers and for-profit cybercrime are increasing, so it's not matter of “if” you'll be under attack, but “when”. Being Cyberresllient is the key to defending attacks because the availability of systems isn't impacted, and collateral damage is minimized. The AWIA was a good start, however a more comprehensive strategy is needed to make your OT & IT Networks secure. Let us show you how…
+`;
 
 const Water = () => {
   return (

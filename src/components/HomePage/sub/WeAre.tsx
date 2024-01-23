@@ -21,17 +21,17 @@ const WeAre = () => {
                 Who are we?
               </h1>
               <p className="text-sm lg:text-lg my-8">
-                InfoSight is an innovative cybersecurity company. Years of
-                working with highly regulated customers where information
-                security is mature makes InfoSight well suited to accelerate
-                growth where commercial customers demand top level security.
+                InfoSight is an innovative cybersecurity and risk management
+                firm with over two decades of successful outcomes. Working
+                within regulated and critical industries where security is
+                crucial, makes us well suited to deliver high level security
+                solutions.
                 <br />
                 <br />
-                Organizations nationwide rely on InfoSight to design, protect,
-                manage and advise on their network security, allowing them to
-                maximize their investment in every circumstance. InfoSight
-                provides the highest level of expertise, support, and customer
-                service available.
+                Organizations nationwide rely on us to design, build and manage
+                their cybersecurity, allowing them to operate securely and at an
+                optimum level. We provide the highest level of expertise, advice
+                and support available anywhere.
               </p>
               <Button text="Watch Video" onClick={handleOpenModal} />
             </div>

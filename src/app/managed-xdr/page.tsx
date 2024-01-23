@@ -11,7 +11,7 @@ const MANAGED_XDR_DATA = [
     img: infoImg1,
     title: "The Challenge",
     description:
-      "Many organizations have XDRs and SIEMs that are not fully implemented or optimized due to time and resource constraints. As a result, the platforms often have limited visibility and blind spots, or worse, create alert fatigue for overworked It security teams. That's where we come in!",
+      "Many organizations have XDRs and SIEMs that are not fully implemented or optimized due to time and resource constraints. As a result, the platforms often have limited visibility and blind spots, or worse, create alert fatigue for overworked IT security teams. That's where we come in!",
   },
   {
     img: infoImg2,

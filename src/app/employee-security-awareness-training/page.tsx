@@ -53,7 +53,7 @@ const page = () => {
         </p>
       }
       downloadLink={`contact`}
-      downloadLinkLabel="Book a Demo Now"
+      downloadLinkLabel="Learn More"
       useVideoIconInDownloadbtn
       data={EMPLOYEE_SECURITY_DATA}
       dataLabel={"EMPLOYEE_SECURITY_DATA"}

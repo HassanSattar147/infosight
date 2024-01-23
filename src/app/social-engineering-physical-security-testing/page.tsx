@@ -16,7 +16,8 @@ const SOCIAL_ENGG_DATA = [
   {
     img: infoImg2,
     title: "How We Solve It",
-    description: "Leveraging AI-powered tools",
+    description:
+      "Leveraging AI-powered tools, our experienced security assessors custom tailor social engineering campaigns that benchmark your current proficiency level. Our campaigns can be via email, SMS text, voice or onsite. Our goal is to deliver a roadmap to effective employee security awareness training initiatives.",
   },
   {
     img: infoImg3,
@@ -50,13 +51,11 @@ const page = () => {
       Engineering & Physical Security Testing`}
       overviewDescription={
         <p className="text-[#444444]">
-          InfoSight&apos;s Penetration Testing services reduce the risk of a
-          successful attacks before they occur. With over two decades of
-          experience in security, compliance and risk management, our experts
-          work as ethical hackers to identify security issues beyond the
-          capability of automated tools and assessments/tests. As cyberattacks
-          continue to rise everyday it is important to perform penetration tests
-          regularly.
+          InfoSight&apos;s Social Engineering Testing services reduce the risk
+          of a successful phishing attacks before they occur. With over two
+          decades of experience in security, compliance and risk management, our
+          experienced security assessors custom tailor social engineering
+          campaigns.
         </p>
       }
       downloadLink={`https://www.infosightinc.com/pdf/InfoSight-Social%20Engineering-2.pdf`}

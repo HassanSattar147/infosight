@@ -134,7 +134,7 @@ export function Hero({
     <ContentContainer bgImage={heroImg}>
       <div className="md:min-h-[40vh] min-h-[30vh] flex justify-center md:justify-start items-center py-5">
         <div className="flex flex-col items-start">
-          <h1 className="text-white text-center md:text-[55px] text-4xl font-extrabold leading-tight">
+          <h1 className="text-white text-center md:text-[45px] text-4xl font-extrabold leading-tight">
             {heroTitle}
           </h1>
           {heroDescription && (

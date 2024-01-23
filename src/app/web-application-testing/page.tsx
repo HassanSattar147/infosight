@@ -9,39 +9,58 @@ import infoImg3 from "/public/services-solutions/Business-Planning-Disaster-Reco
 const WEB_APP_DATA = [
   {
     img: infoImg1,
-    title: "Our Methodology",
+    title: "The Challenge",
+    description:
+      "Web Applications are very common today, however so are their vulnerabilities. There are many reasons these applications are so insecure. First, many have inadequate Authentication and Authorization which can lead to unauthorized access to sensitive data or functionality. They often have Insecure Dependencies that rely on third-party plugins and open-source code. Additionally, sometimes they lack Encryption so data can be intercepted and stolen. They can also have File Upload Vulnerabilities, allowing users to upload files without proper validation and controls which can lead to malware injection.  And of course, there's always the Zero Day, so assessing security routinely is wise.",
+  },
+  {
+    img: infoImg2,
+    title: "How We Solve it",
     description: (
       <>
-        <h4 className="text-gray-900 text-sm lg:text-base font-semibold py-1 pt-2 text-justify">
-          Design & Develop
-        </h4>
         <p className="text-gray-900 text-sm lg:text-base py-1 text-justify">
-          We&apos;ll assess your run time environment and check for security
-          flaws introduced during coding. This step plays an important role in
-          building strong applications.
+          We take all these insecurities into consideration and help you to
+          better:
         </p>
-        <h4 className="text-gray-900 text-sm lg:text-base pt-3 font-semibold pb-1 text-justify">
-          Test & Implement
-        </h4>
-        <p className="text-gray-900 text-sm lg:text-base pb-3 text-justify">
-          This is one of the most important functions within the SDLC. It allows
-          us to verify if security controls and requirements are fulfilled
-          correctly before implementing and promoting applications to
-          production-level. We employ a broad security assessment of your
-          application before hitting production.
-        </p>
-        <h4 className="text-gray-900 text-sm lg:text-base font-semibold py-1 text-justify">
-          Maintain & Check
-        </h4>
-        <p className="text-gray-900 text-sm lg:text-base py-1 text-justify">
-          Here, continuous, and periodic security assessments are a key function
-          within your SDLC and can be required as part of regulatory compliance
-          requirements. Ensuring changes to your web application will not break
-          its security maturity level is important to manage vulnerabilities and
-          security risks.
-        </p>
+        <div className="p-2 flex">
+          <span className="pr-2 font-bold">&bull;</span>
+          <p>
+            <span className="font-bold">Detect & Alert Fatigue - </span>{" "}
+            We&apos;ll assess your run time environment and check for security
+            flaws introduced during coding. This step plays an important role in
+            building strong applications.
+          </p>
+        </div>
+        <div className="p-2 flex">
+          <span className="pr-2 font-bold">&bull;</span>
+          <p>
+            <span className="font-bold">Test & Implement - </span> This is one
+            of the most important functions within the SDLC. It allows us to
+            verify if security controls and requirements are fulfilled correctly
+            before implementing and promoting applications to production-level.
+            We employ a broad security assessment of your application before
+            hitting production.
+          </p>
+        </div>
+        <div className="p-2 flex">
+          <span className="pr-2 font-bold">&bull;</span>
+          <p>
+            <span className="font-bold">Maintain & Check - </span> Here,
+            continuous, and periodic security assessments are a key function
+            within your SDLC and can be required as part of regulatory
+            compliance requirements. Ensuring changes to your web application
+            will not break its security maturity level is important to manage
+            vulnerabilities and security risks.
+          </p>
+        </div>
       </>
     ),
+  },
+  {
+    img: infoImg3,
+    title: "The Outcome",
+    description:
+      "To mitigate these security risks, we assist web developers and organizations to follow security best practices, conduct regular security assessments and audits, stay updated on emerging threats, and implement security measures that make your application more secure. Web Application Security is an ongoing process that requires vigilance and continuous improvement.",
   },
 ];
 
