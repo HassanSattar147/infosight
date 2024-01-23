@@ -11,7 +11,7 @@ const TEAM_ASSESSMENT_DATA = [
     img: infoImg1,
     title: "Red Team Testing",
     description:
-      "Red Team Testing services imitate motivated and heavily resourced attackers by using advanced tactics, techniques, and tools to compromise the and achieve realistic goals. This method of assessment is geared towards mature environments with s highly evolved security culture. This is a realistic adversary attack simulation of a bad actor and will identify technical and behavioral security control weaknesses. Red Team testing elevates an already mature security-aware organization by exercising all aspects of their prevention, detection, and response capabilities and demonstrates the return on their investment in security.",
+      "Red Team Testing services imitate motivated and heavily resourced attackers by using advanced tactics, techniques, and tools to compromise the and achieve realistic goals. This method of assessment is geared towards mature environments with a highly evolved security culture. This is a realistic adversary attack simulation of a bad actor and will identify technical and behavioral security control weaknesses. Red Team testing elevates an already mature security-aware organization by exercising all aspects of their prevention, detection, and response capabilities and demonstrates the return on their investment in security.",
   },
   {
     img: infoImg2,

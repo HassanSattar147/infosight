@@ -12,10 +12,10 @@ import ContentContainer from "@/components/Elements/ContentContainer";
 const OURSERVICES_DATA = [
   {
     img: serviceIcon1,
-    title: "Managed Security Services",
+    title: "SOCaaS",
     description:
       "InfoSight's Security Operations Center (SOC) leverages sound and repeatable processes to mitigate threats in a systematic approach delivering superior outcomes with no alert fatigue ever.",
-    link: "/mitigator-vulnerability-threat-manager",
+    link: "SOCaaS",
   },
   {
     img: serviceIcon2,
@@ -26,17 +26,17 @@ const OURSERVICES_DATA = [
   },
   {
     img: serviceIcon3,
-    title: "Managed Network & Cloud Support Services",
+    title: "Microsoft Teams Essentials With Voice",
     description:
       "InfoSight's Managed Network and Support Services provide the appropriate skillsets to achieve the ideal level of network management required for your specific environment.",
     link: "managed-network-support-services",
   },
   {
     img: serviceIcon4,
-    title: "BCP/DR Planning",
+    title: "Mitigator Vulnerability & Threat Manager",
     description:
-      "InfoSight's Certified Business Continuity Planners (CBCP's) utilize years of experience in Business Continuity Planning and Disaster Recovery experience to develop a specific plan for your organization.",
-    link: "business-continuity",
+      "Mitigator is a Vulnerability and Threat Management Platform for Network, Cloud and Web Applications that makes tracking and remediating vulnerabilities easier. The centralized console allows you to analyze and track vulnerabilities, threat trends and schedule remediation.",
+    link: "/mitigator-vulnerability-threat-manager",
   },
   {
     img: serviceIcon5,

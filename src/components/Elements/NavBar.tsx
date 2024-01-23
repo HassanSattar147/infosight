@@ -126,7 +126,7 @@ export const ALL_MENUS: RootObject[] = [
         link: "/SOCaaS",
       },
       {
-        title: "Mitigator Vulnerability & threat Manager",
+        title: "Mitigator Vulnerability & Threat Manager",
         link: "/mitigator-vulnerability-threat-manager",
       },
       {

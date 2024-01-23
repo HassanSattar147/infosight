@@ -38,10 +38,6 @@ const FOOTER_DATA = [
     title: "Quick Links",
     items: [
       {
-        text: "Managed EDR",
-        link: "/managed-edr",
-      },
-      {
         text: "Penetration Testing",
         link: "/penetration-testing",
       },
@@ -54,8 +50,12 @@ const FOOTER_DATA = [
         link: "/industrial-control-IoT-security-assessments",
       },
       {
-        text: "Security Awareness Training for Online Banking",
-        link: "/bank-security-awareness-training",
+        text: "Managed EDR",
+        link: "/managed-edr",
+      },
+      {
+        text: "Mitigator Vulnerability & Threat Manager",
+        link: "/mitigator-vulnerability-threat-manager",
       },
     ],
   },

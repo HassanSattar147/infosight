@@ -60,12 +60,7 @@ const Industries = () => {
 
   return (
     <PageLayout hideWeProvide hideWhyInfoSight hideOurServices>
-      <Hero
-        heroImg={heroImg}
-        heroTitle="Industries"
-        heroDescription="Explore case studies related to the industries for which InfoSight
-      works for."
-      />
+      <Hero heroImg={heroImg} heroTitle="Industries We Serve" />
       <Breadcrumbs path="Home / Industries" />
       <ContentContainer>
         <div className="py-5 lg:flex gap-2 grid grid-cols-2">
