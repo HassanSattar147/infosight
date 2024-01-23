@@ -25,11 +25,6 @@ const WHYINFOSIGHT_DATA = [
   {
     img: featuredIcon5,
     description:
-      "Complete MSSP Services that include Monitoring, Real-Time Threat Analysis, Mitigation/Remediation, Alerting, Reporting and Device Management",
-  },
-  {
-    img: featuredIcon5,
-    description:
       "Offering comprehensive cybersecurity Awareness Training Solutions",
   },
   {
