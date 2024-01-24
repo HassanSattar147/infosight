@@ -14,11 +14,7 @@ const Testimonials = () => {
 
   return (
     <PageLayout hideWeProvide hideOurServices hideWhyInfoSight>
-      <Hero
-        heroImg={heroImg}
-        heroTitle="Testimonials"
-        heroDescription="Read reviews and critical feedbacks from our esteemed clients and users."
-      />
+      <Hero heroImg={heroImg} heroTitle="Testimonials" />
       <Breadcrumbs path="Home / About Us / Testimonials" />
       <ContentContainer>
         <h3 className=" text-2xl lg:text-4xl font-semibold">
