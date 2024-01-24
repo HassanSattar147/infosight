@@ -26,7 +26,7 @@ const MbNavbar = () => {
       </button>
       <div className="mb-nav-container-logo">
         <Link href={"/"}>
-          <Image src={logoImg} alt="" role="button" height={33} />
+          <Image src={logoImg} alt="" role="button" width={130} />
         </Link>
       </div>
       <div

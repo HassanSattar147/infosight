@@ -1,7 +1,7 @@
 /* Desktop view Navbar styles - Start */
 
 .lgnavbar {
-  height: 80px;
+  height: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -9,9 +9,9 @@
 }
 
 .lgnavbar__logo__img {
-  min-width: 95px;
-  width: 95px;
-  max-width: 95px;
+  min-width: 130px;
+  width: 130px;
+  max-width: 130px;
 }
 
 .lgnavbar__menus {
@@ -164,8 +164,9 @@ a.dd-menu-item:focus-visible {
 .mb-nav-container {
   display: none;
   align-items: center;
-  padding: 12px 24px;
+  padding: 16px 24px;
   position: relative;
+  height: 100px;
 }
 
 .mb-nav-container-logo {
@@ -214,7 +215,7 @@ a.dd-menu-item:focus-visible {
 
 /* Mobile view Navbar styles - End */
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1105px) {
   .lgnavbar {
     display: none;
   }
