@@ -2,19 +2,14 @@
 import React from "react";
 import ServicePageLayout from "@/components/Elements/ServicePageLayout";
 import heroImg from "/public/services-solutions/Vulnerability-&-CybersSecurity-Assessments.png";
-import infoImg1 from "/public/services-solutions/Business-Planning-Disaster-Recovery-info-img1.png";
-import infoImg2 from "/public/services-solutions/Business-Planning-Disaster-Recovery-info-img2.png";
-import infoImg3 from "/public/services-solutions/Business-Planning-Disaster-Recovery-info-img3.png";
 
 const VIRTUAL_INFO_DATA = [
   {
-    img: infoImg1,
     title: "The Challenge",
     description:
       "Most organizations need an ISO, but maybe not full-time. Or with ISOs in such high demand and with salaries on the rise, can't afford a full-time resource. This can leave an organization in a conundrum, because cyberattacks stop at nothing and no industry is immune. So, what to do?",
   },
   {
-    img: infoImg2,
     title: "How We Solve It",
     description:
       "We provide organizations with a Virtual ISO (vISO) who serves as an extension of your team and is responsible for making recommendations for the development, implementation, and management of your organization's corporate security vision. Your vISO is retained on a contractual basis and facilitates conversations that lead to executive critical decision-making related to information security issues. Our Tactical & Strategic vISO Programs include organizational oversight, mitigation tracking, resource assignments and risk assessments, audit preparation utilizing our GRC Platform.",

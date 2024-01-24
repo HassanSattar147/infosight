@@ -1,29 +1,25 @@
 "use client";
 import React from "react";
 import ServicePageLayout from "@/components/Elements/ServicePageLayout";
-import Image from "next/image";
 import heroImg from "/public/audit/Audit-img.png";
 import auditInfoImg1 from "/public/audit/Audit-info-img1.png";
-import generalinfoImg1 from "/public/audit/IT-General-Control-Review-img1.png";
-import generalinfoImg2 from "/public/audit/IT-General-Control-Review-img2.png";
-import infoImg3 from "/public/services-solutions/Business-Planning-Disaster-Recovery-info-img3.png";
+// import generalinfoImg1 from "/public/audit/IT-General-Control-Review-img1.png";
+// import generalinfoImg2 from "/public/audit/IT-General-Control-Review-img2.png";
+// import infoImg3 from "/public/services-solutions/Business-Planning-Disaster-Recovery-info-img3.png";
 import ContentContainer from "@/components/Elements/ContentContainer";
 
 const IT_GENERAL_CONTROL_DATA = [
   {
-    img: generalinfoImg1,
     title: "The Challenge",
     description:
       "Controls for smaller institutions have no shortage of challenges including limited resources, personnel, and technological capabilities. Whether it's a smaller workforce, which can make it challenging to designate individuals solely responsible for risk management or a complex regulatory environment, there never seems to be enough time or budget to get everything accomplished to the satisfaction of regulating bodies. Additionally, third-party risk seems to be on the rise due to supply chain compromises and cyberthreat trends.",
   },
   {
-    img: generalinfoImg2,
     title: "How We Solve it",
     description:
       "Our advisors review your institutions' organizational structure and operating environment to conduct an IT Controls Review based upon FFIEC guidelines and your appetite for risk. We prioritize the control environment and assist in leveraging cost-effective technology solutions for risk assessment, data analytics, and cybersecurity to enhance controls capabilities.",
   },
   {
-    img: infoImg3,
     title: "The Outcome",
     description:
       "The outcome is a proactive and strategic approach to IT Controls that helps your institution build resilience and effectively manage risks within your limitations.",

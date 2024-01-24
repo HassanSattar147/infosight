@@ -2,25 +2,19 @@
 import React from "react";
 import ServicePageLayout from "@/components/Elements/ServicePageLayout";
 import heroImg from "/public/services-solutions/Security-Awareness-Training-Onlin-Banking-img.png";
-import infoImg1 from "/public/services-solutions/Business-Planning-Disaster-Recovery-info-img1.png";
-import infoImg2 from "/public/services-solutions/Business-Planning-Disaster-Recovery-info-img2.png";
-import infoImg3 from "/public/services-solutions/Business-Planning-Disaster-Recovery-info-img3.png";
 
 const EMPLOYEE_SECURITY_DATA = [
   {
-    img: infoImg1,
     title: "The Challenge",
     description:
       "If your staff can't recognize a scam, they won't be able to take the right defensive actions against it. And today, AI-enabled social engineering is creating deep fakes so good they are nearly impossible to spot! These threats are using social media to launch sophisticated phishing attacks - so, it’s not a matter of if, but when an employee clicks!",
   },
   {
-    img: infoImg2,
     title: "How We Solve It",
     description:
       "Our employee security awareness training course library has courses such as Cybersecurity Awareness Basics, Email Security, Password Security, Avoiding Identify Theft, Corporate Account Takeover, Physical Security, Essential of Social Engineering & more!",
   },
   {
-    img: infoImg3,
     title: "The Outcome",
     description:
       "InfoSight's courseware catalog allows you to select from over 150 courses to meet your goals and industry compliance requirements. InfoSight's courses are designed for all knowledge levels to train your staff on how to recognize suspicious activity and take preventative measures to help your organization avoid a costly breach or accidental data leak.",

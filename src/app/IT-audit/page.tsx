@@ -3,20 +3,17 @@ import React from "react";
 import ServicePageLayout from "@/components/Elements/ServicePageLayout";
 import heroImg from "/public/audit/Audit-img.png";
 import auditInfoImg1 from "/public/audit/Audit-info-img1.png";
-import auditInfoImg2 from "/public/audit/Audit-info-img2.png";
-import Image from "next/image";
+// import auditInfoImg2 from "/public/audit/Audit-info-img2.png"
 import ContentContainer from "@/components/Elements/ContentContainer";
 
 const ITAUDIT_DATA = [
   {
-    img: auditInfoImg2,
     title:
       "What the difference between an IT Audit and a Vulnerability Assessment?”",
     description:
       "An IT audit and a vulnerability assessment are related but distinct processes that serve different purposes within the realm of information technology security and compliance. While both IT audits and vulnerability assessments play essential roles in ensuring the security and compliance of an organization's IT environment, they have distinct focuses and scopes. An IT audit provides a comprehensive evaluation of IT governance, security, and compliance, while a vulnerability assessment specifically identifies and quantifies vulnerabilities within the IT infrastructure. These assessments can complement each other, with the findings of a vulnerability assessment informing the broader IT audit process.",
   },
   {
-    img: auditInfoImg2,
     title: "Why are IT Audits Important?",
     description:
       "IT audits are essential for several reasons, as they play a critical role in ensuring the security, compliance, and efficiency of an organization's information technology (IT) systems and processes. IT audits are a proactive and essential tool for organizations to assess and improve their IT security, compliance, and overall operational effectiveness. They help organizations identify and mitigate risks, enhance data protection, and ensure that IT practices align with business goals and regulatory requirements. By investing in IT audits, organizations can better protect their assets, reputation, and stakeholders' trust",

@@ -2,25 +2,19 @@
 import React from "react";
 import ServicePageLayout from "@/components/Elements/ServicePageLayout";
 import heroImg from "/public/services-solutions/Vulnerability-&-CybersSecurity-Assessments.png";
-import infoImg1 from "/public/services-solutions/Business-Planning-Disaster-Recovery-info-img1.png";
-import infoImg2 from "/public/services-solutions/Business-Planning-Disaster-Recovery-info-img2.png";
-import infoImg3 from "/public/services-solutions/Business-Planning-Disaster-Recovery-info-img3.png";
 
 const MOBILE_API_DATA = [
   {
-    img: infoImg1,
     title: "The Challenge",
     description:
       "Applications have become a prime target for cybercriminals because of the data stored within them. Weaknesses and flaws in an application's source code or APIs can result in exploitation compromising confidential data. AI poses a growing threat to application security where automation can play a role allowing bad actors to attack at velocity.",
   },
   {
-    img: infoImg2,
     title: "How We Solve It",
     description:
       "InfoSight's API and Code Reviews, which can include Mobile operating systems, assist in identifying any underlying security issues with the application by providing a comprehensive review of Application code and API's. By leveraging AI-powered tools and decades of experience, our team ensures applications are hardened for today's threat landscape.",
   },
   {
-    img: infoImg3,
     title: "The Outcome",
     description:
       "Our reporting is actionable! Recommendations for remedial action are made at the conclusion of testing, with the option of retesting post remediation.  Our personalized approach will help quantify your cyber risk, prioritize the most critical threats, and create a continuous threat exposure management roadmap.",
