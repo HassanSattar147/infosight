@@ -17,7 +17,7 @@ const WEB_APP_DATA = [
     img: infoImg2,
     title: "How We Solve it",
     description: (
-      <>
+      <div>
         <p className="text-gray-900 text-sm lg:text-base py-1 text-justify">
           We take all these insecurities into consideration and help you to
           better:
@@ -25,9 +25,9 @@ const WEB_APP_DATA = [
         <div className="p-2 flex">
           <span className="pr-2 font-bold">&bull;</span>
           <p>
-            <span className="font-bold">Detect & Alert Fatigue - </span>{" "}
-            We&apos;ll assess your run time environment and check for security
-            flaws introduced during coding. This step plays an important role in
+            <span className="font-bold">Design & Develop - </span> We&apos;ll
+            assess your run time environment and check for security flaws
+            introduced during coding. This step plays an important role in
             building strong applications.
           </p>
         </div>
@@ -53,7 +53,7 @@ const WEB_APP_DATA = [
             vulnerabilities and security risks.
           </p>
         </div>
-      </>
+      </div>
     ),
   },
   {

@@ -10,8 +10,7 @@ const SOCIAL_ENGG_DATA = [
   {
     img: infoImg1,
     title: "The Challenge",
-    description:
-      "InfoSight's Penetration Testing services reduce the risk of a successful attacks before they occur. With over two decades of experience in security, compliance and risk management, our experienced security assessors identify security issues beyond the capability of automated tools and assessments/tests.",
+    description: `With AI -assisted Social Engineering attacks, and new Deep Fakes almost impossible to detect, it's not a matter of if you'll have an incident, just when. There is also a call for the government to outlaw ransomware payments, what then?! If it becomes a crime to pay to get your data back, you'd better have a solid Incident Response Plan (IRP). The key is to become Cyberresllient, where responding to an attack is swift and effective yet collateral damage is limited. However, achieving the goal with limited resources and budget is the challenge.`,
   },
   {
     img: infoImg2,

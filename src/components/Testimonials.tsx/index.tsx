@@ -22,7 +22,7 @@ const Testimonials = () => {
       <Breadcrumbs path="Home / About Us / Testimonials" />
       <ContentContainer>
         <h3 className=" text-2xl lg:text-4xl font-semibold">
-          Infosights Testimonials
+          Client Testimonials
         </h3>
       </ContentContainer>
       <TestimonialCard />

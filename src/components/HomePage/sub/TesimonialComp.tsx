@@ -22,7 +22,7 @@ const TesimonialsComp = () => {
   return (
     <ContentContainer>
       <div className="py-10 lg:py-20">
-        <h1 className=" text-2xl lg:text-4xl font-semibold">Testimonials</h1>
+        <h1 className=" text-2xl lg:text-4xl font-semibold">Client Testimonials</h1>
         <div className="grid lg:grid-cols-3 gap-5 lg:gap-10 mt-5 lg:mt-10">
           {data.map(({ description, user }, i) => {
             return (
