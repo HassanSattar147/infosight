@@ -27,13 +27,15 @@
   display: flex;
   align-items: center;
   gap: 8px;
-  height: 80px;
+  height: 100px;
   position: relative;
+  z-index: 2;
 }
 
 .fisrt-parent-menu__dd {
   cursor: pointer;
   position: absolute;
+  z-index: 2;
   bottom: 0;
   left: 0;
   min-width: 250px;
@@ -86,12 +88,14 @@
 .fisrt-child-menu,
 .second-child-menu {
   position: relative;
+  z-index: 2;
 }
 
 .fisrt-child-menu__dd,
 .second-child-menu__dd {
   background-color: #fff;
   position: absolute;
+  z-index: 2;
   right: 0;
   top: 0;
   transform: translate(calc(100% + 10px), 0);
@@ -166,6 +170,7 @@ a.dd-menu-item:focus-visible {
   align-items: center;
   padding: 16px 24px;
   position: relative;
+  z-index: 2;
   height: 100px;
 }
 
