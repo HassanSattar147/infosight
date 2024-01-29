@@ -54,7 +54,7 @@ export const ALL_MENUS: RootObject[] = [
                 title: "Social Engineering & Physical Security Testing",
                 link: "/social-engineering-physical-security-testing",
               },
-              { title: "VISO", link: "/viso" },
+              { title: "Virtual Information Security Officer (VISO)", link: "/viso" },
               {
                 title: "Industrial Control & IoT Security Assessments",
                 link: "/industrial-control-IoT-security-assessments",
