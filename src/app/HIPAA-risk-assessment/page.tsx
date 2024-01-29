@@ -1,7 +1,8 @@
 "use client";
 import React from "react";
 import ServicePageLayout from "@/components/Elements/ServicePageLayout";
-import heroImg from "/public/compliance/compliance-hero-img.png";
+// import heroImg from "/public/compliance/compliance-hero-img.png";
+import heroImg from "/public/testing-images/hippa-banner.jpg";
 
 const HIPPA_DATA = [
   {

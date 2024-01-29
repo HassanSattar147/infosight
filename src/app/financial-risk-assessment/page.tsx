@@ -1,7 +1,8 @@
 "use client";
 import React from "react";
 import ServicePageLayout from "@/components/Elements/ServicePageLayout";
-import heroImg from "/public/services-solutions/Vulnerability-&-CybersSecurity-Assessments.png";
+// import heroImg from "/public/services-solutions/Vulnerability-&-CybersSecurity-Assessments.png";
+import heroImg from "/public/testing-images/risk-assessments-banner.jpg";
 
 const SCADA_DATA = [
   {

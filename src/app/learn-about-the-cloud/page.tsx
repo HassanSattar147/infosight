@@ -1,7 +1,8 @@
 "use client";
 import React from "react";
 import ServicePageLayout from "@/components/Elements/ServicePageLayout";
-import heroImg from "/public/services-solutions/Learn-Cloud-LMS-img.png";
+// import heroImg from "/public/services-solutions/Learn-Cloud-LMS-img.png";
+import heroImg from "/public/testing-images/learn-about-cloud-banner.jpg";
 
 const CLOUDMS_DATA = [
   {

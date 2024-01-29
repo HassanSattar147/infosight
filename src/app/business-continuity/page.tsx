@@ -1,7 +1,8 @@
 "use client";
 import React from "react";
 import ServicePageLayout from "@/components/Elements/ServicePageLayout";
-import heroImg from "/public/services-solutions/Business-Planning-Disaster-Recovery-img.png";
+// import heroImg from "/public/services-solutions/Business-Planning-Disaster-Recovery-img.png";
+import heroImg from "/public/testing-images/business-continuity-banner.jpg";
 
 const PLANNING_DISASTER_DATA = [
   {

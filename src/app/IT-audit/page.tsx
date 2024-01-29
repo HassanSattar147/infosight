@@ -1,7 +1,8 @@
 "use client";
 import React from "react";
 import ServicePageLayout from "@/components/Elements/ServicePageLayout";
-import heroImg from "/public/audit/Audit-img.png";
+// import heroImg from "/public/audit/Audit-img.png";
+import heroImg from "/public/testing-images/audit-assurance-banner.jpg";
 import auditInfoImg1 from "/public/audit/Audit-info-img1.png";
 // import auditInfoImg2 from "/public/audit/Audit-info-img2.png"
 import ContentContainer from "@/components/Elements/ContentContainer";
