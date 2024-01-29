@@ -2,25 +2,19 @@
 import React from "react";
 import ServicePageLayout from "@/components/Elements/ServicePageLayout";
 import heroImg from "/public/services-solutions/Learn-Cloud-LMS-img.png";
-import infoImg1 from "/public/services-solutions/Business-Planning-Disaster-Recovery-info-img1.png";
-import infoImg2 from "/public/services-solutions/Business-Planning-Disaster-Recovery-info-img2.png";
-import infoImg3 from "/public/services-solutions/Business-Planning-Disaster-Recovery-info-img3.png";
 
 const CLOUDMS_DATA = [
   {
-    img: infoImg1,
     title: "The Challenge",
     description:
       "Tracking the effectiveness of employee security awareness training can be difficult without an LMS. The fact is it's a necessary requirement for most organizations whether for regulatory compliance or to meet cyber insurance requirements.  Additionally, with AI-enabled social engineering is creating deep fakes so good they are nearly impossible to spot! These threats are using social media to launch sophisticated phishing attacks - so, it's not a matter of if, but when an employee clicks!",
   },
   {
-    img: infoImg2,
     title: "How We Solve It",
     description:
       "With our LearnCloud platform your employees have 24x7 access to your training portal and courseware. The portal can be branded with your organization's logo and colors and become your very own training portal. You can assign courses and policies with tracking a full compliance reporting. ",
   },
   {
-    img: infoImg3,
     title: "The Outcome",
     description: (
       <>

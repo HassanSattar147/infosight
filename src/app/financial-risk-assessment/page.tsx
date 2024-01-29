@@ -2,19 +2,14 @@
 import React from "react";
 import ServicePageLayout from "@/components/Elements/ServicePageLayout";
 import heroImg from "/public/services-solutions/Vulnerability-&-CybersSecurity-Assessments.png";
-import infoImg1 from "/public/services-solutions/Business-Planning-Disaster-Recovery-info-img1.png";
-import infoImg2 from "/public/services-solutions/Business-Planning-Disaster-Recovery-info-img2.png";
-import infoImg3 from "/public/services-solutions/Business-Planning-Disaster-Recovery-info-img3.png";
 
 const SCADA_DATA = [
   {
-    img: infoImg1,
     title: "The Challenge",
     description:
       "Risk management for smaller institutions has no shortage of challenges due to limited resources, personnel, and technological capabilities. Whether it's a smaller workforce, which can make it challenging to designate individuals solely responsible for risk management or a complex regulatory environment, there never seems to be enough time or budget to get everything accomplished to the satisfaction of regulating bodies. Additionally, third-party risk seems to be on the rise due to supply chain compromises and cyberthreat trends.",
   },
   {
-    img: infoImg2,
     title: "How We Solve It",
     description: (
       <>
@@ -62,7 +57,6 @@ const SCADA_DATA = [
     ),
   },
   {
-    img: infoImg3,
     title: "The Outcome",
     description:
       "The outcome is a proactive and strategic approach to risk management and risk assessments that helps your institution build resilience and effectively manage risks within your limitations.",

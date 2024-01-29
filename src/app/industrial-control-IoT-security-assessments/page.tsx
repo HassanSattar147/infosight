@@ -2,25 +2,19 @@
 import React from "react";
 import ServicePageLayout from "@/components/Elements/ServicePageLayout";
 import heroImg from "/public/services-solutions/Vulnerability-&-CybersSecurity-Assessments.png";
-import infoImg1 from "/public/services-solutions/Business-Planning-Disaster-Recovery-info-img1.png";
-import infoImg2 from "/public/services-solutions/Business-Planning-Disaster-Recovery-info-img2.png";
-import infoImg3 from "/public/services-solutions/Business-Planning-Disaster-Recovery-info-img3.png";
 
 const INDUSTRIAL_CONTROL_DATA = [
   {
-    img: infoImg1,
     title: "The Challenge",
     description:
       "Many organizations don't have an exact mapping or inventory of where all their ICS and SCADA assets are, and as a result are in a very vulnerable position. Securing ICS/SCADA systems and networks is a complex task that can only be achieved by understanding where assets are located, and by measuring their security posture in real-time. Additionally, compliance requirements must be met, so employing the right technologies to achieve successful outcomes is key! ",
   },
   {
-    img: infoImg2,
     title: "How We Solve It",
     description:
       "InfoSight performs Industrial Control & OT Security Assessments that provide a complete evaluation and holistic view of your organization's security posture. Our technologies will map your entire ICS/SCADA network and perform a “critical path analysis” to uncover hidden dependencies. We will evaluate your overall OT Cyber Risk Posture by creating a digital image of your network and business processes. We will conduct a Breach Attack Simulation and help you understand Relevant Adversaries and necessary mitigations. Our Risk Reduction Planning Methodology is both Qualitive and Quantitative, and prioritizes CVEs based on the likelihood of the affected assets and will assist in cyber controls roadmap planning.",
   },
   {
-    img: infoImg3,
     title: " The Outcome",
     description:
       "By leveraging AI toolsets, our skilled security assessment team conducts multi-disciplinary, multifaced reviews of your organization's IT and OT networks to identify vulnerabilities that could be exploited by a bad actor. Our actionable reporting, we will provide concise recommendations for dealing with cyber risks. The result is a roadmap to the best security practices today!",

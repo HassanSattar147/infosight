@@ -22,9 +22,13 @@ const TesimonialsComp = () => {
   return (
     <ContentContainer>
       <div className="py-10 lg:py-20">
+<<<<<<< HEAD
         <h1 className=" text-2xl lg:text-4xl font-semibold">
           Client Testimonials
         </h1>
+=======
+        <h1 className=" text-2xl lg:text-4xl font-semibold">Client Testimonials</h1>
+>>>>>>> c0d4b2948bc4745eef13383e43db15d26f85215e
         <div className="grid lg:grid-cols-3 gap-5 lg:gap-10 mt-5 lg:mt-10">
           {data.map(({ description, user }, i) => {
             return (

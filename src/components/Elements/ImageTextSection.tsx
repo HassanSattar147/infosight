@@ -1,9 +1,18 @@
 import { GenericElements } from "@/types";
 import { StaticImageData } from "next/image";
 import ContentContainer from "./ContentContainer";
+import challengeIllustration from "../../../public/services-solutions/challenge-illustration.svg";
+import solveIllustration from "../../../public/services-solutions/solve-illustration.svg";
+import outcomeIllustration from "../../../public/services-solutions/outcome-illustration.svg";
+
+const illustrations: StaticImageData[] = [
+  challengeIllustration,
+  solveIllustration,
+  outcomeIllustration,
+];
 
 export interface ITextImageData {
-  img: StaticImageData;
+  img?: StaticImageData;
   title: string | GenericElements;
   description: string | GenericElements;
 }
@@ -11,6 +20,7 @@ export interface ITextImageData {
 interface ITextImageProps extends ITextImageData {
   isLeft?: boolean;
   hideHr?: boolean;
+  index?: number;
 }
 
 const ImageText = ({
@@ -19,14 +29,18 @@ const ImageText = ({
   description,
   img,
   hideHr,
+  index,
 }: ITextImageProps) => {
+  const noImage = typeof img === "undefined";
+  const imgSrc = noImage ? illustrations[index || 0].src : img.src;
   return (
     <>
       <div className={`ImageText ${isLeft ? "left" : "right"}`}>
         <div
           className="ImageText__img"
           style={{
-            backgroundImage: `url(${img.src})`,
+            backgroundImage: `url(${imgSrc})`,
+            backgroundSize: noImage ? "contain" : "cover",
           }}
         />
         <div className="ImageText__content">
@@ -51,13 +65,17 @@ const ImageTextSection = ({
   return (
     <ContentContainer>
       <div className="py-5">
-        {data.map((imgTextProps, i) => {
-          const isLeft = i % 2 !== 0;
-          const hideHr = data.length - 1 === i;
-          const key = dataLabel + "__" + i;
-          return (
-            <ImageText key={key} {...imgTextProps} {...{ isLeft, hideHr }} />
-          );
+        {data.map((imgTextProps, index) => {
+          const isLeft = index % 2 !== 0;
+          const hideHr = data.length - 1 === index;
+          const key = dataLabel + "__" + index;
+          const props = {
+            ...imgTextProps,
+            isLeft,
+            hideHr,
+            index,
+          };
+          return <ImageText key={key} {...props} />;
         })}
       </div>
     </ContentContainer>

@@ -2,25 +2,19 @@
 import React from "react";
 import ServicePageLayout from "@/components/Elements/ServicePageLayout";
 import heroImg from "/public/compliance/compliance-hero-img.png";
-import infoImg1 from "/public/services-solutions/Business-Planning-Disaster-Recovery-info-img1.png";
-import infoImg2 from "/public/services-solutions/Business-Planning-Disaster-Recovery-info-img2.png";
-import infoImg3 from "/public/services-solutions/Business-Planning-Disaster-Recovery-info-img3.png";
 
 const HIPPA_DATA = [
   {
-    img: infoImg1,
     title: "The Challenge",
     description:
       "HIPAA regulations are complex and multifaceted. Navigating and interpreting the various rules and requirements can be challenging, especially for organizations without dedicated compliance expertise. The healthcare sector is also a prime target for cyberattacks, and the threat landscape is continually evolving. Assessing and addressing emerging cybersecurity threats requires constant vigilance and expertise. Additionally, many healthcare organizations or entities with limited budgets may struggle to allocate the necessary resources for a comprehensive risk assessment. This includes financial resources, skilled personnel, and specialized technology tools.",
   },
   {
-    img: infoImg2,
     title: "How We Solve It",
     description:
       "To address these challenges, our experienced HIPAA compliance experts, show your organization how to invest in relevant technology and training, and developing a systematic approach to risk assessment and management. We'll develop a standardized risk assessment framework tailored to your organization's specific needs and resources with clearly defined scope and objectives.",
   },
   {
-    img: infoImg3,
     title: "The Outcome",
     description:
       "Our HIPAA Risk Assessment is a clear and concise review of your HIPAA risk posture. We will quantify and categorize risk based upon federal requirements while creating a roadmap to compliance that is easy to follow and actionable.",
