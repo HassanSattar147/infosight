@@ -36,6 +36,16 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  position: relative;
+}
+
+.ContentContainer__wrapper .container-overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 0;
 }
 
 .ContentContainer__container {
@@ -44,6 +54,8 @@ body {
   margin: 0 auto;
   padding-left: 0;
   padding-right: 0;
+  position: relative;
+  z-index: 1;
 }
 
 @media screen and (max-width: 768px) {
@@ -122,6 +134,12 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   margin-bottom: 24px;
+}
+
+.hero-container {
+
+  
+  
 }
 
 /* 

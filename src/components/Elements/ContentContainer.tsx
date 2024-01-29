@@ -8,10 +8,12 @@ const ContentContainer = ({
   children,
   isBgPrimary = false,
   bgImage,
+  overlay,
 }: {
   children: GenericElements;
   isBgPrimary?: boolean;
   bgImage?: StaticImageData;
+  overlay?: string;
 }) => {
   const wrapperStyle: React.CSSProperties = React.useMemo(() => {
     if (bgImage) {
@@ -25,6 +27,14 @@ const ContentContainer = ({
 
   return (
     <div className={CC + "wrapper"} style={wrapperStyle}>
+      {typeof overlay === "string" && overlay && (
+        <div
+          className="container-overlay"
+          style={{
+            backgroundColor: overlay,
+          }}
+        />
+      )}
       <div className={CC + "container"}>{children}</div>
     </div>
   );
