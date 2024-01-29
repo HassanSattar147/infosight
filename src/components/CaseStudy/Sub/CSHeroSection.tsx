@@ -1,5 +1,6 @@
 import React from "react";
-import heroImg from "../../../../public/casestudy/case-study-hero-img.png";
+// import heroImg from "../../../../public/casestudy/case-study-hero-img.png";
+import heroImg from "../../../../public/casestudy/case-study-banner.jpg";
 import ContentContainer from "@/components/Elements/ContentContainer";
 
 const CSHeroSection = () => {
