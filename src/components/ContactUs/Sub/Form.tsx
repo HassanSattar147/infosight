@@ -7,8 +7,8 @@ const Form = () => {
   return (
     <ContentContainer>
       <div className="py-5">
-        <h1 className="text-gray-900 text-xl">Send Us Your Query</h1>
-        <form action="" className="flex flex-col gap-6 py-5">
+        {/* <h1 className="text-gray-900 text-xl">Send Us Your Query</h1> */}
+        <form action="" className="flex flex-col gap-6 ">
           <div className="flex flex-col lg:flex-row lg:w-9/12 gap-6 ">
             <span className="flex flex-col w-full gap-1">
               <label htmlFor="" className="text-gray-700 ">

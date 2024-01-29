@@ -9,8 +9,8 @@ const ContactInfo = () => {
   return (
     <ContentContainer>
       <div className="py-5">
-        <h1 className="text-xl text-gray-900">Our Contact Detail</h1>
-        <div className="flex flex-col lg:flex-row lg:items-center gap-5 mt-5">
+        {/* <h1 className="text-xl text-gray-900">Our Contact Detail</h1> */}
+        <div className="flex flex-col lg:flex-row lg:items-center gap-5">
           <span className="flex items-center gap-4">
             <Image src={locationIcon} alt="" />
             <p className="text-gray-500">
