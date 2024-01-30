@@ -2,7 +2,8 @@
 import React from "react";
 import ServicePageLayout from "@/components/Elements/ServicePageLayout";
 // import heroImg from "/public/services-solutions/Security-Awareness-Training-Onlin-Banking-img.png";
-import heroImg from "/public/testing-images/security-awareness-online-banking-banner.jpg";
+// import heroImg from "/public/testing-images/security-awareness-online-banking-banner.jpg";
+import heroImg from "/public/testing-images-2/security-awareness-online-banking-banner.jpg";
 
 const SECURITY_AWARENESS_DATA = [
   {
