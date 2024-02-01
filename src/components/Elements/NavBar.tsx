@@ -54,7 +54,7 @@ export const ALL_MENUS: RootObject[] = [
                 title: "Social Engineering & Physical Security Testing",
                 link: "/social-engineering-physical-security-testing",
               },
-              { title: "Virtual Information Security Officer (VISO)", link: "/viso" },
+
               {
                 title: "Industrial Control & IoT Security Assessments",
                 link: "/industrial-control-IoT-security-assessments",
@@ -129,6 +129,7 @@ export const ALL_MENUS: RootObject[] = [
         title: "Mitigator Vulnerability & Threat Manager",
         link: "/mitigator-vulnerability-threat-manager",
       },
+      { title: "Virtual Information Security Officer (VISO)", link: "/viso" },
       {
         title: "Managed Services",
         children: [
