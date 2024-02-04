@@ -45,9 +45,30 @@ export const ALL_MENUS: RootObject[] = [
                 link: "/web-application-testing",
               },
 
+              // {
+              //   title: "Mobile, API & Code Review",
+              //   link: "/code-review-api-mobile-testing",
+              // },
+
               {
-                title: "Mobile, API & Code Review",
-                link: "/code-review-api-mobile-testing",
+                title: "Mobile App Security Assessment",
+                link: "/mobile-app-security-asssessment",
+              },
+              {
+                title: "API Security Assessment",
+                link: "/api-security-asssessment",
+              },
+              {
+                title: "Code Review",
+                link: "/code-review",
+              },
+              {
+                title: "M365 Security Assessment",
+                link: "/m365-security-asssessment",
+              },
+              {
+                title: "Cloud Security Assessment",
+                link: "/cloud-security-asssessment",
               },
 
               {
