@@ -149,7 +149,7 @@ export const ALL_MENUS: RootObject[] = [
         title: "Mitigator Vulnerability & Threat Manager",
         link: "/mitigator-vulnerability-threat-manager",
       },
-      { title: "Virtual Information Security Officer (VISO)", link: "/viso" },
+      { title: "Virtual Information Security Officer (vISO)", link: "/viso" },
       {
         title: "Managed Services",
         children: [

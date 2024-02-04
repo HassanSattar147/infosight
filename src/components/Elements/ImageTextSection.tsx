@@ -5,18 +5,29 @@ import challengeIllustration from "../../../public/services-solutions/challenge-
 import solveIllustration from "../../../public/services-solutions/solve-illustration.svg";
 import outcomeIllustration from "../../../public/services-solutions/outcome-illustration.svg";
 
+import infoImg1 from "/public/services-solutions/challenge-person-illustation.svg";
+import infoImg2 from "/public/services-solutions/solution-person-illustration-2.svg";
+import infoImg2Mbl from "/public/services-solutions/solution-person-illustration-1.svg";
+import infoImg3 from "/public/services-solutions/outcome-person-illustration.svg";
+
 const illustrations: StaticImageData[] = [
   challengeIllustration,
   solveIllustration,
   outcomeIllustration,
 ];
 
+const illustrations2: string[][] = [
+  infoImg1.src,
+  [infoImg2.src, infoImg2Mbl.src],
+  infoImg3.src,
+];
+
 export interface ITextImageData {
   img?: StaticImageData;
-  mblImg?: StaticImageData;
   title: string | GenericElements;
   description: string | GenericElements;
-  imgContain?: boolean;
+  useType2?: boolean;
+  useWheelIllustration?: boolean;
 }
 
 interface ITextImageProps extends ITextImageData {
@@ -32,30 +43,43 @@ const ImageText = ({
   img,
   hideHr,
   index,
-  imgContain = false,
-  mblImg,
+  useType2 = false,
+  useWheelIllustration = false,
 }: ITextImageProps) => {
   const noImage = typeof img === "undefined";
-  const imgSrc = noImage ? illustrations[index || 0].src : img.src;
-  const hasMobileImg = typeof mblImg !== "undefined";
+  const type2ImgSrc = (
+    index === 1
+      ? useWheelIllustration
+        ? illustrations2[1][0]
+        : illustrations2[1][1]
+      : illustrations2[index || 0]
+  ) as string;
+
+  const imgSrc = useType2
+    ? type2ImgSrc
+    : noImage
+    ? illustrations[index || 0].src
+    : img.src;
   return (
     <>
       <div className={`ImageText ${isLeft ? "left" : "right"}`}>
         <div
-          className={`ImageText__img ${hasMobileImg ? `ImageText__img--lg` : ""}`}
+          className={`ImageText__img ${useType2 ? `ImageText__img--lg` : ""}`}
           style={{
             backgroundImage: `url(${imgSrc})`,
-            backgroundSize: noImage || imgContain ? "contain" : "cover",
-            height: imgContain ? "100%" : "",
+            backgroundSize: noImage || useType2 ? "contain" : "cover",
+            height: useType2 ? "100%" : "",
           }}
         />
-        {hasMobileImg && (
+        {useType2 && (
           <div
             className="ImageText__img ImageText__img--mbl "
             style={{
-              backgroundImage: `url(${mblImg.src})`,
-              backgroundSize: noImage || imgContain ? "contain" : "cover",
-              height: imgContain ? "100%" : "",
+              backgroundImage: `url(${
+                index === 1 && useType2 ? illustrations2[1][1] : imgSrc
+              })`,
+              backgroundSize: noImage || useType2 ? "contain" : "cover",
+              height: useType2 ? "100%" : "",
             }}
           />
         )}
