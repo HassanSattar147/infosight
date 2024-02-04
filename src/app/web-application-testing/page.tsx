@@ -10,7 +10,7 @@ const WEB_APP_DATA = [
       "Web Applications are very common today, however so are their vulnerabilities. There are many reasons these applications are so insecure. First, many have inadequate Authentication and Authorization which can lead to unauthorized access to sensitive data or functionality. They often have Insecure Dependencies that rely on third-party plugins and open-source code. Additionally, sometimes they lack Encryption so data can be intercepted and stolen. They can also have File Upload Vulnerabilities, allowing users to upload files without proper validation and controls which can lead to malware injection.  And of course, there's always the Zero Day, so assessing security routinely is wise.",
   },
   {
-    title: "How We Solve it",
+    title: "Our Methodology",
     description: (
       <div>
         <p className="text-gray-900 text-sm lg:text-base py-1 text-justify">
@@ -18,19 +18,25 @@ const WEB_APP_DATA = [
           better:
         </p>
         <div className="p-2 flex">
-          <span className="pr-2 font-bold">&bull;</span>
+          <span className="pr-2 font-bold">1.</span>
+          {/* <span className="pr-2 font-bold">&bull;</span> */}
           <p>
-            <span className="font-bold">Design & Develop - </span> We&apos;ll
+            <span className="font-bold text-orange-500">
+              Design & Develop -{" "}
+            </span>{" "}
+            plays an important role in building strong applications. We&apos;ll
             assess your run time environment and check for security flaws
-            introduced during coding. This step plays an important role in
-            building strong applications.
+            introduced during coding.
           </p>
         </div>
         <div className="p-2 flex">
-          <span className="pr-2 font-bold">&bull;</span>
+          <span className="pr-2 font-bold">2.</span>
+          {/* <span className="pr-2 font-bold">&bull;</span> */}
           <p>
-            <span className="font-bold">Test & Implement - </span> This is one
-            of the most important functions within the SDLC. It allows us to
+            <span className="font-bold text-orange-500">
+              Test & Implement -{" "}
+            </span>{" "}
+            one of the most important functions in the SDLC. It allows us to
             verify if security controls and requirements are fulfilled correctly
             before implementing and promoting applications to production-level.
             We employ a broad security assessment of your application before
@@ -38,13 +44,16 @@ const WEB_APP_DATA = [
           </p>
         </div>
         <div className="p-2 flex">
-          <span className="pr-2 font-bold">&bull;</span>
+          <span className="pr-2 font-bold">3.</span>
+          {/* <span className="pr-2 font-bold">&bull;</span> */}
           <p>
-            <span className="font-bold">Maintain & Check - </span> Here,
-            continuous, and periodic security assessments are a key function
-            within your SDLC and can be required as part of regulatory
-            compliance requirements. Ensuring changes to your web application
-            will not break its security maturity level is important to manage
+            <span className="font-bold text-orange-500">
+              Maintain & Check -{" "}
+            </span>{" "}
+            continuous and periodic security assessments are required in several
+            different industry regulations and is also a key function in your
+            SDLC. Making sure that changes to your web application will not
+            break its security maturity level is important to manage
             vulnerabilities and security risks.
           </p>
         </div>
@@ -79,12 +88,21 @@ const page = () => {
       Application Assessments`}
       overviewDescription={
         <p className="text-[#444444]">
-          InfoSight&apos;s Web Application Assessment provides the most complete
-          and effective suite of security testing to protect against a wide
-          range of vulnerabilities and sophisticated cyberattacks. Our
-          comprehensive testing will provide both detailed technical remediation
-          reporting for internal teams, and an executive-level report that can
-          be shared to demonstrate your applications&apos; security.
+          Web application server penetration testing reveals vulnerabilities
+          that expose organizations to cyber risks that traditional firewalls
+          and IDS networks aren&apos;t designed to protect against.
+          <br />
+          <br />
+          InfoSight&apos;s Web Application Server Penetration Testing provides
+          the most complete and effective suite for web security assessments
+          checks to enhance the overall security of your Web Applications
+          against a wide range of vulnerabilities and sophisticated attack
+          vectors.
+          <br />
+          <br />
+          InfoSight&apos;s suite of services allows for assessment of Web
+          Applications during different phases of the application develop life
+          cycle.
         </p>
       }
       downloadLink={`https://www.infosightinc.com/pdf/InfoSight-Web-Application-Testing.pdf`}
