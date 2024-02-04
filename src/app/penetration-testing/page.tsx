@@ -52,7 +52,8 @@ const page = () => {
           testing.
         </p>
       }
-      downloadLink={`https://www.infosightinc.com/pdf/InfoSight-Penetration-Testing.pdf`}
+      // downloadLink={`https://www.infosightinc.com/pdf/InfoSight-Penetration-Testing.pdf`}
+      downloadLink={`/pdfs/InfoSight Penetration Testing.pdf`}
       videoLink="https://www.infosightinc.com/Videos/infosight-video.mp4"
       data={PENETRATION_DATA}
       dataLabel={"PENETRATION_DATA"}

@@ -32,7 +32,8 @@ const Latest = () => {
               </div>
               <div className="flex items-start lg:flex-row flex-col lg:gap-10 gap-4 mb-6 lg:w-8/12">
                 <Link
-                  href="https://www.infosightinc.com/pdf/InfoSight-Penetration-Testing.pdf"
+                  // href="https://www.infosightinc.com/pdf/InfoSight-Penetration-Testing.pdf"
+                  href="/pdfs/InfoSight Penetration Testing.pdf"
                   target="_blank"
                 >
                   <div className="flex items-center gap-3 cursor-pointer">
