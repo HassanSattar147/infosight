@@ -23,7 +23,7 @@ const Manufacturing = () => {
     <>
       <ContentContainer>
         <h3 className="py-5 text-2xl lg:text-4xl font-semibold">
-          Explore our Industrial Coverage
+          Our Manufacturing Solution lines help you run smooth!
         </h3>
       </ContentContainer>
       <IndustryCard img={energyImg} description={description} />

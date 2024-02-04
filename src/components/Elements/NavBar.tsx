@@ -180,7 +180,7 @@ export const ALL_MENUS: RootObject[] = [
             title: " Employee Security Awareness Training",
             link: "/employee-security-awareness-training",
           },
-          { title: "Learn Cloud LMS", link: "/learn-about-the-cloud" },
+          { title: "Learn Cloud LMS", link: "/LMS" },
         ],
       },
     ],
