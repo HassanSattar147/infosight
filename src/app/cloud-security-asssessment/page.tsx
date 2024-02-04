@@ -16,9 +16,10 @@ const MOBILE_API_DATA = [
         <p className="text-gray-900 text-sm lg:text-base py-1 text-justify">
           Our cloud security assessment follows the CIS (Center for Internet
           Security) Benchmark which involves a comprehensive review of an
-          organization's adherence to a set of best practices for securing cloud
-          environments. The CIS Benchmarks are globally recognized as standard
-          guidelines for securing IT systems and data against cyber threats.
+          organization&apos;s adherence to a set of best practices for securing
+          cloud environments. The CIS Benchmarks are globally recognized as
+          standard guidelines for securing IT systems and data against cyber
+          threats.
         </p>
         <h4 className="text-gray-700 font-semibold py-2">
           Key steps and considerations in conducting a cloud security assessment
@@ -30,10 +31,10 @@ const MOBILE_API_DATA = [
             Understanding the Cloud Environment:{" "}
             <span className="font-normal text-sm">
               {" "}
-              Before the assessment, it's crucial to understand the specifics of
-              the cloud environment being used, such as AWS, Azure, or Google
-              Cloud Platform. Each platform has its unique configurations and
-              security settings.
+              Before the assessment, it&apos;s crucial to understand the
+              specifics of the cloud environment being used, such as AWS, Azure,
+              or Google Cloud Platform. Each platform has its unique
+              configurations and security settings.
             </span>
           </span>
         </div>
@@ -176,7 +177,7 @@ const page = () => {
       overviewDescription={
         <p className=" text-[#444444] lg:w-full">
           Cloud security is critically important for several reasons, as it
-          plays a pivotal role in safeguarding an organization's data,
+          plays a pivotal role in safeguarding an organization&apos;s data,
           applications, and infrastructure when using cloud computing services.
           Cloud security presents several challenges to protecting data, because
           although cloud providers have robust security measures,

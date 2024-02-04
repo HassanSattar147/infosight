@@ -13,8 +13,10 @@ const illustrations: StaticImageData[] = [
 
 export interface ITextImageData {
   img?: StaticImageData;
+  mblImg?: StaticImageData;
   title: string | GenericElements;
   description: string | GenericElements;
+  imgContain?: boolean;
 }
 
 interface ITextImageProps extends ITextImageData {
@@ -30,19 +32,33 @@ const ImageText = ({
   img,
   hideHr,
   index,
+  imgContain = false,
+  mblImg,
 }: ITextImageProps) => {
   const noImage = typeof img === "undefined";
   const imgSrc = noImage ? illustrations[index || 0].src : img.src;
+  const hasMobileImg = typeof mblImg !== "undefined";
   return (
     <>
       <div className={`ImageText ${isLeft ? "left" : "right"}`}>
         <div
-          className="ImageText__img"
+          className={`ImageText__img ${hasMobileImg ? `ImageText__img--lg` : ""}`}
           style={{
             backgroundImage: `url(${imgSrc})`,
-            backgroundSize: noImage ? "contain" : "cover",
+            backgroundSize: noImage || imgContain ? "contain" : "cover",
+            height: imgContain ? "100%" : "",
           }}
         />
+        {hasMobileImg && (
+          <div
+            className="ImageText__img ImageText__img--mbl "
+            style={{
+              backgroundImage: `url(${mblImg.src})`,
+              backgroundSize: noImage || imgContain ? "contain" : "cover",
+              height: imgContain ? "100%" : "",
+            }}
+          />
+        )}
         <div className="ImageText__content">
           <h3 className="lg:text-2xl text-gray-900 font-semibold">{title}</h3>
           <p className="text-gray-900 text-sm lg:text-base py-1">

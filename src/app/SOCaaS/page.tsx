@@ -3,14 +3,16 @@ import React from "react";
 import ServicePageLayout from "@/components/Elements/ServicePageLayout";
 // import heroImg from "/public/services-solutions/SOCaaS-img.png";
 import heroImg from "/public/testing-images/SOCaaS-banner.jpg";
-import infoImg1 from "/public/services-solutions/Business-Planning-Disaster-Recovery-info-img1.png";
-import infoImg2 from "/public/services-solutions/Business-Planning-Disaster-Recovery-info-img2.png";
-import infoImg3 from "/public/services-solutions/Business-Planning-Disaster-Recovery-info-img3.png";
+import infoImg1 from "/public/services-solutions/challenge-person-illustation.svg";
+import infoImg2 from "/public/services-solutions/solution-person-illustration-2.svg";
+import infoImg2Mbl from "/public/services-solutions/solution-person-illustration-1.svg";
+import infoImg3 from "/public/services-solutions/outcome-person-illustration.svg";
 
 const SECURITY_OPERATIONS_DATA = [
   {
     img: infoImg1,
     title: "The Challenge",
+    imgContain: true,
     description: (
       <>
         <p className="text-gray-900 text-sm lg:text-base py-1 text-justify">
@@ -56,7 +58,9 @@ const SECURITY_OPERATIONS_DATA = [
   },
   {
     img: infoImg2,
+    mblImg: infoImg2Mbl,
     title: "How We Deliver It",
+    imgContain: true,
     description: (
       <>
         <p className="text-gray-900 text-sm lg:text-base py-1 text-justify">
@@ -156,6 +160,7 @@ const SECURITY_OPERATIONS_DATA = [
   {
     img: infoImg3,
     title: "Just the Facts",
+    imgContain: true,
     description: (
       <>
         <div className="px-2 flex">

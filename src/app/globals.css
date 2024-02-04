@@ -101,7 +101,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 300px;
+  min-height: 300px;
 }
 
 .ImageText__content {
@@ -110,6 +110,14 @@ body {
 
 .ImageText__content h3 {
   margin-bottom: 20px;
+}
+
+.ImageText__img.ImageText__img--lg {
+  display: block;
+}
+
+.ImageText__img.ImageText__img--mbl {
+  display: none;
 }
 
 @media screen and (max-width: 992px) {
@@ -123,6 +131,14 @@ body {
   .ImageText.left .ImageText__content,
   .ImageText.right .ImageText__content {
     order: 1;
+  }
+
+  .ImageText__img.ImageText__img--lg {
+    display: none;
+  }
+
+  .ImageText__img.ImageText__img--mbl {
+    display: block;
   }
 }
 
