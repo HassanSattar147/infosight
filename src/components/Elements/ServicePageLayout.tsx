@@ -31,6 +31,8 @@ interface IServicesPageProps {
   downloadLinkLabel?: string;
   hideDownloadIcon?: boolean;
   useVideoIconInDownloadbtn?: boolean;
+  overlayHexaAlpa?: string;
+  overlayHexColor?: string;
 }
 
 const ServicePageLayout = ({
@@ -53,12 +55,20 @@ const ServicePageLayout = ({
   downloadLinkLabel = "Download Overview",
   useVideoIconInDownloadbtn = false,
   hideDownloadIcon = false,
+  overlayHexaAlpa = "88",
+  overlayHexColor = "#2f5a7e",
 }: IServicesPageProps) => {
   const [isModalOpen, setIsModalOpen] = React.useState(false);
 
   const heroProps = React.useMemo(
-    () => ({ heroImg, heroTitle, heroDescription }),
-    [heroImg, heroTitle, heroDescription]
+    () => ({
+      heroImg,
+      heroTitle,
+      heroDescription,
+      overlayHexaAlpa,
+      overlayHexColor,
+    }),
+    [heroImg, heroTitle, heroDescription, overlayHexaAlpa, overlayHexColor]
   );
 
   const overviewProps = React.useMemo(
@@ -125,13 +135,20 @@ export function Hero({
   heroImg,
   heroTitle,
   heroDescription,
+  overlayHexaAlpa = "88",
+  overlayHexColor = "#2f5a7e",
 }: {
   heroImg: StaticImageData;
   heroTitle: string;
   heroDescription?: string;
+  overlayHexaAlpa?: string;
+  overlayHexColor?: string;
 }) {
   return (
-    <ContentContainer bgImage={heroImg} overlay="#2f5a7e88">
+    <ContentContainer
+      bgImage={heroImg}
+      overlay={overlayHexColor + overlayHexaAlpa}
+    >
       <div className="md:min-h-[40vh] min-h-[30vh] flex justify-center md:justify-start items-center py-5">
         <div className="flex flex-col items-start">
           <h1 className="text-white text-center md:text-[45px] text-4xl font-extrabold leading-tight">
