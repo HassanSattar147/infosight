@@ -16,10 +16,10 @@ const WeAre = () => {
       <ContentContainer isBgPrimary>
         <div className="py-10 lg:py-20">
           <div className="flex flex-col items-center lg:flex-row gap-10">
-            <div className="text-white">
-              <h1 className="text-2xl lg:text-4xl font-semibold">
+            <div className="text-white lg:w-7/12 ">
+              <h2 className="text-2xl lg:text-4xl font-semibold">
                 Who are we?
-              </h1>
+              </h2>
               <p className="text-sm lg:text-lg my-8">
                 InfoSight is an innovative cybersecurity and risk management
                 firm with over two decades of successful outcomes. Working
@@ -38,7 +38,7 @@ const WeAre = () => {
             <Image
               src={aboutImg}
               alt=""
-              className="lg:w-5/12 md:w-10/12 border-2 border-gray-50 rounded-lg"
+              className="lg:w-5/12  border-2 border-gray-50 rounded-lg"
             />
           </div>
         </div>
