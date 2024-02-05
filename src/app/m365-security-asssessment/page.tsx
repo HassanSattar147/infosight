@@ -122,13 +122,15 @@ const page = () => {
       path={`Home / Services & Solutions / Advisory Services / Security / M365 Security Assessment`}
       overviewDescription={
         <p className=" text-[#444444] lg:w-10/12">
-          APIs have become a prime target for bad actors because many
-          applications are integrated, and utilize open-source code, so
-          you&apos;re only as secure as the weakest link in your application
-          supply chain. Weaknesses and flaws in an application&apos;s APIs can
-          result in exploitation compromising confidential data. And with large
-          amounts data being exchanged via APIs, it&apos;s no surprise they have
-          become a large attack target, and it&apos;s gaining momentum.
+          Microsoft 365 (M365) is hands down the most common set of cloud-based
+          business applications used by most organizations, and this makes it a
+          primary target for attackers. M365 security presents several
+          challenges that organizations need to address to protect their data,
+          because although cloud providers have robust security measures,
+          misconfigurations or weak access controls can be exploited by bad
+          actors. M365 security is a shared responsibility model with default
+          configurations set in favor of open, collaborative working, but secure
+          configuration remains the customer&apos;s responsibility.
         </p>
       }
       downloadLink={`/pdfs/InfoSight  Mobile, API & Code Review.pdf`}

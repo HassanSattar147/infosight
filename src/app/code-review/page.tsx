@@ -7,17 +7,17 @@ const MOBILE_API_DATA = [
   {
     title: "The Challenge",
     description:
-      "Applications have become a prime target for cybercriminals because of the data stored within them. Weaknesses and flaws in an application's source code or APIs can result in exploitation compromising confidential data. AI poses a growing threat to application security where automation can play a role allowing bad actors to attack at velocity.",
+      "There are several challenges that developers face when attempting to write secure code. The shear complexity of security and keeping up with the ever-evolving security landscape can be daunting. This is exacerbated by the pressure to deliver applications quickly. Additionally, trying to balance Security and Usability can add to the effort because having a positive end-user experience is key to achieving business goals. There are also other challenges such as Legacy Code and Dependencies, a Lack of Resources, Human Error and Compliance and Regulatory Requirements.",
   },
   {
     title: "How We Solve It",
     description:
-      "Our API Security Assessments assist in identifying underlying security issues with your application by providing a comprehensive review that meets the latest security best practice standards.",
+      "To address these challenges, we first familiarize ourselves with the Application in scope. We approach the code review with the goal of helping the developer. We ensure that the code follows the established coding guidelines, style, and best practices of the project. We verify the code performs as it's intended. We then look for potential issues by checking for logic errors, functional bugs, and review error handling and edge cases to ensure robustness. Then, we scrutinize the code for potential security vulnerabilities, and common issues like input validation issues, SQL injection, cross-site scripting (XSS), and sensitive data exposure. In the final stages of the review, we consider performance by examining the code for performance bottlenecks or inefficient algorithms, and we also evaluate the use of resources like memory and CPU. We conclude by reviewing documentation to ensure that comments and code annotations are clear, informative, and up to date.",
   },
   {
     title: "The Outcome",
     description:
-      "Actionable reporting and recommendations that enable your development team, or that of your partners', to secure APIs  better!",
+      "Our reporting is actionable! It allows developers to not only secure code but make it more efficient thereby increasing performance. Our goal of the code review is to assist developers in delivering high-quality software that meets functional, security, and maintainability requirements. We help organizations prioritize security as an integral part of the development process and foster a security-conscious culture within their development teams. ",
   },
 ];
 
@@ -40,13 +40,14 @@ const page = () => {
       path={`Home / Services & Solutions / Advisory Services / Security / Code Review`}
       overviewDescription={
         <p className=" text-[#444444] lg:w-10/12">
-          APIs have become a prime target for bad actors because many
-          applications are integrated, and utilize open-source code, so
-          you&apos;re only as secure as the weakest link in your application
-          supply chain. Weaknesses and flaws in an application&apos;s APIs can
-          result in exploitation compromising confidential data. And with large
-          amounts data being exchanged via APIs, it&apos;s no surprise they have
-          become a large attack target, and it&apos;s gaining momentum.
+          The primary goal of a code review is to identify and address issues,
+          bugs, security vulnerabilities, and maintainability concerns in the
+          codebase before it is deployed into the production environment. A
+          secondary goal is to ensure the security of the code over its life and
+          changes are made. Code reviews can take place at various stages of the
+          development process, such as during development, before a release, or
+          as part of ongoing maintenance to address code security and adherence
+          to best practices.
         </p>
       }
       downloadLink={`/pdfs/InfoSight  Mobile, API & Code Review.pdf`}
