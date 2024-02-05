@@ -179,7 +179,7 @@ const page = () => {
       heroTitle={"Cloud Security Assessment"}
       path={`Home / Services & Solutions / Advisory Services / Security / Cloud Security Assessment`}
       overviewDescription={
-        <p className=" text-[#444444] lg:w-full">
+        <p className=" text-[#444444] lg:w-10/12">
           Cloud security is critically important for several reasons, as it
           plays a pivotal role in safeguarding an organization&apos;s data,
           applications, and infrastructure when using cloud computing services.
@@ -191,8 +191,8 @@ const page = () => {
           all assets effectively.
         </p>
       }
-      // downloadLink={`https://www.infosightinc.com/pdf/InfoSight%20-%20Mobile,%20API%20&%20Code%20Review.pdf`}
-      // videoLink="https://www.infosightinc.com/Videos/InfoSight-Mobile-APITesting.mp4"
+      downloadLink={`/pdfs/InfoSight  Mobile, API & Code Review.pdf`}
+      videoLink="https://www.infosightinc.com/Videos/InfoSight-Mobile-APITesting.mp4"
       data={MOBILE_API_DATA}
       dataLabel={"MOBILE_API_DATA"}
       featuresData={MOBILE_FEATURES_DATA}

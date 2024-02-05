@@ -43,7 +43,7 @@ const page = () => {
       path={`Home / Services & Solutions / Advisory Services / Security / Red, Blue &
       Purple Team Assessments`}
       overviewDescription={
-        <p className=" lg:w-10/12 text-[#444444]">
+        <p className="  text-[#444444]">
           Our Red Team, Blue Team, and Purple Team Testing assists organizations
           in vulnerability detection and threat hunting by accurately simulating
           common threat scenarios. The goal is to collaborate with your team to
@@ -53,7 +53,7 @@ const page = () => {
           to the planning but employ tactical expertise to execute the testing.
         </p>
       }
-      downloadLink={`https://www.infosightinc.com/pdf/InfoSight-Red-Blue-Purple-Team-Testing.pdf`}
+      downloadLink={`/pdfs/InfoSight Red-Blue-Purple-Team-Testing.pdf`}
       data={TEAM_ASSESSMENT_DATA}
       dataLabel={"TEAM_ASSESSMENT_DATA"}
       featuresData={TA_FEATURES_DATA}

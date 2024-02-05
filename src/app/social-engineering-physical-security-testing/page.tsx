@@ -51,7 +51,7 @@ const page = () => {
           campaigns.
         </p>
       }
-      downloadLink={`https://www.infosightinc.com/pdf/InfoSight-Social%20Engineering-2.pdf`}
+      downloadLink={`/pdfs/InfoSight Social Engineering.pdf`}
       data={SOCIAL_ENGG_DATA}
       dataLabel={"SOCIAL_ENGG_DATA"}
       featuresData={SE_FEATURES_DATA}

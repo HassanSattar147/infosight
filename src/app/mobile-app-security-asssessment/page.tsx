@@ -48,8 +48,8 @@ const page = () => {
           validate your applications&apos; security.
         </p>
       }
-      // downloadLink={`https://www.infosightinc.com/pdf/InfoSight%20-%20Mobile,%20API%20&%20Code%20Review.pdf`}
-      // videoLink="https://www.infosightinc.com/Videos/InfoSight-Mobile-APITesting.mp4"
+      downloadLink={`/pdfs/InfoSight  Mobile, API & Code Review.pdf`}
+      videoLink="https://www.infosightinc.com/Videos/InfoSight-Mobile-APITesting.mp4"
       data={MOBILE_API_DATA}
       dataLabel={"MOBILE_API_DATA"}
       featuresData={MOBILE_FEATURES_DATA}
