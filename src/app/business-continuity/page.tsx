@@ -47,7 +47,7 @@ const page = () => {
           stability, reputation, and long-term success.
         </p>
       }
-      downloadLink={`https://www.infosightinc.com/pdf/InfoSight-Business-Continuity-Planning.pdf`}
+      downloadLink={`/pdfs/InfoSight Business-Continuity-Planning.pdf`}
       data={PLANNING_DISASTER_DATA}
       dataLabel={"PLANNING_DISASTER_DATA"}
       featuresData={PLANNING_FEATURES_DATA}

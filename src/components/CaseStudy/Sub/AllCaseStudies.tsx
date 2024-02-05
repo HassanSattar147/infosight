@@ -10,21 +10,21 @@ const FINANCIAL_CARDS_DATA: CardProps[] = [
     title: "South Georgia Bank",
     description: "Client success story",
     tag: "Financial",
-    link: "https://www.infosightinc.com/pdf/InfoSight%20-%20South%20GA%20Bank%20Client%20Success%20Story.pdf",
+    link: "/casestudy/pdfs/InfoSight - South GA Bank Client Success Story.pdf",
   },
   {
     imgType: "WLT",
     title: "Banco de Brasil",
     description: "Client success story",
     tag: "Financial",
-    link: "https://www.infosightinc.com/pdf/InfoSight%20-%20Banco%20do%20Brasil%20Americas%20Client%20Success%20Story.pdf",
+    link: "/casestudy/pdfs/InfoSight - Banco do Brasil Americas Client Success Story.pdf",
   },
   {
     imgType: "WLT",
     title: "FWCCU",
     description: "Client success story",
     tag: "Financial",
-    link: "https://www.infosightinc.com/pdf/InfoSight%20-%20FWCCU%20Client%20Success%20Story.pdf",
+    link: "/casestudy/pdfs/InfoSight - FWCCU Client Success Story.pdf",
   },
 ];
 
@@ -34,14 +34,14 @@ const ELECTRIC_CARDS_DATA: CardProps[] = [
     title: "Prarieland",
     description: "Client success story",
     tag: "Energy & Electric",
-    link: "https://www.infosightinc.com/pdf/InfoSight%20-%20Prairie%20Land%20Electric%20Client%20Success%20Story.pdf",
+    link: "/casestudy/pdfs/InfoSight - Prairie Land Electric Client Success Story.pdf",
   },
   {
     imgType: "FLASH",
     title: "Pioneer",
     description: "Client success story",
     tag: "Energy & Electric",
-    link: "https://www.infosightinc.com/pdf/InfoSight%20-%20Pioneer%20Electric%20Client%20Success%20Story.pdf",
+    link: "/casestudy/pdfs/InfoSight - Pioneer Electric Client Success Story.pdf",
   },
 ];
 
@@ -51,7 +51,7 @@ const WATER_CARDS_DATA: CardProps[] = [
     title: "Greensboro",
     description: "Client success story",
     tag: "Water & Wastewater",
-    link: "https://www.infosightinc.com/pdf/InfoSight%20-%20City%20of%20Greensboro%20Water%20Resources%20Client%20Success%20Story.pdf",
+    link: "/casestudy/pdfs/InfoSight - City of Greensboro Water Resources Client Success Story.pdf",
   },
 ];
 
@@ -61,7 +61,7 @@ const MANU_CARDS_DATA: CardProps[] = [
     title: "Quirch Foods",
     description: "Client success story",
     tag: "Manufacturing",
-    link: "https://www.infosightinc.com/pdf/InfoSight%20-%20Quirch%20Foods%20Client%20Success%20Story.pdf",
+    link: "/casestudy/pdfs/InfoSight - Quirch Foods Client Success Story.pdf",
   },
 ];
 
