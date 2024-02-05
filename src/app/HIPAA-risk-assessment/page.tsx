@@ -3,7 +3,7 @@ import React from "react";
 import ServicePageLayout from "@/components/Elements/ServicePageLayout";
 // import heroImg from "/public/compliance/compliance-hero-img.png";
 // import heroImg from "/public/testing-images/hippa-banner.jpg";
-import heroImg from "/public/testing-images-2/HIPAA-banner.jpg";
+import heroImg from "/public/purchased-images/HIPAA-banner.jpg";
 
 const HIPPA_DATA = [
   {

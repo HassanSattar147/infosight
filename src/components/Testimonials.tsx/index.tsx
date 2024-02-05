@@ -5,7 +5,7 @@ import PageLayout from "../PageLayout";
 import Breadcrumbs from "../Elements/Breadcrumbs";
 import { Hero } from "../Elements/ServicePageLayout";
 // import heroImg from "/public/testimonial-hero-img.png";
-import heroImg from "/public/testing-images-2/testimonial-banner.jpg";
+import heroImg from "/public/purchased-images/testimonial-banner.jpg";
 import ContentContainer from "../Elements/ContentContainer";
 
 const Testimonials = () => {
