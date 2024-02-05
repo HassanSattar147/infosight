@@ -251,7 +251,7 @@ const page = () => {
       heroImg={heroImg}
       heroTitle={"Security Operations Center as a Service (SOCaaS)"}
       overviewDescription={
-        <p className=" text-justify text-[#444444]">
+        <p className=" text-justify w-10/12 text-[#444444]">
           InfoSight&apos;s Security Operations Center (SOC) operates as your own
           trusted cybersecurity team providing you with real time 24x7 threat
           monitoring, analysis, containment, triage, remediation, escalation,
@@ -259,7 +259,7 @@ const page = () => {
           leverage your cloud native toolsets or ours, the choice is yours!
         </p>
       }
-      downloadLink={`https://www.infosightinc.com/pdf/InfoSight-SOCaaS.pdf`}
+      downloadLink={`/pdfs/InfoSight-SOCaaS.pdf`}
       videoLink="https://www.infosightinc.com/Videos/InfoSight-SOCaaS.mp4"
       path={`Home / Services & Solutions / SOCaaS`}
       data={SECURITY_OPERATIONS_DATA}

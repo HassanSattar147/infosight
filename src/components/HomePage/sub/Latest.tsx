@@ -65,10 +65,7 @@ const Latest = () => {
                 </p>
               </div>
               <div className="flex items-start lg:flex-row flex-col lg:gap-10 gap-4 mt-6 lg:w-8/12">
-                <Link
-                  href="https://www.infosightinc.com/pdf/InfoSight-SOCaaS.pdf"
-                  target="_blank"
-                >
+                <Link href="/pdfs/InfoSight-SOCaaS.pdf" target="_blank">
                   <div className="flex items-center gap-3 cursor-pointer">
                     <Image src={docIcon} alt="" />
                     <p className="text-orange-500 font-semibold">

@@ -65,7 +65,7 @@ const page = () => {
           </p>
         </>
       }
-      downloadLink="https://www.infosightinc.com/pdf/InfoSight-Managed-Extended-Detection-Response.pdf"
+      downloadLink="/pdfs/InfoSight Managed-Extended-Detection-Response-XDR.pdf"
       data={NETWORK_CLOUD_DATA}
       dataLabel={"NETWORK_CLOUD_DATA"}
       featuresData={NETWORK_CLOUD_FEATURES_DATA_2}

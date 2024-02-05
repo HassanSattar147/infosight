@@ -49,7 +49,7 @@ const page = () => {
           </p>
         </>
       }
-      downloadLink="https://www.infosightinc.com/pdf/InfoSight-Managed-Extended-Detection-Response.pdf"
+      downloadLink="/pdfs/InfoSight Managed-Extended-Detection-Response-XDR.pdf"
       data={MANAGED_XDR_DATA}
       dataLabel={"MANAGED_XDR_DATA"}
       featuresData={MANAGED_XDR_FEATURES_DATA}

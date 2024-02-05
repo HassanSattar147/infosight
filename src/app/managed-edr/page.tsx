@@ -45,7 +45,7 @@ const page = () => {
       path={`Home / Services & Solutions / Managed Services / Managed EDR`}
       overviewDescription={
         <>
-          <p className=" text-justify text-[#444444]">
+          <p className="text-[#444444]">
             Early detection of attacks targeting endpoints is critical to
             protecting networks from all types of threats including ransomware.
             However, without a team of security experts working 24x7x365 to
@@ -59,7 +59,7 @@ const page = () => {
           </p>
         </>
       }
-      downloadLink="https://www.infosightinc.com/pdf/InfoSight-Endpoint-Detection-Response.pdf"
+      downloadLink="/pdfs/InfoSight Endpoint-Detection-Response-EDR.pdf"
       data={MANAGED_EDR_DATA}
       dataLabel={"MANAGED_EDR_DATA"}
       featuresData={MANAGED_EDR_FEATURES_DATA}
