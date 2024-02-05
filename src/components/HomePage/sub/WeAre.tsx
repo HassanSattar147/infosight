@@ -38,7 +38,7 @@ const WeAre = () => {
             <Image
               src={aboutImg}
               alt=""
-              className="lg:w-10/12 md:w-8/12 border-2 border-gray-50 rounded-lg"
+              className="lg:w-5/12 md:w-10/12 border-2 border-gray-50 rounded-lg"
             />
           </div>
         </div>

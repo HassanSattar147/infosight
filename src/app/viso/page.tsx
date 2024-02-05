@@ -2,7 +2,7 @@
 import React from "react";
 import ServicePageLayout from "@/components/Elements/ServicePageLayout";
 // import heroImg from "/public/services-solutions/Vulnerability-&-CybersSecurity-Assessments.png";
-import heroImg from "/public/testing-images/viso-banner.jpg";
+import heroImg from "/public/services-solutions/vISO-banner-01.jpg";
 
 const VIRTUAL_INFO_DATA = [
   {
@@ -32,9 +32,9 @@ const page = () => {
     <ServicePageLayout
       pageTitle="Virtual ISO | InfoSight"
       heroImg={heroImg}
-      heroTitle={"Virtual Information Security Officer (VISO)"}
+      heroTitle={"Virtual Information Security Officer (vISO)"}
       path={`Home / Services & Solutions / Advisory Services / Security / Virtual
-      Information Security Officer (VISO)`}
+      Information Security Officer (vISO)`}
       overviewDescription={
         <p className="lg:w-11/12 text-[#444444]">
           Information Security Officers (ISO) are stretched thin due to limited
@@ -47,6 +47,7 @@ const page = () => {
       }
       downloadLink={`https://www.infosightinc.com/pdf/InfoSight-VISO-2.pdf`}
       videoLink="https://www.infosightinc.com/Videos/InfoSight-VISO.mp4"
+      overlayHexaAlpa="00"
       data={VIRTUAL_INFO_DATA}
       dataLabel={"VIRTUAL_INFO_DATA"}
       featuresData={VINFO_FEATURES_DATA}

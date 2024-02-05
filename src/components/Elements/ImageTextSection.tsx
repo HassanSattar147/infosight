@@ -28,6 +28,7 @@ export interface ITextImageData {
   description: string | GenericElements;
   useType2?: boolean;
   useWheelIllustration?: boolean;
+  isImgContained?: boolean;
 }
 
 interface ITextImageProps extends ITextImageData {
@@ -45,6 +46,7 @@ const ImageText = ({
   index,
   useType2 = false,
   useWheelIllustration = false,
+  isImgContained = false,
 }: ITextImageProps) => {
   const noImage = typeof img === "undefined";
   const type2ImgSrc = (
@@ -67,7 +69,8 @@ const ImageText = ({
           className={`ImageText__img ${useType2 ? `ImageText__img--lg` : ""}`}
           style={{
             backgroundImage: `url(${imgSrc})`,
-            backgroundSize: noImage || useType2 ? "contain" : "cover",
+            backgroundSize:
+              noImage || useType2 || isImgContained ? "contain" : "cover",
             height: useType2 ? "100%" : "",
           }}
         />
@@ -78,7 +81,8 @@ const ImageText = ({
               backgroundImage: `url(${
                 index === 1 && useType2 ? illustrations2[1][1] : imgSrc
               })`,
-              backgroundSize: noImage || useType2 ? "contain" : "cover",
+              backgroundSize:
+                noImage || useType2 || isImgContained ? "contain" : "cover",
               height: useType2 ? "100%" : "",
             }}
           />

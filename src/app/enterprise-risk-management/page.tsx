@@ -2,7 +2,7 @@
 import React from "react";
 import ServicePageLayout from "@/components/Elements/ServicePageLayout";
 // import heroImg from "/public/services-solutions/Enterprise-Risk-Management-img.png";
-import heroImg from "/public/testing-images/risk-assessments-banner.jpg";
+import heroImg from "/public/testing-images-2/risk-assessments-banner.jpg";
 
 const RISK_MANAGEMENT_DATA = [
   {
