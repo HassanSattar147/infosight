@@ -5,14 +5,14 @@ import heroImg from "/public/services-solutions/Vulnerability-&-CybersSecurity-A
 
 const MOBILE_API_DATA = [
   {
-    useType2: true,
+    // useType2: true,
     title: "The Challenge",
     description:
       "Companies using cloud services like Azure, AWS, and Google Cloud face a variety of security challenges. These challenges stem from the shared responsibility model of cloud computing, where the cloud provider and the cloud user both have roles to play in ensuring security. Common challenges include Data Security, Identity and Access Management, Regulatory Compliance, APIs Vulnerabilities, Insider Threats and Cyberattacks.  Cloud environments are shared responsibility models where security configurations remain the customer's responsibility.  ",
   },
   {
-    useType2: true,
-    useWheelIllustration: true,
+    // useType2: true,
+    // useWheelIllustration: true,
     title: "How We Solve It",
     description: (
       <>
@@ -154,7 +154,7 @@ const MOBILE_API_DATA = [
     ),
   },
   {
-    useType2: true,
+    // useType2: true,
     title: "The Outcome",
     description:
       "By completing a comprehensive cloud security assessment, your organization will significantly enhance the security of your cloud environment, ensuring it aligns with globally recognized best practices. The assessment serves as a testament to your organization's dedication to protecting clients' data and maintaining their trust.  Your assessment is more than a technical achievement - it's a principal part of your organization's promise to deliver secure and reliable services to your clients.",

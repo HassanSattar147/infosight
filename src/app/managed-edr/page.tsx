@@ -8,20 +8,23 @@ import infoImg3 from "/public/services-solutions/Business-Planning-Disaster-Reco
 
 const MANAGED_EDR_DATA = [
   {
-    img: infoImg1,
+    // img: infoImg1,
+    useType2: true,
     title: "The Challenge",
     description:
       "Endpoints represent a significant security risk to all organizations no matter the industry. Relying solely on alerts to end users and overloaded network administrators is no longer the best and most effective method to protect against threats. Responding to endpoint-focused attacks has never been more challenging and is a 24x7 task that exhausts IT personnel. Additionally, AI is creating deep fakes so good they are nearly impossible to spot! So, it's not a matter of if, but when an employee clicks…",
   },
   {
-    img: infoImg2,
+    // img: infoImg2,
+    useType2: true,
     title: "How We Solve It",
     description:
       "InfoSight's EDR Service monitors triages and remediates malware attacks and infections thereby significantly enhancing visibility of attacks targeting endpoint devices. Our trusted professionals quickly coordinate remediation support and incident response solutions through patterns and AI-enabled technologies for immediate endpoint defense. We can leverage your endpoint application or provide a world-class EDR application for your organization.",
   },
   {
-    img: infoImg3,
-    title: "The Outcome",
+    // img: infoImg3,
+    useType2: true,
+    title: "Just the Facts",
     description:
       "Our goal is to work with your team to ensure 24x7 security, incident response and remediation to improve your overall security posture and minimize cyber risk. InfoSight's team of expert analysts alleviate resource constrained IT teams by providing the knowledge and EDR expertise needed to defend and respond against any attacks missed at the endpoint.",
   },

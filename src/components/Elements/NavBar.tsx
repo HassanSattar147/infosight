@@ -260,7 +260,7 @@ export const ALL_MENUS: RootObject[] = [
       },
     ],
   },
-  { title: "Case Studies", link: "/case-studies" },
+  // { title: "Case Studies", link: "/case-studies" },
   { title: "Contact Us", link: "/contact" },
 ];
 

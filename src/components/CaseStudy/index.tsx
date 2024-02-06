@@ -11,6 +11,7 @@ const CaseStudy = () => {
       "Infosight Case Studies Cybersecurity Solutions | InfoSight ";
   }, []);
 
+  return null;
   return (
     <PageLayout hideOurServices>
       <CSHeroSection />

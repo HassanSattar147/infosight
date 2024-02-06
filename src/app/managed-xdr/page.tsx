@@ -18,7 +18,7 @@ const MANAGED_XDR_DATA = [
   },
   {
     useType2: true,
-    title: "The Outcome",
+    title: "Just the Facts",
     description:
       "Our Managed XDR can make response times quicker, more efficient, with less expense. Leveraging our XDR resources will allow your team to focus on what matters, supporting the day-to-day operation.",
   },

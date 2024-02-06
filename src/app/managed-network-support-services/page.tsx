@@ -8,20 +8,23 @@ import infoImg3 from "/public/services-solutions/Business-Planning-Disaster-Reco
 
 const NETWORK_CLOUD_DATA = [
   {
-    img: infoImg1,
+    // img: infoImg1,
+    useType2: true,
     title: "The Challenge",
     description:
       "Hybrid networks require an upfront assessment of the operational costs, security, disaster recovery and access management before a migration to a full cloud environment is possible. It also requires having an IT team with the right skillset and experience with cloud workloads. Additionally, there are also the financial implications of moving to a consumption or subscription-based cost model where costs can rise quickly if you're not careful.",
   },
   {
-    img: infoImg2,
+    // img: infoImg2,
+    useType2: true,
     title: "How We Solve It",
     description:
       "We possess the varied and wide skillset needed to design, build, and manage cloud environments.  Designing a hybrid network, or a full cloud environment that encompasses data, video and voice are core competencies. We begin with a needs analysis and risk assessment for a full or partial cloud migration, then we provide a budgetary estimate of the costs associated.  After the design and budget are approved, we can move forward with the implementation support plan.",
   },
   {
-    img: infoImg3,
-    title: "The Outcome",
+    // img: infoImg3,
+    useType2: true,
+    title: "Just the Facts",
     description:
       "An environment that is ideal for your organization's needs and budget where there are no surprises during the implementation nor the months to follow. We employ a personalized approach to design the perfect Network Management and Support program for your Business to achieve the best possible outcome.",
   },
