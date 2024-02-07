@@ -25,8 +25,73 @@ const NETWORK_CLOUD_DATA = [
     // img: infoImg3,
     useType2: true,
     title: "Just the Facts",
-    description:
-      "An environment that is ideal for your organization's needs and budget where there are no surprises during the implementation nor the months to follow. We employ a personalized approach to design the perfect Network Management and Support program for your Business to achieve the best possible outcome.",
+    description: (
+      <>
+        <div className="px-2 flex">
+          <span className="pr-2 text-xl font-bold">&#128504;</span>
+          <span className="font-semibold">24x7x365 Staffed SOC</span>
+        </div>
+        <div className="px-2 flex">
+          <span className="pr-2 text-xl font-bold">&#128504;</span>
+          <span className="font-semibold">
+            100% US based SOC 2 Certified Operations Center
+          </span>
+        </div>
+        <div className="px-2 flex">
+          <span className="pr-2 text-xl font-bold">&#128504;</span>
+          <span className="font-semibold">Only US-based W2 employees</span>
+        </div>
+        <div className="px-2 flex">
+          <span className="pr-2 text-xl font-bold">&#128504;</span>
+          <span className="font-semibold">
+            Providing both Security and Network Infrastructure Support
+          </span>
+        </div>
+        <div className="px-2 flex">
+          <span className="pr-2 text-xl font-bold">&#128504;</span>
+          <span className="font-semibold">
+            Support for Cloud, Datacenter or Hybrid networks
+          </span>
+        </div>
+        <div className="px-2 flex">
+          <span className="pr-2 text-xl font-bold">&#128504;</span>
+          <span className="font-semibold">
+            Monitoring of Applications, DBs, Security, Infrastructure, Server or
+            Serverless
+          </span>
+        </div>
+        <div className="px-2 flex">
+          <span className="pr-2 text-xl font-bold">&#128504;</span>
+          <span className="font-semibold">
+            Offering Device-based or consumption-based pricing models
+          </span>
+        </div>
+        <div className="px-2 flex">
+          <span className="pr-2 text-xl font-bold">&#128504;</span>
+          <span className="font-semibold">
+            24x7 or off-peak 7pm-7am coverage available
+          </span>
+        </div>
+        <div className="px-2 flex">
+          <span className="pr-2 text-xl font-bold">&#128504;</span>
+          <span className="font-semibold">
+            Cyber liability insurance coverage
+          </span>
+        </div>
+        <div className="px-2 flex">
+          <span className="pr-2 text-xl font-bold">&#128504;</span>
+          <span className="font-semibold">
+            Federally regulated and critical infrastructure client experience
+          </span>
+        </div>
+        <div className="px-2 flex">
+          <span className="pr-2 text-xl font-bold">&#128504;</span>
+          <span className="font-semibold">
+            24+ years of successful outcomes
+          </span>
+        </div>
+      </>
+    ),
   },
 ];
 

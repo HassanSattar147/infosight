@@ -15,6 +15,11 @@ const VIRTUAL_INFO_DATA = [
     description:
       "We provide organizations with a Virtual ISO (vISO) who serves as an extension of your team and is responsible for making recommendations for the development, implementation, and management of your organization's corporate security vision. Your vISO is retained on a contractual basis and facilitates conversations that lead to executive critical decision-making related to information security issues. Our Tactical & Strategic vISO Programs include organizational oversight, mitigation tracking, resource assignments and risk assessments, audit preparation utilizing our GRC Platform.",
   },
+  {
+    title: "The Outcome",
+    description:
+      "A certified and experienced Information Security Officer (ISO) for your organization that works based upon scheduled goals and deadlines for a fraction of the cost of a full-time employee.",
+  },
 ];
 
 const VINFO_FEATURES_DATA = [

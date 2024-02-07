@@ -158,74 +158,66 @@ const SECURITY_OPERATIONS_DATA = [
     description: (
       <>
         <div className="px-2 flex">
-          <span className="pr-2">&bull;</span>
-          <span className="font-semibold">100% US based SOC.</span>
+          <span className="pr-2 text-xl font-bold">&#128504;</span>
+          <span className="font-semibold">24x7x365 Staffed SOC</span>
         </div>
         <div className="px-2 flex">
-          <span className="pr-2">&bull;</span>
+          <span className="pr-2 text-xl font-bold">&#128504;</span>
           <span className="font-semibold">
-            Only W2 US-based employee, no outsourcing or offshoring!
+            100% US based SOC 2 Certified Operations Center
           </span>
         </div>
         <div className="px-2 flex">
-          <span className="pr-2">&bull;</span>
-          <span className="font-semibold">SOC 2 Certified annually.</span>
+          <span className="pr-2 text-xl font-bold">&#128504;</span>
+          <span className="font-semibold">Only US-based W2 employees</span>
         </div>
         <div className="px-2 flex">
-          <span className="pr-2">&bull;</span>
+          <span className="pr-2 text-xl font-bold">&#128504;</span>
           <span className="font-semibold">
-            True 24x7x365 Staffed SOC - “eyes on glass” at all times.
+            Providing both Security and Network Infrastructure Support
           </span>
         </div>
         <div className="px-2 flex">
-          <span className="pr-2">&bull;</span>
+          <span className="pr-2 text-xl font-bold">&#128504;</span>
           <span className="font-semibold">
-            Cyber liability insurance coverage
+            Support for Cloud, Datacenter or Hybrid networks
           </span>
         </div>
         <div className="px-2 flex">
-          <span className="pr-2">&bull;</span>
-          <span className="font-semibold">
-            Federally regulated and critical infrastructure clients experience{" "}
-          </span>
-        </div>
-        <div className="px-2 flex">
-          <span className="pr-2">&bull;</span>
-          <span className="font-semibold">
-            Providing both Security and Infrastructure Support - (SOC + NOC =
-            SNOC)
-          </span>
-        </div>
-        <div className="px-2 flex">
-          <span className="pr-2">&bull;</span>
-          <span className="font-semibold">
-            Cloud, Hybrid and Datacenter on-premises coverage for all IT
-            assets/systems
-          </span>
-        </div>
-        <div className="px-2 flex">
-          <span className="pr-2">&bull;</span>
+          <span className="pr-2 text-xl font-bold">&#128504;</span>
           <span className="font-semibold">
             Monitoring of Applications, DBs, Security, Infrastructure, Server or
             Serverless
           </span>
         </div>
         <div className="px-2 flex">
-          <span className="pr-2">&bull;</span>
+          <span className="pr-2 text-xl font-bold">&#128504;</span>
           <span className="font-semibold">
-            Device or consumption-based pricing models
+            Offering Device-based or consumption-based pricing models
           </span>
         </div>
         <div className="px-2 flex">
-          <span className="pr-2">&bull;</span>
+          <span className="pr-2 text-xl font-bold">&#128504;</span>
           <span className="font-semibold">
-            27x7 or off-peak 7pm-7am coverage available
+            24x7 or off-peak 7pm-7am coverage available
           </span>
         </div>
         <div className="px-2 flex">
-          <span className="pr-2">&bull;</span>
+          <span className="pr-2 text-xl font-bold">&#128504;</span>
           <span className="font-semibold">
-            25+ years of successful outcomes
+            Cyber liability insurance coverage
+          </span>
+        </div>
+        <div className="px-2 flex">
+          <span className="pr-2 text-xl font-bold">&#128504;</span>
+          <span className="font-semibold">
+            Federally regulated and critical infrastructure client experience
+          </span>
+        </div>
+        <div className="px-2 flex">
+          <span className="pr-2 text-xl font-bold">&#128504;</span>
+          <span className="font-semibold">
+            24+ years of successful outcomes
           </span>
         </div>
       </>

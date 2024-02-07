@@ -25,8 +25,73 @@ const MANAGED_EDR_DATA = [
     // img: infoImg3,
     useType2: true,
     title: "Just the Facts",
-    description:
-      "Our goal is to work with your team to ensure 24x7 security, incident response and remediation to improve your overall security posture and minimize cyber risk. InfoSight's team of expert analysts alleviate resource constrained IT teams by providing the knowledge and EDR expertise needed to defend and respond against any attacks missed at the endpoint.",
+    description: (
+      <>
+        <div className="px-2 flex">
+          <span className="pr-2 text-xl font-bold">&#128504;</span>
+          <span className="font-semibold">24x7x365 Staffed SOC</span>
+        </div>
+        <div className="px-2 flex">
+          <span className="pr-2 text-xl font-bold">&#128504;</span>
+          <span className="font-semibold">
+            100% US based SOC 2 Certified Operations Center
+          </span>
+        </div>
+        <div className="px-2 flex">
+          <span className="pr-2 text-xl font-bold">&#128504;</span>
+          <span className="font-semibold">Only US-based W2 employees</span>
+        </div>
+        <div className="px-2 flex">
+          <span className="pr-2 text-xl font-bold">&#128504;</span>
+          <span className="font-semibold">
+            Providing both Security and Network Infrastructure Support
+          </span>
+        </div>
+        <div className="px-2 flex">
+          <span className="pr-2 text-xl font-bold">&#128504;</span>
+          <span className="font-semibold">
+            Support for Cloud, Datacenter or Hybrid networks
+          </span>
+        </div>
+        <div className="px-2 flex">
+          <span className="pr-2 text-xl font-bold">&#128504;</span>
+          <span className="font-semibold">
+            Monitoring of Applications, DBs, Security, Infrastructure, Server or
+            Serverless
+          </span>
+        </div>
+        <div className="px-2 flex">
+          <span className="pr-2 text-xl font-bold">&#128504;</span>
+          <span className="font-semibold">
+            Offering Device-based or consumption-based pricing models
+          </span>
+        </div>
+        <div className="px-2 flex">
+          <span className="pr-2 text-xl font-bold">&#128504;</span>
+          <span className="font-semibold">
+            24x7 or off-peak 7pm-7am coverage available
+          </span>
+        </div>
+        <div className="px-2 flex">
+          <span className="pr-2 text-xl font-bold">&#128504;</span>
+          <span className="font-semibold">
+            Cyber liability insurance coverage
+          </span>
+        </div>
+        <div className="px-2 flex">
+          <span className="pr-2 text-xl font-bold">&#128504;</span>
+          <span className="font-semibold">
+            Federally regulated and critical infrastructure client experience
+          </span>
+        </div>
+        <div className="px-2 flex">
+          <span className="pr-2 text-xl font-bold">&#128504;</span>
+          <span className="font-semibold">
+            24+ years of successful outcomes
+          </span>
+        </div>
+      </>
+    ),
   },
 ];
 
