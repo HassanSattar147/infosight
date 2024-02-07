@@ -14,8 +14,7 @@ const MOBILE_API_DATA = [
     description: (
       <>
         <p className="text-gray-900 text-sm lg:text-base py-1 text-justify">
-          We&apos;ll assess your M365 environment and provide security
-          recommendations for:
+          {`We'll assess your M365 environment and provide security recommendations for:`}
         </p>
         <div className="p-2 flex">
           <span className="pr-2 text-gray-600">&bull;</span>
