@@ -24,7 +24,7 @@ const SECURITY_OPERATIONS_DATA = [
         <div className="p-2 flex">
           <span className="pr-2 font-bold">1.</span>
           <p>
-            <span className="font-bold">Detect & Alert Fatigue - </span> With so
+            <span className="font-bold">Alert Fatigue - </span> With so
             many data sources and devices along with the growing threat
             landscape all creating thousands or even millions of alerts per
             second, alert fatigue will set in even for a 24x7 shop.
