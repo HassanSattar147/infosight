@@ -2,7 +2,7 @@
 import React from "react";
 import ServicePageLayout from "@/components/Elements/ServicePageLayout";
 // import heroImg from "/public/services-solutions/SOCaaS-img.png";
-import heroImg from "/public/testing-images/SOCaaS-banner.jpg";
+import heroImg from "/public/purchased-images/SOCaaS-banner.jpg";
 
 const SECURITY_OPERATIONS_DATA = [
   {
