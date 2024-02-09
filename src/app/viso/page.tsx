@@ -50,7 +50,7 @@ const page = () => {
           full-time
         </p>
       }
-      downloadLink={`/pdfs/InfoSight-VISO.pdf`}
+      downloadLink={`/pdfs/InfoSight vISO.pdf`}
       videoLink="https://www.infosightinc.com/Videos/InfoSight-VISO.mp4"
       overlayHexaAlpa="00"
       data={VIRTUAL_INFO_DATA}

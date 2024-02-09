@@ -132,7 +132,7 @@ const page = () => {
           configuration remains the customer&apos;s responsibility.
         </p>
       }
-      downloadLink={`/pdfs/InfoSight  Mobile, API & Code Review.pdf`}
+      downloadLink={`/pdfs/InfoSight M365 Security Assessment.pdf`}
       videoLink="https://www.infosightinc.com/Videos/InfoSight-Mobile-APITesting.mp4"
       data={MOBILE_API_DATA}
       dataLabel={"MOBILE_API_DATA"}

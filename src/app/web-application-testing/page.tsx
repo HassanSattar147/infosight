@@ -105,7 +105,7 @@ const page = () => {
           cycle.
         </p>
       }
-      downloadLink={`/pdfs/InfoSight Web Application Testing.pdf`}
+      downloadLink={`/pdfs/InfoSight Web-Application-Testing.pdf`}
       data={WEB_APP_DATA}
       dataLabel={"WEB_APP_DATA"}
       featuresData={WEBAPP_FEATURES_DATA}

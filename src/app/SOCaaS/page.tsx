@@ -24,10 +24,10 @@ const SECURITY_OPERATIONS_DATA = [
         <div className="p-2 flex">
           <span className="pr-2 font-bold">1.</span>
           <p>
-            <span className="font-bold">Alert Fatigue - </span> With so
-            many data sources and devices along with the growing threat
-            landscape all creating thousands or even millions of alerts per
-            second, alert fatigue will set in even for a 24x7 shop.
+            <span className="font-bold">Alert Fatigue - </span> With so many
+            data sources and devices along with the growing threat landscape all
+            creating thousands or even millions of alerts per second, alert
+            fatigue will set in even for a 24x7 shop.
           </p>
         </div>
         <div className="p-2 flex">
@@ -251,7 +251,7 @@ const page = () => {
           leverage your cloud native toolsets or ours, the choice is yours!
         </p>
       }
-      downloadLink={`/pdfs/InfoSight-SOCaaS.pdf`}
+      downloadLink={`/pdfs/InfoSight SOCaaS.pdf`}
       videoLink="https://www.infosightinc.com/Videos/InfoSight-SOCaaS.mp4"
       path={`Home / Services & Solutions / SOCaaS`}
       data={SECURITY_OPERATIONS_DATA}
