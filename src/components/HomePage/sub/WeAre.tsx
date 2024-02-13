@@ -50,12 +50,12 @@ const WeAre = () => {
             />
           </div>
         </div>
-        <VideoPopup
-          isModalOpen={isModalOpen}
-          setModalOpen={setModalOpen}
-          videoLink="/videos/testing.mp4"
-        />
       </ContentContainer>
+      <VideoPopup
+        isModalOpen={isModalOpen}
+        setModalOpen={setModalOpen}
+        videoLink="/videos/Cyber-Risk-Mgt.mp4"
+      />
     </>
   );
 };

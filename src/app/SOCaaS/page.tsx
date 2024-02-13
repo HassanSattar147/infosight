@@ -268,7 +268,7 @@ const page = () => {
         </p>
       }
       downloadLink={`/pdfs/InfoSight SOCaaS.pdf`}
-      videoLink="/videos/testing.mp4"
+      videoLink="/videos/SOCaaS.mp4"
       data={SECURITY_OPERATIONS_DATA}
       dataLabel={"SECURITY_OPERATIONS_DATA"}
       featuresData={SO_FEATURES_DATA}

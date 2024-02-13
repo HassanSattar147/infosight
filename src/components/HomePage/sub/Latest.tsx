@@ -91,12 +91,12 @@ const Latest = () => {
       <VideoPopup
         isModalOpen={isTestingPopupOpen}
         setModalOpen={setIsTestingPopupOpen}
-        videoLink="/videos/testing.mp4"
+        videoLink="/videos/Pen-Testing-Cybersecurity-Assessment.mp4"
       />
       <VideoPopup
         isModalOpen={isSoCaaSPopupOpen}
         setModalOpen={setIsSoCaaSPopupOpen}
-        videoLink="/videos/testing.mp4"
+        videoLink="/videos/SOCaaS.mp4"
       />
     </>
   );

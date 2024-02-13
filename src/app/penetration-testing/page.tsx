@@ -54,7 +54,7 @@ const page = () => {
       }
       // downloadLink={`https://www.infosightinc.com/pdf/InfoSight-Penetration-Testing.pdf`}
       downloadLink={`/pdfs/InfoSight Penetration Testing.pdf`}
-      videoLink="/videos/testing.mp4"
+      videoLink="/videos/Pen-Testing-Cybersecurity-Assessment.mp4"
       data={PENETRATION_DATA}
       dataLabel={"PENETRATION_DATA"}
       featuresData={PENETRATION_FEATURES_DATA}
