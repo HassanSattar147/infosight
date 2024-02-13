@@ -34,13 +34,12 @@ const INDUSTRIAL_CONTROL_FEATURES_DATA = [
 const page = () => {
   return (
     <ServicePageLayout
-      pageTitle="IoT Security Assessments"
+      pageTitle="ICS, SCADA & OT Vulnerability & Risk Assessments"
       heroImg={heroImg}
-      heroTitle={"Industrial Control & IoT Assessments"}
-      path={`Home / Services & Solutions / Advisory Services / Security / Industrial
-      Control & IoT Security Assessments`}
+      heroTitle={"ICS, SCADA & OT Vulnerability & Risk Assessments"}
+      path={`Home / Services & Solutions / Advisory Services / Security / ICS, SCADA & OT Vulnerability & Risk Assessments`}
       overviewDescription={
-        <p className="text-[#444444]">
+        <p className="text-[#444444] w-11/12">
           Whether its state sponsored attacks, or for-profit bad actors,
           Critical Infrastructure is under attack more than ever before. Now is
           the time to take an offensive approach to defending Industrial Control
@@ -50,6 +49,8 @@ const page = () => {
           assessments is critical.
         </p>
       }
+      downloadLink="/pdfs/InfoSight SCADA-ICS Risk & Vulnerability Assessment.pdf"
+      videoLink="/videos/testing.mp4"
       data={INDUSTRIAL_CONTROL_DATA}
       dataLabel={"INDUSTRIAL_CONTROL_DATA"}
       featuresData={INDUSTRIAL_CONTROL_FEATURES_DATA}

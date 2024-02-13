@@ -101,10 +101,10 @@ const MANAGED_XDR_FEATURES_DATA = [
 const page = () => {
   return (
     <ServicePageLayout
-      pageTitle="Managed XDR | Infosight"
+      pageTitle="Managed SIEM & XDR | Infosight"
       heroImg={heroImg}
       heroTitle={"Managed Extended Detection & Response (XDR)"}
-      path={`Home / Services & Solutions / Managed Services / Managed XDR`}
+      path={`Home / Services & Solutions / Managed Services / Managed SIEM & XDR`}
       overviewDescription={
         <>
           <p className="text-[#444444]">

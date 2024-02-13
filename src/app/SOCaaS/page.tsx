@@ -49,6 +49,21 @@ const SECURITY_OPERATIONS_DATA = [
             on ingestion-based cloud platforms!
           </p>
         </div>
+        <div className="p-2 flex">
+          <span className="pr-2 font-bold">4.</span>
+          <p>
+            <span className="font-bold">Blind Spots - </span> We architect a
+            security environment that eliminates blind spots!
+          </p>
+        </div>
+        <div className="p-2 flex">
+          <span className="pr-2 font-bold">5.</span>
+          <p>
+            <span className="font-bold">Cloud Services Spend - </span>{" "}
+            Ingestion-based pricing models can get out of control fast! We can
+            assist in saving significant budget dollars on your cloud spend.
+          </p>
+        </div>
       </>
     ),
   },
@@ -242,6 +257,7 @@ const page = () => {
       pageTitle="SOCaaS"
       heroImg={heroImg}
       heroTitle={"Security Operations Center as a Service (SOCaaS)"}
+      path={`Home / Services & Solutions / Managed Services / SOCaaS`}
       overviewDescription={
         <p className=" text-justify w-10/12 text-[#444444]">
           InfoSight&apos;s Security Operations Center (SOC) operates as your own
@@ -252,8 +268,7 @@ const page = () => {
         </p>
       }
       downloadLink={`/pdfs/InfoSight SOCaaS.pdf`}
-      videoLink="https://www.infosightinc.com/Videos/InfoSight-SOCaaS.mp4"
-      path={`Home / Services & Solutions / SOCaaS`}
+      videoLink="/videos/testing.mp4"
       data={SECURITY_OPERATIONS_DATA}
       dataLabel={"SECURITY_OPERATIONS_DATA"}
       featuresData={SO_FEATURES_DATA}

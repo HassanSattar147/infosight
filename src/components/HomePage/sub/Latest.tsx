@@ -91,12 +91,12 @@ const Latest = () => {
       <VideoPopup
         isModalOpen={isTestingPopupOpen}
         setModalOpen={setIsTestingPopupOpen}
-        videoLink="https://www.infosightinc.com/Videos/infosight-video.mp4"
+        videoLink="/videos/testing.mp4"
       />
       <VideoPopup
         isModalOpen={isSoCaaSPopupOpen}
         setModalOpen={setIsSoCaaSPopupOpen}
-        videoLink="https://www.infosightinc.com/Videos/InfoSight-SOCaaS.mp4"
+        videoLink="/videos/testing.mp4"
       />
     </>
   );

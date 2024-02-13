@@ -59,7 +59,7 @@ export const ALL_MENUS: RootObject[] = [
               },
 
               {
-                title: "Industrial Control & IoT Security Assessments",
+                title: "ICS, SCADA & OT Vulnerability & Risk Assessments",
                 link: "/industrial-control-IoT-security-assessments",
               },
               {
@@ -141,10 +141,7 @@ export const ALL_MENUS: RootObject[] = [
       //   title: "24x7 Managed Detection & Response",
       //   link: "/24x7-managed-detection-&-response",
       // },
-      {
-        title: "SOCaaS",
-        link: "/SOCaaS",
-      },
+
       {
         title: "Mitigator Vulnerability & Threat Manager",
         link: "/mitigator-vulnerability-threat-manager",
@@ -153,7 +150,12 @@ export const ALL_MENUS: RootObject[] = [
       {
         title: "Managed Services",
         children: [
-          { title: "Managed XDR", link: "/managed-xdr" },
+          {
+            title: "SOCaaS",
+            link: "/SOCaaS",
+          },
+          { title: "24x7 ICS, SCADA & OT MDR", link: "/24x7-ICS-SCADA-MDR" },
+          { title: "Managed SIEM & XDR", link: "/managed-xdr" },
           {
             title: "Managed Network & Cloud Services",
             link: "/managed-network-support-services",
