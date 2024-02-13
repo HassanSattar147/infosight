@@ -21,7 +21,7 @@ const DETECTION_RESPONSE_DATA = [
     description: (
       <>
         <p className="text-gray-900 text-sm lg:text-base py-1 text-justify">
-          InfoSight's Security Operations Center (SOC) operates as your own
+          InfoSight&apos;s Security Operations Center (SOC) operates as your own
           trusted cybersecurity team providing you with real time 24x7 threat
           monitoring, analysis, escalation, and where possible triage and
           remediation. We bring a co-managed approach to security monitoring,
