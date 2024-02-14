@@ -103,7 +103,7 @@ const page = () => {
     <ServicePageLayout
       pageTitle="Managed SIEM & XDR | Infosight"
       heroImg={heroImg}
-      heroTitle={"Managed Extended Detection & Response (XDR)"}
+      heroTitle={"Managed SIEM & XDR "}
       path={`Home / Services & Solutions / Managed Services / Managed SIEM & XDR`}
       overviewDescription={
         <>
