@@ -50,7 +50,7 @@ const page = () => {
         </p>
       }
       downloadLink="/pdfs/InfoSight SCADA-ICS Risk & Vulnerability Assessment.pdf"
-      videoLink="/videos/Pen-Testing-Cybersecurity-Assessment.mp4"
+      videoLink="/videos/CIARA-Industrial-Risk-Assessment.mp4"
       data={INDUSTRIAL_CONTROL_DATA}
       dataLabel={"INDUSTRIAL_CONTROL_DATA"}
       featuresData={INDUSTRIAL_CONTROL_FEATURES_DATA}

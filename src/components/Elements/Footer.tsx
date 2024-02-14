@@ -16,10 +16,10 @@ const FOOTER_DATA = [
         text: "Industries",
         link: "/industries",
       },
-      {
-        text: "Case Studies",
-        link: "/case-studies",
-      },
+      // {
+      //   text: "Case Studies",
+      //   link: "/case-studies",
+      // },
       // {
       //   text: "Why Infosight",
       //   link: "/why-infosight",
