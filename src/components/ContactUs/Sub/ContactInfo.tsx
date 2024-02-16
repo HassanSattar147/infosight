@@ -4,6 +4,7 @@ import locationIcon from "../../../../public/location.svg";
 import callingIcon from "../../../../public/call-calling.svg";
 import smsddIcon from "../../../../public/sms-dd.svg";
 import ContentContainer from "@/components/Elements/ContentContainer";
+import Link from "next/link";
 
 const ContactInfo = () => {
   return (
@@ -20,12 +21,18 @@ const ContactInfo = () => {
           </span>
           <span className="flex items-center gap-4">
             <Image src={callingIcon} alt="" />
-            <p className="text-gray-500">305.828.1003</p>
+            <Link href={"tel:3058281003"}>
+              <p className="text-gray-500 hover:underline">305.828.1003</p>
+            </Link>
             <p className="px-2 text-gray-500 hidden lg:block">|</p>
           </span>
           <span className="flex items-center gap-4">
             <Image src={smsddIcon} alt="" />
-            <p className="text-gray-500">info@infosightinc.com</p>
+            <Link href="mailto:info@infosightinc.com">
+              <p className="text-gray-500 hover:underline">
+                info@infosightinc.com
+              </p>
+            </Link>
           </span>
         </div>
       </div>

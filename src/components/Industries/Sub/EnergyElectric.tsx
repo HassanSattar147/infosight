@@ -15,8 +15,7 @@ const ENERGY_FEATURES_DATA = [
   "Employee Security Awareness Training",
 ];
 
-const description = `Experience with the Electrical Energy in not new to us. Whether you're a Coop, G&T or Regional Electric Energy Provider we have the knowledge to assist with Cybersecurity, Risk Management and Managed Services Solutions.  We provide solutions for both your OT & IT networks with the goal of making the Cyberresllient to attacks from bad actors.
-`;
+const description = `Our experience within the Electrical Energy Industry allows us to understand critical infrastructure and its regulatory requirements. Whether you're a Coop, G&T or Regional Electric Energy Provider we have the knowledge to assist with Cybersecurity, Risk Management and Managed Services Solutions. We provide solutions for both your OT & IT networks with the goal of making them Cyber Resllient to attacks from bad actors.`;
 
 const EnergyElectric = () => {
   return (

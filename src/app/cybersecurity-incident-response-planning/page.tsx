@@ -34,11 +34,11 @@ const CYBERSECURITYIRPM_FEATURES_DATA = [
 const page = () => {
   return (
     <ServicePageLayout
-      pageTitle="Cybersecurity Planning & Management | InfoSight"
+      pageTitle="Cybersecurity Incident Response Testing | InfoSight"
       heroImg={heroImg}
-      heroTitle={"Cybersecurity Incident Response Planning & Management"}
+      heroTitle={"Cybersecurity Incident Response Testing"}
       path={`Home / Services & Solutions / Advisory Services / Security /
-      Cybersecurity Incident Response Planning & Management`}
+      Cybersecurity Incident Response Testing`}
       overviewDescription={
         <p className="text-[#444444]">
           A cybersecurity Incident Response Plan provides organizations with

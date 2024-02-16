@@ -254,10 +254,10 @@ const SO_FEATURES_DATA = [
 const page = () => {
   return (
     <ServicePageLayout
-      pageTitle="SOCaaS"
+      pageTitle="24x7 MDR & SOCaaS"
       heroImg={heroImg}
-      heroTitle={"Security Operations Center as a Service (SOCaaS)"}
-      path={`Home / Services & Solutions / Managed Services / SOCaaS`}
+      heroTitle={"24x7 MDR & SOCaaS"}
+      path={`Home / Services & Solutions / Managed Services / 24x7 MDR & SOCaaS`}
       overviewDescription={
         <p className=" text-justify w-10/12 text-[#444444]">
           InfoSight&apos;s Security Operations Center (SOC) operates as your own

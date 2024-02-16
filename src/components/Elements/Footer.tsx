@@ -1,6 +1,9 @@
 import Image from "next/image";
 import React from "react";
 import logoImg from "../../../public/infosight-new-logo-1.svg";
+import fbIcon from "../../../public/facebook-white-icon.svg";
+import linkedinIcon from "../../../public/linkedin-white-icon.svg";
+import youtubeIcon from "../../../public/youtube-white-icon.svg";
 import ContentContainer from "./ContentContainer";
 import Link from "next/link";
 
@@ -106,6 +109,29 @@ const Footer = () => {
             <p className="w-full">
               14100 Palmetto Frontage Rd Suite 310 Miami Lakes, FL 33016
             </p>
+            <div className="bg-[#3b719f] flex items-center px-5 h-[80px] w-[90%] md:w-full justify-between rounded-md">
+              <p className="text-white text-2xl font-semibold ">Follow Us</p>
+              <div className="flex items-center gap-10">
+                <Link
+                  href={"https://www.facebook.com/infosight/"}
+                  target="blank"
+                >
+                  <Image src={fbIcon} alt="" className="w-[50px]" />
+                </Link>
+                <Link
+                  href={"https://www.linkedin.com/company/infosight-inc-/"}
+                  target="blank"
+                >
+                  <Image src={linkedinIcon} alt="" className="w-[50px]" />
+                </Link>
+                <Link
+                  href={"https://www.youtube.com/c/infosightinc"}
+                  target="blank"
+                >
+                  <Image src={youtubeIcon} alt="" className="w-[50px] mt-5" />
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
       </div>

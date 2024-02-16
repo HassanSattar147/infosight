@@ -13,7 +13,7 @@ const HeroSection = () => {
         }}
       >
         <div className="col-left">
-          <h1>Cyber Threat & Risk Management that creates Cyberresiliency</h1>
+          <h1>Cyber Threat & Risk Management that creates Cyber Resiliency</h1>
           <h2>
             The experience-based knowledge you need to guard against Cyber
             Attacks and simplify Risk Management.

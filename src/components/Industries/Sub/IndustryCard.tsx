@@ -19,7 +19,7 @@ const IndustryCard = ({
             backgroundImage: `url(${img.src})`,
           }}
         />
-        <p className="text-[#222222] my-1 text-[16px] font-medium">
+        <p className="text-[#222222] my-1 text-[16px] font-medium text-justify">
           {description}
         </p>
       </div>

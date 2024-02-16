@@ -16,7 +16,8 @@ const GOVERNMENT_FEATURES_DATA = [
   "Cloud Migration and Management",
 ];
 
-const description = `We understand Government agencies are targeted by bad actors every day, so when you deliver public services 24x7 defending systems can be challenging. We know limited budgets and complex purchasing processes can create a lead time to implementation adds to the challenge. At InfoSight we provide Cybersecurity and Risk Management solutions that are enterprise-class for both IT and OT networks. Additionally, we are listed on many contract vehicles and partnerships to make your purchase go smoothly.
+const description = `We understand Government agencies deliver public services 24x7, and defending against bad actors every day can be a big challenge. We also recognize that limited budgets and complex purchasing processes can create long lead times to implementation that adds to the challenge. At InfoSight we provide Cybersecurity and Risk Management solutions that are enterprise-class for both IT and OT networks. 
+
 `;
 
 const Government = () => {

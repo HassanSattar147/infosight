@@ -18,7 +18,7 @@ const FutureBlackButtons: React.FC<Props> = ({
         <div className="flex flex-col items-center w-full lg:justify-between lg:flex-row">
           <div className="text-white">
             <h2 className="text-2xl lg:text-4xl font-semibold text-center lg:text-left">
-              The Future is Secure with Us!
+              Bringing the Future into Focus!
             </h2>
           </div>
           {!hideFutureBtns && (

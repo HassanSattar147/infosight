@@ -1,7 +1,7 @@
 /* Desktop view Navbar styles - Start */
 
 .lgnavbar {
-  height: 100px;
+  height: 120px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -9,8 +9,8 @@
 }
 
 .lgnavbar__logo__img {
-  min-width: 130px;
-  width: 130px;
+  min-width: 160px;
+  width: 160px;
   max-width: 130px;
 }
 

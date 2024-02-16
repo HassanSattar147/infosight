@@ -81,7 +81,7 @@ export const ALL_MENUS: RootObject[] = [
               },
 
               {
-                title: "Cybersecurity & Incident Response Planning",
+                title: "Cybersecurity Incident Response Testing",
                 link: "/cybersecurity-incident-response-planning",
               },
 
@@ -151,7 +151,7 @@ export const ALL_MENUS: RootObject[] = [
         title: "Managed Services",
         children: [
           {
-            title: "SOCaaS",
+            title: "24x7 MDR & SOCaaS",
             link: "/SOCaaS",
           },
           { title: "24x7 ICS, SCADA & OT MDR", link: "/24x7-ICS-SCADA-MDR" },
