@@ -39,7 +39,7 @@ const page = () => {
       path={`Home / Services & Solutions / Advisory Services / Business Continuity
       Planning & Disaster Recovery`}
       overviewDescription={
-        <p>
+        <p className="text-justify">
           Business Continuity and Disaster Recovery Planning (BCP/R) are
           critical for an organization&apos;s resilience, risk management, and
           ability to navigate unexpected challenges. They not only protect the

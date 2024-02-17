@@ -39,7 +39,7 @@ const page = () => {
       heroTitle={"Mobile App Security Assessment"}
       path={`Home / Services & Solutions / Advisory Services / Security / Mobile App Security Assessment`}
       overviewDescription={
-        <p className=" text-[#444444] lg:w-full">
+        <p className=" text-[#444444] lg:w-full text-justify">
           The primary goal of a mobile application review is to identify and
           address issues, bugs, security vulnerabilities, and maintainability
           concerns in the codebase before it is deployed into the production

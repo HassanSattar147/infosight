@@ -23,7 +23,7 @@ const Latest = () => {
                 <h3 className="text-lg lg:text-2xl font-semibold">
                   Penetration Testing
                 </h3>
-                <p className="text-gray-600 lg:text-lg font-normal mt-4">
+                <p className="text-gray-600 lg:text-lg font-normal mt-4 text-justify">
                   InfoSight&apos;s Penetration Testing services reduce the risk
                   of a successful attacks before they occur.As cyberattacks
                   continue to rise everyday it is important to perform
@@ -57,7 +57,7 @@ const Latest = () => {
             <div className="flex flex-col lg:flex-row lg:items-center lg:gap-28">
               <div className="w-full mt-5">
                 <h3 className="text-lg lg:text-2xl font-semibold">SOCaaS</h3>
-                <p className="text-gray-600 lg:text-lg font-normal mt-4">
+                <p className="text-gray-600 lg:text-lg font-normal mt-4 text-justify">
                   InfoSight&apos;s Security Operations Center as a Service
                   (SOCaaS) detects cyber threats quickly and provides
                   containment, mitigation and remediation services to ensure a

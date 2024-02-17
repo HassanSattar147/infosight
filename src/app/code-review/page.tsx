@@ -39,7 +39,7 @@ const page = () => {
       heroTitle={"Code Review"}
       path={`Home / Services & Solutions / Advisory Services / Security / Code Review`}
       overviewDescription={
-        <p className=" text-[#444444] lg:w-10/12">
+        <p className="text-justify text-[#444444] lg:w-10/12">
           The primary goal of a code review is to identify and address issues,
           bugs, security vulnerabilities, and maintainability concerns in the
           codebase before it is deployed into the production environment. A

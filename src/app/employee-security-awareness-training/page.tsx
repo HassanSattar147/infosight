@@ -41,7 +41,7 @@ const page = () => {
       path={`Home / Services & Solutions / Training & Education / Employee Security
       Awareness Training`}
       overviewDescription={
-        <p className="text-[#444444]">
+        <p className="text-justify text-[#444444]">
           Your employees have become the latest perimeter defense safeguarding
           your data. Educating them on how to spot social engineering and other
           attacks is key! Having a cyber security awareness training program is

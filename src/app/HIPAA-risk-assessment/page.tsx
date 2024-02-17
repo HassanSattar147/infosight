@@ -45,7 +45,7 @@ const page = () => {
       heroTitle={"HIPPA Risk Assessments"}
       path={`Home / Services & Solutions / Advisory Services / Security / HIPPA Risk Assessments`}
       overviewDescription={
-        <p className="text-[#444444]">
+        <p className="text-justify text-[#444444]">
           A HIPAA (Health Insurance Portability and Accountability Act) risk
           assessment is a crucial component of compliance for healthcare
           organizations and any business that handles protected health

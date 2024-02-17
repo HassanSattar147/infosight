@@ -185,7 +185,7 @@ const page = () => {
       heroTitle={"24x7 ICS, SCADA & OT MDR"}
       path={`Home / Services & Solutions / Managed Services / 24x7 ICS, SCADA & OT MDR`}
       overviewDescription={
-        <p className="">
+        <p className="text-justify">
           24x7 Threat Monitoring of Industrial Control Systems (ICS), SCADA
           Networks and OT environments require a specialized approach and
           expertise. Beyond Command and Control, there are Field Devices and

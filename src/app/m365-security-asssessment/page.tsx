@@ -120,7 +120,7 @@ const page = () => {
       heroTitle={"M365 Security Assessment"}
       path={`Home / Services & Solutions / Advisory Services / Security / M365 Security Assessment`}
       overviewDescription={
-        <p className=" text-[#444444] lg:w-10/12">
+        <p className=" text-[#444444] lg:w-10/12 text-justify">
           Microsoft 365 (M365) is hands down the most common set of cloud-based
           business applications used by most organizations, and this makes it a
           primary target for attackers. M365 security presents several

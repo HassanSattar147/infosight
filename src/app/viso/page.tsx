@@ -41,7 +41,7 @@ const page = () => {
       path={`Home / Services & Solutions / Advisory Services / Security / Virtual
       Information Security Officer (vISO)`}
       overviewDescription={
-        <p className="lg:w-11/12 text-[#444444]">
+        <p className="lg:w-11/12 text-[#444444] text-justify">
           Information Security Officers (ISO) are stretched thin due to limited
           resources and tight cybersecurity budgets. The need for an ISO is
           critical but can be minimized due to budget constraints. When a crisis

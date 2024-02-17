@@ -41,7 +41,7 @@ const page = () => {
       path={`Home / Services & Solutions / Advisory Services / Security / Penetration
       Testing`}
       overviewDescription={
-        <p className=" text-[#444444] lg:w-8/12">
+        <p className=" text-[#444444] lg:w-8/12 text-justify">
           InfoSight&apos;s Penetration Testing services reduce the risk of
           successful cyberattacks by attempting to exploit identified
           vulnerabilities before a bad actor does. With over two decades of

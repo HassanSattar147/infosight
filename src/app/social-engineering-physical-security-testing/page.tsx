@@ -43,7 +43,7 @@ const page = () => {
       path={`Home / Services & Solutions / Advisory Services / Security / Social
       Engineering & Physical Security Testing`}
       overviewDescription={
-        <p className="text-[#444444]">
+        <p className="text-[#444444] text-justify">
           InfoSight&apos;s Social Engineering Testing services reduce the risk
           of a successful phishing attacks before they occur. With over two
           decades of experience in security, compliance and risk management, our

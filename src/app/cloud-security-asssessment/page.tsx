@@ -179,7 +179,7 @@ const page = () => {
       heroTitle={"Cloud Security Assessment"}
       path={`Home / Services & Solutions / Advisory Services / Security / Cloud Security Assessment`}
       overviewDescription={
-        <p className=" text-[#444444] lg:w-10/12">
+        <p className="text-justify text-[#444444] lg:w-10/12">
           Cloud security is critically important for several reasons, as it
           plays a pivotal role in safeguarding an organization&apos;s data,
           applications, and infrastructure when using cloud computing services.

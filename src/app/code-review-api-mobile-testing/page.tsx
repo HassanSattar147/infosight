@@ -40,7 +40,7 @@ const page = () => {
       path={`Home / Services & Solutions / Advisory Services / Security / Mobile, API
       & Code Review`}
       overviewDescription={
-        <p className=" text-[#444444] lg:w-8/12">
+        <p className="text-justify text-[#444444] lg:w-8/12">
           InfoSight&apos;s Code Review, API & Mobile Testing provides your
           organization the assurance it needs to demonstrate your applications
           are secure with no exploitable vulnerabilities. Our comprehensive

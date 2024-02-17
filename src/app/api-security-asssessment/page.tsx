@@ -39,7 +39,7 @@ const page = () => {
       heroTitle={"API Security Assessment"}
       path={`Home / Services & Solutions / Advisory Services / Security / API Security Assessment`}
       overviewDescription={
-        <p className=" text-[#444444] lg:w-10/12">
+        <p className="text-justify text-[#444444] lg:w-10/12">
           APIs have become a prime target for bad actors because many
           applications are integrated, and utilize open-source code, so
           you&apos;re only as secure as the weakest link in your application

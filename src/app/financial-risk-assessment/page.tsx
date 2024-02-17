@@ -79,7 +79,7 @@ const page = () => {
       heroTitle={"Risk Assessments for Financial Institutions"}
       path={`Home / Services & Solutions / Advisory Services / Security / Risk Assessments for Financial Institutions`}
       overviewDescription={
-        <p className="text-[#444444]">
+        <p className="text-justify text-[#444444]">
           With decades of Banking and Credit Union experience, InfoSight
           advisors understand your Financial Institutions&apos; risk categories
           as well as what Examiners are looking for in a Risk Management

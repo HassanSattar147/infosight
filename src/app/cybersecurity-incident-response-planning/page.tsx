@@ -40,7 +40,7 @@ const page = () => {
       path={`Home / Services & Solutions / Advisory Services / Security /
       Cybersecurity Incident Response Testing`}
       overviewDescription={
-        <p className="text-[#444444]">
+        <p className="text-justify text-[#444444]">
           A cybersecurity Incident Response Plan provides organizations with
           practical guidance and critical considerations in preparing for a
           cyber incident. A cybersecurity Incident Response Plan (IRP) enables

@@ -43,7 +43,7 @@ const page = () => {
       path={`Home / Services & Solutions / Advisory Services / Security / Red, Blue &
       Purple Team Assessments`}
       overviewDescription={
-        <p className="  text-[#444444]">
+        <p className="text-justify text-[#444444]">
           Our Red Team, Blue Team, and Purple Team Testing assists organizations
           in vulnerability detection and threat hunting by accurately simulating
           common threat scenarios. The goal is to collaborate with your team to

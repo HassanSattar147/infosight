@@ -83,7 +83,7 @@ const page = () => {
       heroTitle={"24 x 7 Managed Detection & Response"}
       path={`Home / Services & Solutions / 24x7 Managed Detection & Response`}
       overviewDescription={
-        <p className="">
+        <p className="text-justify">
           InfoSight&apos;s Security Operations Center (SOC) serves as your own
           trusted cybersecurity team providing you with real time incident
           response, enterprise remediation and threat confinement 24x7x365.

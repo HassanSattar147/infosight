@@ -50,7 +50,7 @@ const page = () => {
       Communications, Collaboration & Connect Services`}
       overviewDescription={
         <>
-          <p className="text-[#444444]">
+          <p className="text-[#444444] text-justify">
             Using Microsoft Team Essentials with Microsoft Team Phone, you can
             power business growth by combining the collaboration tools your
             business needs with the advanced phone connectivity options to keep

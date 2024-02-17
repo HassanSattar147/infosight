@@ -22,7 +22,9 @@ const TesimonialsComp = () => {
   return (
     <ContentContainer>
       <div className="py-10 lg:py-20">
-        <h1 className=" text-2xl lg:text-4xl font-semibold">Client Testimonials</h1>
+        <h1 className=" text-2xl lg:text-4xl font-semibold">
+          Client Testimonials
+        </h1>
         <div className="grid lg:grid-cols-3 gap-5 lg:gap-10 mt-5 lg:mt-10">
           {data.map(({ description, user }, i) => {
             return (
@@ -30,7 +32,9 @@ const TesimonialsComp = () => {
                 key={i}
                 className="bg-white shadow-md border border-gray-200 shadow-gray-300 p-5 rounded-xl"
               >
-                <p className="pb-6">{trimTestimonial(description)}</p>
+                <p className="pb-6 text-justify">
+                  {trimTestimonial(description)}
+                </p>
                 <Image src={ratingImg} alt="" />
                 <p className="mt-2">- {user}</p>
               </div>

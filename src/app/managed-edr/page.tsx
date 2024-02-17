@@ -113,7 +113,7 @@ const page = () => {
       path={`Home / Services & Solutions / Managed Services / Managed EDR`}
       overviewDescription={
         <>
-          <p className="text-[#444444]">
+          <p className="text-[#444444] text-justify">
             Early detection of attacks targeting endpoints is critical to
             protecting networks from all types of threats including ransomware.
             However, without a team of security experts working 24x7x365 to

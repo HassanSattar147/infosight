@@ -21,7 +21,7 @@ const WeAre = () => {
               <h2 className="text-2xl lg:text-4xl font-semibold">
                 Who are we?
               </h2>
-              <p className="text-sm lg:text-lg my-8">
+              <p className="text-sm lg:text-lg my-8 text-justify">
                 InfoSight is an innovative cybersecurity and risk management
                 firm with over two decades of successful outcomes. Working
                 within regulated and critical industries where security is

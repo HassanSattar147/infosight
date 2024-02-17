@@ -122,7 +122,7 @@ const TestimonialCard = () => {
                   key={"TESINOMIALS_DATA__" + i}
                   className="bg-white shadow-md shadow-gray-300 border border-gray-200 p-5 rounded-xl"
                 >
-                  <p className="pb-6">{description}</p>
+                  <p className="pb-6 text-justify">{description}</p>
                   <Image src={ratingImg} alt="" />
                   <p className="mt-2 font-semibold text-[#e16b38]">- {user}</p>
                   {/* <p >{designation}</p> */}

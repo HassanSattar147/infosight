@@ -115,7 +115,7 @@ const Footer = () => {
               <p className="text-xl text-gray-900 font-bold ">Follow us:</p>
               <div className="flex items-center gap-5">
                 <Link
-                  href={"https://www.facebook.com/infosight/"}
+                  href={"https://www.facebook.com/InfoSightInc/"}
                   target="blank"
                 >
                   <Image

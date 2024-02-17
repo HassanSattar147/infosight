@@ -90,7 +90,7 @@ const page = () => {
       heroTitle={"LearnCloud Learning Management System"}
       path={`Home / Services & Solutions / Training & Education / Learn Cloud LMS`}
       overviewDescription={
-        <p className="text-[#444444]">
+        <p className="text-justify text-[#444444]">
           InfoSight&apos;s LearnCloud Learning Management System (LMS) is a
           learning platform that allows you to deliver training content to
           students and track their progress. Additionally, with the online

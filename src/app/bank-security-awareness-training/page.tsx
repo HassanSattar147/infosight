@@ -44,7 +44,7 @@ const page = () => {
       heroTitle={"Online Banking Cyber Security Awareness Program"}
       path={`Home / Services & Solutions / Training & Education / Security Awareness Training for Online Banking`}
       overviewDescription={
-        <p className="text-[#444444]">
+        <p className="text-justify text-[#444444]">
           The FFIEC requires all financial institutions to provide security
           awareness training and education for their online banking clients, and
           that is exactly what our program is designed for - your OLB client

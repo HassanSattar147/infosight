@@ -49,7 +49,7 @@ const page = () => {
               Overview
             </h2>
             <div>
-              <p>
+              <p className="text-justify">
                 With decades of Banking and Credit Union experience, InfoSight
                 advisors understand your Financial Institutions&apos; control
                 environment. We understand your institutions&apos; FFIEC

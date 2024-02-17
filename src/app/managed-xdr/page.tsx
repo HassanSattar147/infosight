@@ -107,7 +107,7 @@ const page = () => {
       path={`Home / Services & Solutions / Managed Services / Managed SIEM & XDR`}
       overviewDescription={
         <>
-          <p className="text-[#444444]">
+          <p className="text-[#444444] text-justify">
             Is your team tired of managing Azure Sentinel, Splunk, or another
             XDR or SIEM? Hand us the keys! We&apos;ll manage it and maintain it
             and deliver SOCaaS if you need it too!

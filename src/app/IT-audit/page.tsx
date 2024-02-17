@@ -45,7 +45,7 @@ const page = () => {
             What is an IT Audit?
           </h2>
           <div>
-            <p>
+            <p className="text-justify">
               An IT audit, or an Information Technology audit, is a systematic
               evaluation and examination of an organization&apos;s information
               technology systems, processes, policies, and controls. The primary

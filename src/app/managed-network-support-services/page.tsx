@@ -125,7 +125,7 @@ const page = () => {
       Support Services`}
       overviewDescription={
         <>
-          <p className="text-[#444444]">
+          <p className="text-[#444444] text-justify">
             Today&apos;s networks are hybrid environments that combine a mix of
             traditional data centers and cloud estates. Additionally, most
             environments are a heterogenous mix of many different vendor

@@ -12,7 +12,7 @@ const WEB_APP_DATA = [
   {
     title: "Our Methodology",
     description: (
-      <div>
+      <div className="text-justify">
         <p className="text-gray-900 text-sm lg:text-base py-1 text-justify">
           We take all these insecurities into consideration and help you to
           better:
@@ -87,7 +87,7 @@ const page = () => {
       path={`Home / Services & Solutions / Advisory Services / Security / Web
       Application Assessments`}
       overviewDescription={
-        <p className="text-[#444444]">
+        <p className="text-[#444444] text-justify">
           Web application server penetration testing reveals vulnerabilities
           that expose organizations to cyber risks that traditional firewalls
           and IDS networks aren&apos;t designed to protect against.

@@ -50,7 +50,7 @@ const page = () => {
       path={`Home / Services & Solutions / Advisory Services / Risk Management /
       Enterprise Risk Management`}
       overviewDescription={
-        <p>
+        <p className="text-justify">
           InfoSight takes a holistic approach to Enterprise Risk Management
           (ERM) by developing strategies to mitigate risks at an enterprise
           level across the entire organization. InfoSight&apos;s experts work

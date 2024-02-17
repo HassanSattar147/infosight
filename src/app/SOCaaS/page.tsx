@@ -259,7 +259,7 @@ const page = () => {
       heroTitle={"24x7 MDR & SOCaaS"}
       path={`Home / Services & Solutions / Managed Services / 24x7 MDR & SOCaaS`}
       overviewDescription={
-        <p className=" text-justify w-10/12 text-[#444444]">
+        <p className="text-justify w-10/12 text-[#444444]">
           InfoSight&apos;s Security Operations Center (SOC) operates as your own
           trusted cybersecurity team providing you with real time 24x7 threat
           monitoring, analysis, containment, triage, remediation, escalation,
