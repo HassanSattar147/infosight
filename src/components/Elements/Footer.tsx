@@ -1,5 +1,5 @@
 import Image from "next/image";
-import React from "react";
+import React, { useState } from "react";
 import logoImg from "../../../public/infosight-new-logo-1.svg";
 import fbIcon from "../../../public/facebook-white-icon.svg";
 import linkedinIcon from "../../../public/linkedin-white-icon.svg";
@@ -65,6 +65,8 @@ const FOOTER_DATA = [
 ];
 
 const Footer = () => {
+  const [isHovered, setIsHovered] = useState(false);
+
   return (
     <ContentContainer>
       <div className="pt-5 lg:pt-20 flex flex-col-reverse gap-5 lg:flex-row items-start justify-between w-full">
@@ -109,26 +111,34 @@ const Footer = () => {
             <p className="w-full">
               14100 Palmetto Frontage Rd Suite 310 Miami Lakes, FL 33016
             </p>
-            <div className="bg-[#3b719f] flex items-center px-5 h-[80px] w-[90%] md:w-full justify-between rounded-md">
-              <p className="text-white text-2xl font-semibold ">Follow Us</p>
-              <div className="flex items-center gap-10">
+            <div className="flex flex-col">
+              <p className="text-xl text-gray-900 font-bold ">Follow us:</p>
+              <div className="flex items-center gap-5">
                 <Link
                   href={"https://www.facebook.com/infosight/"}
                   target="blank"
                 >
-                  <Image src={fbIcon} alt="" className="w-[50px]" />
+                  <Image
+                    src={fbIcon}
+                    alt=""
+                    className="w-[40px] p-2 rounded bg-[#3b719f]"
+                  />
                 </Link>
                 <Link
                   href={"https://www.linkedin.com/company/infosight-inc-/"}
                   target="blank"
                 >
-                  <Image src={linkedinIcon} alt="" className="w-[50px]" />
+                  <Image
+                    src={linkedinIcon}
+                    alt=""
+                    className="w-[40px] p-2 rounded bg-[#3b719f]"
+                  />
                 </Link>
                 <Link
                   href={"https://www.youtube.com/c/infosightinc"}
                   target="blank"
                 >
-                  <Image src={youtubeIcon} alt="" className="w-[50px] mt-5" />
+                  <Image src={youtubeIcon} alt="" className="w-[57px]" />
                 </Link>
               </div>
             </div>
