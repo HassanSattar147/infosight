@@ -6,6 +6,7 @@
   align-items: center;
   justify-content: center;
   gap: 40px;
+  border-bottom: 1px solid #0001;
 }
 
 .lgnavbar__logo__img {
