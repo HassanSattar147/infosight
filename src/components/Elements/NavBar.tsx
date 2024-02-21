@@ -54,12 +54,12 @@ export const ALL_MENUS: RootObject[] = [
                 link: "/mobile-app-security-asssessment",
               },
               {
-                title: "Cyber Controls Gap Assessment",
-                link: "/cyber-controls-gap-assessment",
-              },
-              {
                 title: "API Security Assessment",
                 link: "/api-security-asssessment",
+              },
+              {
+                title: "Cyber Controls Gap Assessment",
+                link: "/cyber-controls-gap-assessment",
               },
 
               {
